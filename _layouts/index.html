@@ -8,16 +8,18 @@ layout: default
   {% for post in site.posts %}
   <div class="span4">
     <div>
-      <img src="http://placehold.it/350x150" class="img-polaroid home-thumbs">
+
+      <img src="{% if post.thumb != null %}{{post.thumb}}{% else %}http://placehold.it/350x200 {% endif %}" class="img-polaroid home-thumbs">
     </div>
     <h5>
       <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
     </h5>
     <div>{{post.description}}</div>
 
+
   </div>
   {% assign i = (forloop.index0 | modulo:3 ) %}
-    
+
     {% if i == 2 %}
 
 </div>
