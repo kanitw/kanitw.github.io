@@ -1,18 +1,27 @@
 ---
 layout: post
 title: "Breathwear: Calming Technology Research"
-description: ""
-category: 
+thumb: "/assets/breathwear/thumb1.png"
+paper: http://hci.stanford.edu/publications/2012/CantForceCalmUIST2012.pdf
+slide: "/assets/breathwear/slide.pdf"
+poster: "/assets/breathwear/poster_final.pdf"
+
+description: "User Interface for Improving Users' Calm"
+category:
+
 tags: [ios,calming technology, HCI]
 ---
 {% include JB/setup %}
 
+![breathwear](/assets/breathwear/thumb.png)
+
+<br/>
 
 In Spring 2012, I worked with Stanford University's [Calming Technology Lab](http://calmingtechnology.org/) to research on different techniques for supporting  respiratory regulation to reduce stress and increase parasympathetic tone.
 
-With supervision from Neema Moraveji, the Calming Technology Lab founder, I implemented a respiratory regulation application using visual guide and auditory guide based on the lab's Breathware system.  We did a user study to compare the effect of using these two different modalities for breathing regulation. 
+With supervision from Neema Moraveji, the Calming Technology Lab founder, I designed and implemented a respiratory regulation application using visual guide and auditory guide based on the lab's Breathware system.  We did a user study to compare the effect of using these two different modalities for breathing regulation.
 
-Finally, our poster and extended abstract are accepted into [ACM UIST 2012](http://www.acm.org/uist/uist2012/)'s poster session. 
+Finally, our [poster](/assets/breathwear/poster_final.pdf) and [extended abstract](http://hci.stanford.edu/publications/2012/CantForceCalmUIST2012.pdf) are accepted into [ACM UIST 2012](http://www.acm.org/uist/uist2012/)'s poster session.
 
 ### Abstract
 

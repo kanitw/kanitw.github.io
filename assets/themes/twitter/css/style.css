@@ -5,6 +5,19 @@
 .posts {
   margin-bottom: 20px;
 }
+.home-thumbs {
+  height: 200px;
+  overflow: hidden;
+}
+.home-thumbs .img {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
 .posts .span4 {
   padding-left: 10px;
   padding-right: 10px;

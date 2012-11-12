@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Venture Lab"
+thumb: "/images/venturelab/thumb.png"
 tagline: ""
 description: "The world's first project-based Massive Online Education Platform."
 category:
@@ -15,5 +16,3 @@ Our first class in Entrepreneurship, taught by Professor Chuck Eesley from Stanf
 Venture lab has been covered in Stanford news, Forbe. Professor Chuck Eesley has also written about the project's success stories on his [blog](http://eesley.blogspot.com/).
 
 Join venture-lab classes [here](http://venture-lab.org).
-
-haha

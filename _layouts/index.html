@@ -7,9 +7,9 @@ layout: default
 <div class="row-fluid posts">
   {% for post in site.posts %}
   <div class="span4">
-    <div>
-
-      <img src="{% if post.thumb != null %}{{post.thumb}}{% else %}http://placehold.it/350x200 {% endif %}" class="img-polaroid home-thumbs">
+    <div class="img-polaroid home-thumbs">
+      <div class="img" style="background-image:url({% if post.thumb != null %}{{post.thumb}}{% else %}http://placehold.it/350x200 {% endif %})">
+      </div>
     </div>
     <h5>
       <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
