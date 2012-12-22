@@ -3,6 +3,7 @@ layout: post
 title: "StudyMania"
 description: "Make homework fun by challenging your friend."
 category: class-project
+home_section: "class"
 thumb: "/images/studymania/studymania-small.jpg"
 slideshare: "http://www.slideshare.net/kanitw/studymaniapresentationpdf"
 poster: /images/studymania/studymania-small.jpg

@@ -1,3 +1,9 @@
+.inline-block {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
 .thumbnail {
   width: 100%;
   height: 200px;
@@ -7,17 +13,28 @@
   min-height: 150px;
 }
 .posts .span4 {
-  padding-left: 10px;
   padding-right: 10px;
 }
 .posts .span8 {
   min-height: 100px;
 }
-.home-thumbs {
+.posts.row-fluid [class*="span"]:nth-child(3n+1) {
+  margin-left: 0;
+}
+.post-list {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  min-height: 200px;
+  margin-bottom: 30px;
+}
+.post-list .home-thumbs {
+  margin-bottom: 20px;
   height: 150px;
   overflow: hidden;
 }
-.home-thumbs .img {
+.post-list .home-thumbs .img {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

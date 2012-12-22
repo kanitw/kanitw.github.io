@@ -1,9 +1,12 @@
 ---
 layout: index
-title: Welcome
+title: "Hello, my name is Kanit."
+tagline: ""
+sections: [["selected","Selected Projects"],["class","Other Class Projects"]]
+
 ---
 {% include JB/setup %}
 
-My name is Kanit Wongsuphasawat.  (Pronounced *Guh-nit*)  My nickname is Ham.  I am a Fulbright scholar studying at Stanford University in Management Science & Engineering (independently concentrated in Human-computer Interaction).  Feel free to look at my projects.  If you have any question please feel free to contact me at kanitw [at] gmail [dot] com.
-<br/>
-<br/>
+Kanit is a Fulbright scholar studying Human-Computer Interaction at Stanford University.  He worked with Amin Saberi on a massive online courses platform, *Venture Lab*.  He has also worked at Google Research as a Software Engineering Intern and at Thomson Reuters as a Software Engineer.
+
+Kanit was born and grew up in Bangkok.  He graduated from Chulalongkorn University in Thailand with a B.Eng. in Computer Engineering (First Honour and Gold Medal).

@@ -1,15 +1,18 @@
 ---
 layout: post
 title: "Venture Lab"
-thumb: "/images/venturelab/thumb.png"
 tagline: ""
 description: "The world's first project-based Massive Online Education Platform."
-category:
-tags: ["hilight:hide", UX Design, Research, Education, MOOC, HCI]
+home_section: "selected"
+category: "selected-projects"
+tags: [UX Design, Research, Education, MOOC, HCI, HTML/CSS, Javascript, Twitter Bootstrap, Ruby on Rails]
+
+thumb: "/assets/venturelab/thumb.png"
+figure: "/assets/venturelab/thumb.png"
 ---
 {% include JB/setup %}
 
-Online education is changning the world's education landscape.  Since February 2012, I worked with Professor Saberi and Venture Lab team, to develop Venture-lab, the first project-based Massive Online Open Classes(MOOC) as a Research assistant, User Experience and Interaction Designer for the project.
+Online education is changing the world's education landscape.  Since February 2012, I worked with Professor Saberi and Venture Lab team, to develop Venture-lab, the first project-based Massive Online Open Classes(MOOC) as a Research assistant, User Experience and Interaction Designer for the project.
 
 Our first class in Entrepreneurship, taught by Professor Chuck Eesley from Stanford, has total around 80,000 students from over 150 countries and 120 final project submissions.  This autumn, we are launching 5 classes including Entrepreneurship, Startup Board, A Crash Course on Creativity, Finance, Designing a New Learning Environment.
 
