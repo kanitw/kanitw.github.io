@@ -4,9 +4,17 @@
 }
 .posts {
   margin-bottom: 20px;
+  min-height: 100px;
+}
+.posts .span4 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.posts .span8 {
+  min-height: 100px;
 }
 .home-thumbs {
-  height: 200px;
+  height: 100px;
   overflow: hidden;
 }
 .home-thumbs .img {
@@ -18,17 +26,22 @@
   height: 100%;
   width: 100%;
 }
-.posts .span4 {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.posts h5 {
+.posts .posts h5 {
   margin-bottom: 0px;
 }
 /* Override some defaults */
 html,
 body {
   background-color: #eee;
+  font-family: "PT Sans";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato";
 }
 .navbar {
   margin-bottom: 0;
