@@ -4,7 +4,7 @@
 }
 .posts {
   margin-bottom: 20px;
-  min-height: 100px;
+  min-height: 150px;
 }
 .posts .span4 {
   padding-left: 10px;
@@ -14,7 +14,7 @@
   min-height: 100px;
 }
 .home-thumbs {
-  height: 100px;
+  height: 150px;
   overflow: hidden;
 }
 .home-thumbs .img {
@@ -41,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lato";
+  font-family: "";
 }
 .navbar {
   margin-bottom: 0;
