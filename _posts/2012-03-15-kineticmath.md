@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Kinetic Math"
+description: "Teach maths to children with Kinect."
+category: "class-projects"
+thumb: "/assets/kineticmath/poster.jpg"
+tags: [mobile, class-project]
+
+figure: /assets/kineticmath/poster.jpg
+links: ["Project website", "http://www.stanford.edu/~kanitw/cs247/"]
+---
+{% include JB/setup %}
+
+Addition and subtraction play a crucial
+role in mastering advanced math
+concepts such as algebra.  However
+Learning math through tons of text is too
+boring, abstract and ineﬀective for kids.
+Kinetic Math use the gesture-based
+interface of Microsoft Kinect to teach kids
+addition via a kinesthetic, visual and
+engaging game.
