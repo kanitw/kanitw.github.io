@@ -3,9 +3,11 @@ layout: post
 title: "Habit Buddy"
 description: "App prototype"
 category: "class-projects"
+home_section: "class"
+
 tags: [mobile, class-project]
 
-home_section: "class"
+
 links: ["Prototype","http://www.stanford.edu/~kanitw/prototype/habitbuddy.pdf"]
 ---
 {% include JB/setup %}

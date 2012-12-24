@@ -3,6 +3,8 @@ layout: post
 title: "Kinetic Math"
 description: "Teach maths to children with Kinect."
 category: "class-projects"
+home_section: "class"
+
 thumb: "/assets/kineticmath/poster.jpg"
 tags: [mobile, class-project]
 
