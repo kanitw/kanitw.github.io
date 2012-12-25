@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Breathwear: Calming Technology Research"
+title: "Breathwear"
+tagline: "User Interface for Improving Users' Calm"
 description: "User Interface for Improving Users' Calm"
 category: "selected-projects"
 home_section: "selected"

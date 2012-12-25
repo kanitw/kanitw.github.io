@@ -8,6 +8,8 @@ category: "selected-projects"
 tags: [UX Design, Research, Education, MOOC, HCI, HTML/CSS, Javascript, Twitter Bootstrap, Ruby on Rails]
 
 thumb: "/assets/venturelab/thumb.png"
+thumb_align: top
+
 figure: "/assets/venturelab/thumb.png"
 ---
 {% include JB/setup %}

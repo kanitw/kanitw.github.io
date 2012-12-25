@@ -1,12 +1,14 @@
 ---
 layout: post
 title: "Habit Buddy"
-description: "App prototype"
+description: "Goal-setting Behavioral Change Prototype"
 category: "class-projects"
 home_section: "class"
 
 tags: [mobile, class-project]
-
+thumb: "/assets/habitbuddy/thumb.png"
+figure: "/assets/habitbuddy/habitbuddy.png"
+thumb_align: top
 
 links: ["Prototype","http://www.stanford.edu/~kanitw/prototype/habitbuddy.pdf"]
 ---

@@ -5,6 +5,7 @@ description: "Make homework fun by challenging your friend."
 category: class-project
 home_section: "class"
 thumb: "/images/studymania/studymania-small.jpg"
+thumb_align: top
 slideshare: "http://www.slideshare.net/kanitw/studymaniapresentationpdf"
 poster: /images/studymania/studymania-small.jpg
 tags: [mobile, class-project]

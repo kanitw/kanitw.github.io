@@ -6,6 +6,7 @@ category: "class-projects"
 home_section: "class"
 
 thumb: "/assets/kineticmath/poster.jpg"
+thumb_align: top
 tags: [mobile, class-project]
 
 figure: /assets/kineticmath/poster.jpg

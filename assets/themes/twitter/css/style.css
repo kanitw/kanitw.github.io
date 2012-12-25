@@ -43,6 +43,9 @@
   height: 100%;
   width: 100%;
 }
+.post-list .home-thumbs.top .img {
+  background-position: top center;
+}
 .posts .posts h5 {
   margin-bottom: 0px;
 }
