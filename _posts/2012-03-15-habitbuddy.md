@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Habit Buddy"
-description: "Goal-setting Behavioral Change Prototype"
+description: "Goal-setting Behavioral Change Prototype."
 category: "class-project"
 home_section: "class"
 
-tags: [mobile, class-project]
+tags: [mobile, "class-project"]
 thumb: "/assets/habitbuddy/thumb.png"
 figure: /assets/habitbuddy/habitbuddy.png
 thumb_align: top
