@@ -7,7 +7,7 @@ home_section: "class"
 
 thumb: "/assets/kineticmath/poster.jpg"
 thumb_align: top
-tags: [mobile, class-project]
+tags: ["class-project"]
 
 figure: /assets/kineticmath/poster.jpg
 links: ["Project website", "http://www.stanford.edu/~kanitw/cs247/"]

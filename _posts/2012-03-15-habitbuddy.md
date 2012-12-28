@@ -7,7 +7,7 @@ home_section: "class"
 
 tags: [mobile, class-project]
 thumb: "/assets/habitbuddy/thumb.png"
-figure: "/assets/habitbuddy/habitbuddy.png"
+figure: /assets/habitbuddy/habitbuddy.png
 thumb_align: top
 
 links: ["Prototype","http://www.stanford.edu/~kanitw/prototype/habitbuddy.pdf"]
