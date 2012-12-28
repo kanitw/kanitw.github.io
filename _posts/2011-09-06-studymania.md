@@ -6,15 +6,13 @@ category: "class-project"
 home_section: "class"
 thumb: "/images/studymania/studymania-small.jpg"
 thumb_align: top
+figure: "/images/studymania/studymania.jpg"
 slideshare: "http://www.slideshare.net/kanitw/studymaniapresentationpdf"
 poster: /images/studymania/studymania-small.jpg
 tags: [mobile, class-project]
 ---
 {% include JB/setup %}
 
-![studymania](/images/studymania/studymania-small.jpg)
-
-<br/>
 
 As part of CS147 (Intro to Human Computer Interaction & Design) course, our team conduct the whole design process: from needfinding, alternative generation, prototyping, heuristic evaluation, rapid prototyping and user testing.
 
