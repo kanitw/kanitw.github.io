@@ -2,6 +2,7 @@
 layout: index
 title: "Hello, my name is Kanit."
 
+sections:  ["selected","design","class"]
 
 ---
 {% include JB/setup %}
