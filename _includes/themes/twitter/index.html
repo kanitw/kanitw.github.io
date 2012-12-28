@@ -3,7 +3,7 @@
 </div>
 
 <div class="row">
-  <div class="span8">
+  <div class="span8 big">
     {{ content }}
 
 
@@ -20,10 +20,12 @@
       {% if section.first == post.home_section %}
 
         <div class="post-list span4">
-          <div class="home-thumbs {{post.thumb_align}}">
-            <div class="img" style="background-image:url({% if post.thumb != null %}{{post.thumb}}{% else %}http://placehold.it/350x200 {% endif %})">
+          <a href="{{ BASE_PATH }}{{ post.url }}">
+            <div class="home-thumbs {{post.thumb_align}}">
+              <div class="img" style="background-image:url({% if post.thumb != null %}{{post.thumb}}{% else %}http://placehold.it/350x200 {% endif %})">
+              </div>
             </div>
-          </div>
+          </a>
           <h4>
             <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
           </h4>

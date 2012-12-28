@@ -4,6 +4,10 @@
   zoom: 1;
   *display: inline;
 }
+.big {
+  font-size: 16px;
+  line-height: 24px;
+}
 .thumbnail {
   width: 100%;
   height: 200px;
@@ -64,7 +68,7 @@ h6 {
   font-family: "";
 }
 .navbar {
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 .container > footer {
   margin-top: 20px;
@@ -100,20 +104,20 @@ h6 {
 ul.posts {
   margin-left: 0;
 }
-/* tag_box ======================================================== */
 .tag_box {
   list-style: none;
   margin: 0;
-  padding: 5px 0 ;
+  padding: 5px 0;
   overflow: hidden;
 }
 .tag_box li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
   line-height: 28px;
 }
-.tag_box.inline li {
-  float: left;
-}
-.tag_box a {
+.tag_box li a {
   padding: 3px 6px;
   margin: 2px;
   background: #eee;
@@ -121,13 +125,19 @@ ul.posts {
   border-radius: 3px;
   text-decoration: none;
 }
-.tag_box a span {
+.tag_box li a span {
   /*vertical-align:super;*/
 
   font-size: 0.8em;
 }
-.tag-list .tag_box a span:before {
+.tag_box.all-tag-list a span.num:before {
   content: "x ";
+}
+.tag_box.post-tag-list {
+  font-size: 11px;
+}
+.tag_box.post-tag-list a span.num {
+  display: none;
 }
 .tag_box a.active {
   background: #57A957;
