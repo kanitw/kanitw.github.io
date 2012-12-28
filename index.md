@@ -1,7 +1,7 @@
 ---
-layout: "index"
+layout: index
 title: "Hello, my name is Kanit."
-sections: [ ["selected","Selected Projects"],["design","Graphic Design"],["class","Other Class Projects"]]
+
 
 ---
 {% include JB/setup %}
