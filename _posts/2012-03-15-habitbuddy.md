@@ -2,7 +2,7 @@
 layout: post
 title: "Habit Buddy"
 description: "Goal-setting Behavioral Change Prototype"
-category: "class-projects"
+category: "class-project"
 home_section: "class"
 
 tags: [mobile, class-project]

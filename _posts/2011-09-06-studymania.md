@@ -2,7 +2,7 @@
 layout: post
 title: "StudyMania"
 description: "Make homework fun by challenging your friend."
-category: class-project
+category: "class-project"
 home_section: "class"
 thumb: "/images/studymania/studymania-small.jpg"
 thumb_align: top
