@@ -2,7 +2,7 @@
 layout: index
 title: "Hello, my name is Kanit."
 
-abcdefgh:  ["selected","design","class"]
+sections:  ["selected","design","class"]
 
 ---
 {% include JB/setup %}
