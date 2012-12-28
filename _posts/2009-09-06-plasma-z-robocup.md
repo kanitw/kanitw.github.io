@@ -6,7 +6,7 @@ category: "selected-projects"
 tags: [Highlight, C#, Robotic, System]
 home_section: "selected"
 thumb: assets/plasmaz/plasmaz.png
-figure: assets/plasmaz/plasmaz.png
+figure: "/assets/plasmaz/plasmaz-big.png"
 youtube: http://www.youtube.com/watch?v=FfuM3UGA9Ug
 
 ---
