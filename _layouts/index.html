@@ -7,10 +7,23 @@ layout: default
 
 
 {% for section in page.sections %}
-  <h3>{{section.last}}</h3>
+  <h3>
+  {% case section %}
+
+  [ ["selected","Selected Projects"],["design","Graphic Design"],["class","Other Class Projects"]]
+
+  {% when 'selected' %}
+    Selected Projects
+  {% when 'design' %}
+    Graphic Design
+  {% else %}
+    Other Class Projects
+  {% endcase %}
+
+  </h3>
   <div class="row-fluid posts">
     {% for post in site.posts %}
-      {% if section.first == post.home_section %}
+      {% if section == post.home_section %}
 
         <div class="post-list span4">
           <a href="{{ BASE_PATH }}{{ post.url }}">
