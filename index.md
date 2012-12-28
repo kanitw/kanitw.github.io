@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: page
 title: "Hello, my name is Kanit."
 sections:  ["selected","design","class"]
 
