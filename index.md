@@ -10,4 +10,4 @@ Kanit is a Fulbright scholar studying Human-Computer Interaction at Stanford Uni
 
 Kanit was born and grew up in Bangkok.  He graduated from Chulalongkorn University in Thailand with a B.Eng. in Computer Engineering (First Honour and Gold Medal).
 
-In his free time, Kanit enjoys playling and watching soccer.  Please feel free to contact him at *kanitw* at *gmail.com*
+In his free time, Kanit enjoys playing and watching soccer.  Please feel free to contact him at *kanitw* at *gmail.com*

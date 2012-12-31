@@ -5,5 +5,42 @@ layout: default
 {% include JB/setup %}
 {% include themes/twitter/index.html %}
 
+{% for section in [selected,design,other] %}
+  <h3>
+  {% case section %}
 
+  {% when 'selected' %}
+    Selected Projects
+  {% when 'design' %}
+    Graphic Design
+  {% else %}
+    Other Class Projects
+  {% endcase %}
+
+  </h3>
+  <div class="row-fluid posts">
+    {% for post in site.posts %}
+      {% if section == post.home_section %}
+
+        <div class="post-list span4">
+          <a href="{{ BASE_PATH }}{{ post.url }}">
+            <div class="home-thumbs {{post.thumb_align}}">
+              <div class="img" style="background-image:url({% if post.thumb != null %}{{post.thumb}}{% else %}http://placehold.it/350x200 {% endif %})">
+              </div>
+            </div>
+          </a>
+          <h4>
+            <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+          </h4>
+          <div>{{post.description}}</div>
+        </div>
+
+      {% endif %}
+    {% endfor %}
+
+    <!--<script type="text/javascript">
+      $('.posts').equalHeights();
+    </script>-->
+  </div>
+{% endfor %}
 
