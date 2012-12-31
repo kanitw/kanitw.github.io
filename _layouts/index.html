@@ -5,7 +5,7 @@ layout: default
 {% include JB/setup %}
 {% include themes/twitter/index.html %}
 
-{% for section in [selected,design,other] %}
+{% for section in site.home_sections %}
   <h3>
   {% case section %}
 
