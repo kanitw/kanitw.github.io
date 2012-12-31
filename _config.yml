@@ -11,14 +11,14 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Kanitw's Lab
-tagline:
+tagline: ""
 author :
   name : Kanit Wongsuphasawat
   email : kanitw@gmail.com
   github : kanitw
   twitter : kanitw
 
-home_sections: ["selected","design","class"]
+home_sections: ["selected", "design", "class"]
 
 #  feedburner :
 
