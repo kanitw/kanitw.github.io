@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Breathwear"
-tagline: "User Interface for Improving Users' Calm"
-description: "User Interface for Improving Users' Calm"
+
+description: "User Interface for Improving Users' Calm by Respiratory Regulation"
 category: "selected-projects"
 home_section: "selected"
 tags: [ios,calming technology, HCI]

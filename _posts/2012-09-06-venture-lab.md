@@ -11,6 +11,8 @@ thumb: "/assets/venturelab/thumb.png"
 thumb_align: top
 
 figure: "/assets/venturelab/thumb.png"
+
+link: "http://www.venture-lab.org"
 ---
 {% include JB/setup %}
 

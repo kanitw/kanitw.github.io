@@ -10,7 +10,7 @@ thumb: "/assets/habitbuddy/thumb.png"
 figure: /assets/habitbuddy/habitbuddy.png
 thumb_align: top
 
-Prototype: "http://www.stanford.edu/~kanitw/prototype/habitbuddy.pdf"
+link: "/assets/habitbuddy/habitbuddy.pdf"
 ---
 {% include JB/setup %}
 

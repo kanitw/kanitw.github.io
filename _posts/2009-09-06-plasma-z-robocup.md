@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Plasma-Z : International Robocup Soccer-Robot"
-description: "Multi-agent robotic systems that plays soccer"
+title: "Plasma-Z : Soccer-Robot"
+description: "Multi-agent robotic systems that plays soccer in the International Robocup."
 category: "selected-projects"
 tags: [Highlight, C#, Robotic, System]
 home_section: "selected"
 thumb: assets/plasmaz/plasmaz.png
 figure: "/assets/plasmaz/plasmaz-big.png"
+
+paper: "/assets/plasmaz/2009_TDP_Plasma-Z.pdf"
 youtube: http://www.youtube.com/watch?v=FfuM3UGA9Ug
 
 ---

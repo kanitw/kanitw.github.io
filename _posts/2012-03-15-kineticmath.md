@@ -10,6 +10,7 @@ thumb_align: top
 tags: ["class-project"]
 
 figure: /assets/kineticmath/poster.jpg
+poster: "/assets/kineticmath/poster.jpg"
 links: ["Project website", "http://www.stanford.edu/~kanitw/cs247/"]
 ---
 {% include JB/setup %}
