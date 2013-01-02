@@ -16,11 +16,11 @@ poster: "/assets/breathwear/poster_final.pdf"
 ---
 {% include JB/setup %}
 
-In Spring 2012, I worked with Stanford University's [Calming Technology Lab](http://calmingtechnology.org/) to research on different techniques for supporting  respiratory regulation to reduce stress and increase parasympathetic tone.
+People are suffering from stress.  How might we help them relieve?
 
-With supervision from Neema Moraveji, the Calming Technology Lab founder, I designed and implemented a respiratory regulation application using visual guide and auditory guide based on the lab's Breathware system.  We did a user study to compare the effect of using these two different modalities for breathing regulation.
+As respiratory regulation can reduce stress and increase parasympathetic tone, I and my colleague designed and implemented an application using visual guide and auditory guide based on the Stanford Calming Technology Lab’s Breathwear system and did a user study to compare the effect of using these two different modalities for breathing regulation.
 
-Finally, our [poster](/assets/breathwear/poster_final.pdf) and [extended abstract](http://hci.stanford.edu/publications/2012/CantForceCalmUIST2012.pdf) are accepted into [ACM UIST 2012](http://www.acm.org/uist/uist2012/)'s poster session.
+Our [poster](/assets/breathwear/poster_final.pdf) and [extended abstract](http://hci.stanford.edu/publications/2012/CantForceCalmUIST2012.pdf) has been presented at [ACM UIST 2012](http://www.acm.org/uist/uist2012/)'s poster session.
 
 <!-- ### Abstract
 

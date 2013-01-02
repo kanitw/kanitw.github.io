@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Habit Buddy"
-description: "Goal-setting Behavioral Change Prototype."
+description: "Goal-setting Behavioral Change Mobile Application Prototype."
 category: "class-project"
 home_section: "class"
 
@@ -10,11 +10,11 @@ thumb: "/assets/habitbuddy/thumb.png"
 figure: /assets/habitbuddy/habitbuddy.png
 thumb_align: top
 
-link: "/assets/habitbuddy/habitbuddy.pdf"
+prototype: "/assets/habitbuddy/habitbuddy.pdf"
 ---
 {% include JB/setup %}
 
-**Point of View**
+##### Point of View
 
 People
 NEEDS a fun way to help them start and maintain good habits

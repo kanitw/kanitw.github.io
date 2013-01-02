@@ -14,9 +14,8 @@ layout: default
   {% when 'design' %}
     Graphic Design
   {% else %}
-    Other Class Projects
+    Other Projects
   {% endcase %}
-
   </h3>
   <div class="row-fluid posts">
     {% for post in site.posts %}
@@ -32,7 +31,10 @@ layout: default
           <h4>
             <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
           </h4>
-          <div>{{post.description}}</div>
+          <div class="description">{{post.description}}</div>
+          <div class="links">
+            {% include themes/kanitw/links.html %}
+          </div>
         </div>
 
       {% endif %}

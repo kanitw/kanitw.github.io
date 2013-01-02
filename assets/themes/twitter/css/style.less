@@ -1,5 +1,7 @@
 @import "class.less";
 
+@normalFont: "PT Sans",  sans-serif;
+@headerFont: "Montserrat", sans-serif;
 
 .inline-block
 {
@@ -56,7 +58,23 @@
         background-position: top center;
       }
     }
-    // border: 1px #eee solid;
+    border: 1px #f1f1f1 solid;
+  }
+  .links{
+    margin-top: 5px;
+    & > a{
+      color: #666;
+      margin-right: 7px;
+      [class^="icon-"], [class*=" icon-"]
+      {
+        opacity: 0.8;
+        // margin-right: 2px;
+      }
+      &:hover{
+        text-decoration:none;
+        color: #08c;
+      }
+    }
   }
 }
 
@@ -69,16 +87,17 @@
 /* Override some defaults */
 html, body {
   background-color: #eee;
-  font-family: "PT Sans";
+  font-family: @normalFont;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: "Montserrat"
+  font-family: @headerFont;
 }
 
 .navbar {
   margin-bottom:0px;
 }
+
 .container > footer {
   margin-top: 20px;
 }
@@ -101,9 +120,73 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Page header tweaks */
 .page-header {
+  position:relative;
   background-color: #f5f5f5;
   padding: 20px 20px 10px;
   margin: -20px -20px 20px;
+}
+
+.kanitw-pic{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding:5px;
+  .pic{
+
+    width: 146px;
+    height: 142px;
+    z-index: 1;
+    background-color: black;
+    background-image: url(/assets/themes/kanitw/kanitw-header-small.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+}
+
+.index-header{
+  // .border-radius(15px);
+  // padding: 20px 250px 20px 20px;
+  // background-color: black;
+  // color: #fff;
+
+
+  font-family: @headerFont;
+  h1{
+    font-size: 30px;
+    font-weight: 400;
+    margin:0 0 15px;
+  }
+  .or{
+    // color: #eee;
+    margin-bottom: -2px;
+  }
+  .name{
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0px 0 5px;
+  }
+  .hello-name{
+    margin-bottom: 15px;
+  }
+
+  .pronounced{
+    font-size: 13px;
+  }
+  .explore{
+    margin-top:25px;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .i-am{
+    display:none;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight:100;
+  }
+  b{
+    font-weight: 600;
+  }
+
 }
 
 .topbar .btn {
@@ -151,8 +234,18 @@ ul.posts {
   }
 }
 
+h4.award .icon-star{
+  margin-top: 4px;
+}
+
 .tag_box a.active {
 	background:#57A957;
 	border:1px solid #4C964D;
 	color:#FFF;
+}
+
+
+.icon-slide{
+  background-image: url(/assets/themes/icons/slide14.png);
+  background-position: 0;
 }

@@ -14,6 +14,7 @@ youtube: http://www.youtube.com/watch?v=FfuM3UGA9Ug
 ---
 {% include JB/setup %}
 
+
 As part of Engineering Innovator Club, our Plasma-Z team designs small size soccer robot to compete in the International Robocup.
 
 I led the software dev. team in 2009, co-developed tactical systems and initiated using software configuration management system in the project.
@@ -22,5 +23,9 @@ After months of development and testing, we got 3rd place in the International R
 
 Watch our video on [Youtube](http://www.youtube.com/watch?v=FfuM3UGA9Ug)
 
-##### Awards
+
+
+<h4 class="award"><i class="icon-star">&nbsp;</i> Awards</h4>
+
+
 * 3rd Place International Robocup Small-sized League soccer robot

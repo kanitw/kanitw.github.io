@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Kinetic Math"
-description: "Teach maths to children with Kinect."
+description: "Teaching maths to children via kinesthetic, visual and engaging game."
 category: "class-project"
 home_section: "class"
 
@@ -11,7 +11,9 @@ tags: ["class-project"]
 
 figure: /assets/kineticmath/poster.jpg
 poster: "/assets/kineticmath/poster.jpg"
-links: ["Project website", "http://www.stanford.edu/~kanitw/cs247/"]
+website: http://www.stanford.edu/~kanitw/cs247/
+github: https://github.com/kingston/kineticmath
+
 ---
 {% include JB/setup %}
 

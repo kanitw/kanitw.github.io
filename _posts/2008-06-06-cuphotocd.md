@@ -10,6 +10,8 @@ figure: "/assets/cuphotodvd/cuphotodvd.png"
 thumb: assets/cuphotodvd/thumb.png
 thumb_align: top
 
+link: http://cuphotocd65.yellowpigz.com/
+
 ---
 {% include JB/setup %}
 
