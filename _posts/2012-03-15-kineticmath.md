@@ -13,6 +13,7 @@ figure: /assets/kineticmath/poster.jpg
 poster: "/assets/kineticmath/poster.jpg"
 website: http://www.stanford.edu/~kanitw/cs247/
 github: https://github.com/kingston/kineticmath
+vimeo: "http://player.vimeo.com/video/38766492?title=0&amp;byline=0&amp;portrait=0"
 
 ---
 {% include JB/setup %}

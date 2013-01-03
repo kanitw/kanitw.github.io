@@ -35,6 +35,24 @@
   }
 }
 
+.bordered-link{
+  padding:2px 5px;
+  &:hover{
+    .border-radius(5px);
+    background-color: #f1f1f1;
+
+    text-decoration:none;
+    color: #08c;
+  }
+  &.dark:hover{
+    background-color:#ddd;
+  }
+}
+
+.center{
+  text-align:center;
+}
+
 .post-list{
   .inline-block;
   // float:left;
@@ -63,17 +81,17 @@
   .links{
     margin-top: 5px;
     & > a{
+      .bordered-link;
       color: #666;
-      margin-right: 7px;
+
+      // margin-right: 3px;
+      padding:2px 5px;
       [class^="icon-"], [class*=" icon-"]
       {
         opacity: 0.8;
         // margin-right: 2px;
       }
-      &:hover{
-        text-decoration:none;
-        color: #08c;
-      }
+
     }
   }
 }
@@ -133,12 +151,13 @@ h1,h2,h3,h4,h5,h6 {
   padding:5px;
   .pic{
 
-    width: 146px;
-    height: 142px;
+    width: 250px;
+    height: 320px;
     z-index: 1;
     background-color: black;
-    background-image: url(/assets/themes/kanitw/kanitw-header-small.png);
-    background-position: bottom right;
+    background-image: url(/assets/profile/kanitw.png);
+    background-position: top;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 }
@@ -154,7 +173,7 @@ h1,h2,h3,h4,h5,h6 {
   h1{
     font-size: 30px;
     font-weight: 400;
-    margin:0 0 15px;
+    margin:0 0 ;
   }
   .or{
     // color: #eee;
@@ -247,5 +266,10 @@ h4.award .icon-star{
 
 .icon-slide{
   background-image: url(/assets/themes/icons/slide14.png);
+  background-position: 0;
+}
+
+.icon-map{
+  background-image: url(/assets/themes/icons/slide14a.png);
   background-position: 0;
 }

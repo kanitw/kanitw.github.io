@@ -7,7 +7,7 @@ home_section: "class"
 thumb: "/images/studymania/studymania-small.jpg"
 thumb_align: top
 figure: "/images/studymania/studymania.jpg"
-slideshare: "http://www.slideshare.net/kanitw/studymaniapresentationpdf"
+slideshare: "http://www.slideshare.net/slideshow/embed_code/10722558"
 poster: /images/studymania/studymania-small.jpg
 tags: [mobile, class-project]
 ---

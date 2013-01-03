@@ -1,12 +1,45 @@
-<div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+<div class="page-header index-header">
+  <div class="container">
+    <!-- <h1>{{page.title}}</h1> -->
+    <div class="kanitw-pic img-polaroid">
+      <div class="pic"></div>
+    </div>
+
+    <div class="hello-name">
+      <h1>Kanit (Ham) Wongsuphasawat. </h1>
+      <!-- <i class="or">or formally,</i> -->
+      <!-- <div class="name">Kanit Wongsuphasawat. <i class="icon-info-sign icon-white"></i></div> -->
+      <small class="pronounced">[pronounced Guh-nit (Ham) Wohng-soo-puh-suh-wuhd]</small>
+
+      <a href="javascript: void(0);" onclick="playSound('/assets/profile/kanitw.mov');" class="bordered-link dark"><i class="icon-volume-up"></i></a>
+      <!-- <div class="explore">I explore Human-computer Interaction.</div> -->
+      <div id="dummy" style="height:0px"></div>
+      <script language="javascript" type="text/javascript">
+       function playSound(soundfile) {
+        document.getElementById("dummy").innerHTML=
+         "<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
+       }
+       </script>
+    </div>
+  <!---
+    <div class="i-am">
+      I am a <b>Fulbright Scholar</b> studying <br/>
+      <b>Human-computer Interaction</b> <br/>
+      at <b>Stanford University</b>
+    </div>
+  -->
+  </div>
 </div>
 
-<div class="row">
-  <div class="span8 big">
-    {{ content }}
-  </div>
-  <div class="span4">
 
-  </div>
-</div>
+<div class="container">
+  <div class"content">
+
+    <div class="row">
+      <div class="span8 big">
+        {{ content }}
+      </div>
+      <div class="span4">
+
+      </div>
+    </div>

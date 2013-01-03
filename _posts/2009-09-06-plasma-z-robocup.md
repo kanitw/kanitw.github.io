@@ -9,7 +9,7 @@ thumb: assets/plasmaz/plasmaz.png
 figure: "/assets/plasmaz/plasmaz-big.png"
 
 paper: "/assets/plasmaz/2009_TDP_Plasma-Z.pdf"
-youtube: http://www.youtube.com/watch?v=FfuM3UGA9Ug
+youtube: http://www.youtube.com/embed/FfuM3UGA9Ug
 
 ---
 {% include JB/setup %}

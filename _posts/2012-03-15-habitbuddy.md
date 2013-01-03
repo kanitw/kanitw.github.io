@@ -19,3 +19,6 @@ prototype: "/assets/habitbuddy/habitbuddy.pdf"
 People
 NEEDS a fun way to help them start and maintain good habits
 BECAUSE changing behavior is not an easy task.
+
+
+Play with the prototype mock-up [here](/assets/habitbuddy/habitbuddy.pdf).

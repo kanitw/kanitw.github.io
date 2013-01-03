@@ -25,6 +25,23 @@
 .posts.row-fluid [class*="span"]:nth-child(3n+1) {
   margin-left: 0;
 }
+.bordered-link {
+  padding: 2px 5px;
+}
+.bordered-link:hover {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  text-decoration: none;
+  color: #08c;
+}
+.bordered-link.dark:hover {
+  background-color: #ddd;
+}
+.center {
+  text-align: center;
+}
 .post-list {
   display: -moz-inline-stack;
   display: inline-block;
@@ -56,15 +73,22 @@
 }
 .post-list .links > a {
   color: #666;
-  margin-right: 7px;
+  padding: 2px 5px;
+}
+.post-list .links > a:hover {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  text-decoration: none;
+  color: #08c;
+}
+.post-list .links > a.dark:hover {
+  background-color: #ddd;
 }
 .post-list .links > a [class^="icon-"],
 .post-list .links > a [class*=" icon-"] {
   opacity: 0.8;
-}
-.post-list .links > a:hover {
-  text-decoration: none;
-  color: #08c;
 }
 .posts .posts h5 {
   margin-bottom: 0px;
@@ -122,12 +146,13 @@ h6 {
   padding: 5px;
 }
 .kanitw-pic .pic {
-  width: 146px;
-  height: 142px;
+  width: 250px;
+  height: 320px;
   z-index: 1;
   background-color: black;
-  background-image: url(/assets/themes/kanitw/kanitw-header-small.png);
-  background-position: bottom right;
+  background-image: url(/assets/profile/kanitw.png);
+  background-position: top;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .index-header {
@@ -136,7 +161,7 @@ h6 {
 .index-header h1 {
   font-size: 30px;
   font-weight: 400;
-  margin: 0 0 15px;
+  margin: 0 0 ;
 }
 .index-header .or {
   margin-bottom: -2px;
@@ -217,5 +242,9 @@ h4.award .icon-star {
 }
 .icon-slide {
   background-image: url(/assets/themes/icons/slide14.png);
+  background-position: 0;
+}
+.icon-map {
+  background-image: url(/assets/themes/icons/slide14a.png);
   background-position: 0;
 }
