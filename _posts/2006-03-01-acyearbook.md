@@ -7,6 +7,7 @@ category: "graphic-design"
 home_section: "design"
 
 thumb: assets/acyearbook/thumb.png
+figure: /assets/acyearbook/figure.png
 thumb_align: top
 
 ---
