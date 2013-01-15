@@ -16,10 +16,8 @@ link: "http://www.venture-lab.org"
 ---
 {% include JB/setup %}
 
-Online education is changing the world's education landscape.  Since February 2012, I worked with Professor Saberi and Venture Lab team, to develop Venture-lab, the first project-based Massive Online Open Classes(MOOC) as a Research assistant, User Experience and Interaction Designer for the project.
+My interests in education and online work led me to work with  Professor Saberi and Venture Lab team to design user interface of Venture-Lab, the first team-based Massive Online Open Course(MOOC).
 
-Our first class in Entrepreneurship, taught by Professor Chuck Eesley from Stanford, has total around 80,000 students from over 150 countries and 120 final project submissions.  This autumn, we are launching 5 classes including Entrepreneurship, Startup Board, A Crash Course on Creativity, Finance, Designing a New Learning Environment.
-
-Venture lab has been covered in Stanford news, Forbe. Professor Chuck Eesley has also written about the project's success stories on his [blog](http://eesley.blogspot.com/).
+Venture lab has been covered in Stanford news and Forbes. Professor Chuck Eesley has also written about the project's success stories on his [blog](http://eesley.blogspot.com/).  Our first class has total around 80,000 students from over 150 countries and 120 final project submissions.
 
 Join venture-lab classes [here](http://venture-lab.org).
