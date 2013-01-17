@@ -16,11 +16,16 @@ poster: "/assets/breathwear/poster_final.pdf"
 ---
 {% include JB/setup %}
 
-People are suffering from stress.  How might we help them relieve?
+One problem that always intrigues me is how might we use technology to induce positive behavioral change?
 
-As respiratory regulation can reduce stress and increase parasympathetic tone, I and my colleague designed and implemented an application using visual guide and auditory guide based on the Stanford Calming Technology Lab’s Breathwear system and did a user study to compare the effect of using these two different modalities for breathing regulation.
+In this project, I collaborated with the Stanford Calming Technology Lab and focused on user interfaces to help people relieve stress.
+As respiratory regulation can reduce stress and increase parasympathetic tone, I designed and implemented an application using a visual guide and an auditory guide based on the Lab’s Breathwear system.
 
-Our [poster](/assets/breathwear/poster_final.pdf) and [extended abstract](http://hci.stanford.edu/publications/2012/CantForceCalmUIST2012.pdf) has been presented at [ACM UIST 2012](http://www.acm.org/uist/uist2012/)'s poster session.
+From a user study, we discovered that audio guide led to higher self-reported calm ratings but the visual guidance led to more respiratory change.  We concluded that motivating users to exert physical or mental efforts may counter the calming effects of slow breathing and designers of calming technologies must acknowledge the discrepancy between mechanical slow breathing and experiential calm in designing future systems.  The result has been presented at UIST2012.
+
+<!--I discovered ....-->
+
+Our [poster](/assets/breathwear/poster_final.pdf) and [extended abstract](http://hci.stanford.edu/publications/2012/CantForceCalmUIST2012.pdf) were presented at [ACM UIST 2012](http://www.acm.org/uist/uist2012/)'s poster session.
 
 <!-- ### Abstract
 

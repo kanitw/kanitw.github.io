@@ -14,10 +14,7 @@ youtube: http://www.youtube.com/embed/FfuM3UGA9Ug
 ---
 {% include JB/setup %}
 
-
-As part of Engineering Innovator Club, our Plasma-Z team designs small size soccer robot to compete in the International Robocup.
-
-I led the software dev. team in 2009, co-developed tactical systems and initiated using software configuration management system in the project.
+As a fan of soccer, I was fortunated to have a chance to develop software for a soccer robotic systems.  As part of the Engineering Innovator Club at Chulalongkorn University, I led the software dev. of the Plasma-Z 2009 team that competed in the International Robocup. I co-developed tactical systems and introduced user interfaces that allow easy calibration and testing. In addition, I have also initiated using software configuration management system in the project to log complexities in our system.
 
 After months of development and testing, we got 3rd place in the International Robocup 2009.
 

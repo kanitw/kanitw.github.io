@@ -16,8 +16,12 @@ link: "http://www.venture-lab.org"
 ---
 {% include JB/setup %}
 
-My interests in education and online work led me to work with  Professor Saberi and Venture Lab team to design user interface of Venture-Lab, the first team-based Massive Online Open Course(MOOC).
+My interests in education and online work led me to work with  Professor Saberi and Venture Lab team to design the user interface of Venture-Lab, the first team-based Massive Open Online Course platform (MOOC).
 
-Venture lab has been covered in Stanford news and Forbes. Professor Chuck Eesley has also written about the project's success stories on his [blog](http://eesley.blogspot.com/).  Our first class has total around 80,000 students from over 150 countries and 120 final project submissions.
+<!-- What challenges?  What qualities of your design -->
+
+Venture lab has been covered in *Forbes* and *Stanford News*. Professor Chuck Eesley has also written about the project's success stories on his [blog](http://eesley.blogspot.com/).  Our first class had over 80,000 students from roughly 150 countries.
+
+<!--Over 120 teams has completed .....-->
 
 Join venture-lab classes [here](http://venture-lab.org).
