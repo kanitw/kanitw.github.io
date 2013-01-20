@@ -18,12 +18,8 @@ vimeo: "http://player.vimeo.com/video/38766492?title=0&amp;byline=0&amp;portrait
 ---
 {% include JB/setup %}
 
-Addition and subtraction play a crucial
-role in mastering advanced math
-concepts such as algebra.  However
-Learning math through tons of text is too
-boring, abstract and ineﬀective for kids.
-Kinetic Math use the gesture-based
-interface of Microsoft Kinect to teach kids
-addition via a kinesthetic, visual and
-engaging game.
+Addition and subtraction play a crucial role in mastering math concepts such as Algebra.  Learning math through tons of text can be boring, abstract and ineffective.
+
+Kinetic math offer a fun and interactive way for kids to learn Math by playing a game with Microsoft Kinect. 
+
+(A project from Human Computer Interaction & Design Studio at Stanford.)
