@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "CUPhoto CU-TU Memorial DVD"
+title: "CUPhoto Memorial DVD"
 description: "Chulalongkorn-Thammasat Annual Soccer Game Memorial DVD."
 category: "graphic-design"
 home_section: "design"
