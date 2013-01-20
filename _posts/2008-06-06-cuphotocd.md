@@ -1,10 +1,11 @@
 ---
 
 layout: post
-title: "CUPhoto Memorial DVD"
-description: "Chulalongkorn-Thammasat Annual Soccer Game Memorial DVD"
+title: "CUPhoto CU-TU Memorial DVD"
+description: "Chulalongkorn-Thammasat Annual Soccer Game Memorial DVD."
 category: "graphic-design"
 home_section: "design"
+tags: [Interactive Media, Graphic Design]
 
 figure: "/assets/cuphotodvd/cuphotodvd.png"
 thumb: assets/cuphotodvd/thumb.png
@@ -15,4 +16,4 @@ link: http://cuphotocd65.yellowpigz.com/
 ---
 {% include JB/setup %}
 
-An compilation of pictures by Chulalongkorn University from the annual soccer game between Chulalongkorn and Thammasat, the two oldest universities in Thailand.
+Every year, the Chulalongkorn University Photography Club documents the annual soccer game between Chulalongkorn and Thammasat, the two oldest universities in Thailand.  I contributed the graphic design to the memorial DVD in 2008. 

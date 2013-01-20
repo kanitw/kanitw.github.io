@@ -9,20 +9,18 @@ thumb: assets/plasmaz/plasmaz.png
 figure: "/assets/plasmaz/plasmaz-big.png"
 
 paper: "/assets/plasmaz/2009_TDP_Plasma-Z.pdf"
-youtube: http://www.youtube.com/embed/FfuM3UGA9Ug
-
+vimeo-id: 3024663
 ---
+<!--youtube: http://www.youtube.com/embed/FfuM3UGA9Ug-->
 {% include JB/setup %}
 
-As a fan of soccer, I was fortunated to have a chance to develop software for a soccer robotic systems.  As part of the Engineering Innovator Club at Chulalongkorn University, I led the software dev. of the Plasma-Z 2009 team that competed in the International Robocup. I co-developed tactical systems and introduced user interfaces that allow easy calibration and testing. In addition, I have also initiated using software configuration management system in the project to log complexities in our system.
+Soccer is the most popular sport for humans. It is also the most popular sport for robots as well–at least at the International Robocup!
 
-After months of development and testing, we got 3rd place in the International Robocup 2009.
+As part of the Plasma-Z team, I led the development of our robotic software system. This system integrated inputs from computer vision and motion control feedback system to generate real-time strategies and command fast-paced small size soccer robots.  Besides developing game playing strategies, I introduced user interfaces that allow easy calibration and testing of our system. In addition, I have also initiated using software configuration management system in the project to manage complexities in our system.
 
 Watch our video on [Youtube](http://www.youtube.com/watch?v=FfuM3UGA9Ug)
 
 
-
 <h4 class="award"><i class="icon-star">&nbsp;</i> Awards</h4>
-
 
 * 3rd Place International Robocup Small-sized League soccer robot

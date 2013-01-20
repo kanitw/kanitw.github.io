@@ -21,7 +21,7 @@
     </div>
   </div>
 {%endif%}
-{%if post.vimeo %}
+{%if post.vimeo-id %}
    <a href="#vimeo-{{post_id}}" role="button" data-toggle="modal"><i class="icon-facetime-video" class="video"></i> Video</a>
 
   <div class="modal hide fade" id="vimeo-{{post_id}}">
@@ -30,14 +30,14 @@
       <h3>Video: {{post.title}}</h3>
     </div>
     <div class="modal-body center">
-      <iframe src="{{post.vimeo}}" width="400" height="300" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+      <iframe src="http://player.vimeo.com/video/{{post.vimeo-id}}" width="450" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
     </div>
   </div>
 
 {%endif%}
 
 <!-- SLIDE -->
-{%if post.slideshare %}
+{%if post.slideshare-id %}
   <a href="#slideshare-{{post_id}}" role="button" data-toggle="modal" class="slide"><i class="icon-slide"></i> Slides</a>
   <div class="modal hide fade" id="slideshare-{{post_id}}">
     <div class="modal-header">
@@ -45,7 +45,7 @@
       <h3>Slide: {{post.title}}</h3>
     </div>
     <div class="modal-body center">
-      <iframe src="{{post.slideshare}}" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
+      <iframe src="http://www.slideshare.net/slideshow/embed_code/{{post.slideshare-id}}" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe>
     </div>
   </div>
 <!--

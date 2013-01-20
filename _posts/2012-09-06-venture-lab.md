@@ -16,12 +16,10 @@ link: "http://www.venture-lab.org"
 ---
 {% include JB/setup %}
 
-My interests in education and online work led me to work with  Professor Saberi and Venture Lab team to design the user interface of Venture-Lab, the first team-based Massive Open Online Course platform (MOOC).
+Online education is changing the world’s education landscape.  Besides lectures and quizzes, project-based learning is also an influential experience in school.  Venture Lab was built to bring project-based learning to the online education world.  
 
-<!-- What challenges?  What qualities of your design -->
+I led the User Interface Design of Venture-lab, the first project-based Massive Online Open Classes. We have introduced algorithmic team matching and peer reviews system in online education.  The peer review system has enabled the assessment of massive scale online classroom.
 
-Venture lab has been covered in *Forbes* and *Stanford News*. Professor Chuck Eesley has also written about the project's success stories on his [blog](http://eesley.blogspot.com/).  Our first class had over 80,000 students from roughly 150 countries.
-
-<!--Over 120 teams has completed .....-->
+Venture lab has been covered in *Forbes* and *Stanford News*. Our first class in Entrepreneurship had over 50,000 students.  One final project eventually received funding from a venture capital. 
 
 Join venture-lab classes [here](http://venture-lab.org).

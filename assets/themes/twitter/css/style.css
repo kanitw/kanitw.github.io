@@ -236,6 +236,9 @@ ul.posts {
 .tag_box.post-tag-list a span.num {
   display: none;
 }
+h4.award {
+  margin-top: 20px;
+}
 h4.award .icon-star {
   margin-top: 4px;
 }
