@@ -13,6 +13,5 @@ thumb: assets/smileshirt/thumb2.png
 ---
 {% include JB/setup %}
 
-I designed this T-Shirt for the Smiley Home, a recreational group in the freshmen orientation week where freshmen. 
-
+I designed this T-Shirt for the Smiley Home, a recreational group in the freshmen orientation week. 
 My design goal was to encourages freshmen to open up their minds and make new friends from the event.
