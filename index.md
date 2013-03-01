@@ -2,6 +2,9 @@
 layout: index
 title: "Hello, my name is Kanit!"
 
+portfolio: [
+  ["Design"]
+]
 ---
 {% include JB/setup %}
 

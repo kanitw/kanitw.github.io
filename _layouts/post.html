@@ -13,19 +13,15 @@ layout: default
 <div class="row">
   <div class="span8">
     <img src="{{page.figure}}" class='figure'>
+    {{ content }}
   </div>
 
   <div class="span4">
-    {{ content }}
-    <!-- <h4>Published</h4>
+
+    <h4>Published</h4>
       <div class="date">
         <span>{{ page.date | date_to_long_string }}</span>
       </div>
-    -->
-    {% assign post=page %}
-    <div class="links">
-      {% include themes/kanitw/links.html %}
-    </div>
 
   </div>
 </div>
