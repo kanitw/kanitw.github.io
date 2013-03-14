@@ -19,4 +19,4 @@ Prototyping Tools*, *Visualization*, *Crowdsourcing*, *Ubiquitous Computing* and
 Besides work, Kanit loves playing soccer and is a big fan of [Manchester United FC](http://www.manutd.com]).  He also love movies, books and photography.  <!--He also blogs both in [English](/blogs.html) and [Thai](http://blog.yellowpigz.com).-->
 
 
-Please also feel free to look at his projects and his [full personal bio](/bio.html).
+Please also feel free to look at his projects and his [personal bio](/bio.html).
