@@ -1,12 +1,20 @@
+body {
+  font-size: 14px;
+  line-height: 22px;
+}
 .inline-block {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
   *display: inline;
 }
+#right-info-box {
+  margin-top: 240px;
+  padding-left: 50px;
+}
 .big {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 26px;
 }
 .thumbnail {
   width: 100%;
@@ -97,7 +105,7 @@
 html,
 body {
   background-color: #eee;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 h1,
 h2,
