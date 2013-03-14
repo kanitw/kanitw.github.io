@@ -6,7 +6,7 @@ description: ""
 ---
 {% include JB/setup %}
 
-(*Written March 2013*)
+(Written March 2013)
 
 <!--TODO
 1. Make Huang De Zhen a voice.
@@ -17,11 +17,6 @@ kanitw.yellowpigz.com/bio.html
 
 <!--I love food and I am lucky that both Thai and Teochew food are awesome.
  If you can take me to a good Teochew restaurant here in the US, I will treat you to a meal!-->
-
-My name is *Kanit Wongsuphasawat* and my nickname is *Ham*. ([Why Ham?](#why-ham)).  I am currently a master's student in the [Management Science & Engineer][#msande] department at Stanford.
-
-
-
 
 #### Childhood: Lego, Computers, Design and Computers!
 
