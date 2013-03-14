@@ -23,10 +23,10 @@ kanitw.yellowpigz.com/bio.html
 My name is Kanit Wongsuphasawat or nicknamed Ham.  ([Why Ham?](#why-ham))  As a Chinese descendant, I also have my Chinese name–黄德镇 (Huang-de-zhen in Mandarin or Ng-Tek-Ting in [Teochew]())[^chinese-name].  I am Fulbright Scholar currently studying Human-Computer Interaction and Entrepreneurship at Stanford University.
 
 
-#### Childhood: Lego, Computers, Design and Computers!
-
 I was born in Bangkok, the capital city of Thailand, as a second child of two entreprenerial pharmacists. 
 I grew in a big [Thai Chinese](http://en.wikipedia.org/wiki/Chinese_people_in_Thailand) [family](#family)–having 10 people in the same house.  My dad and mom are pharmacists and entrepreneurs who pioneered the concept of chain drugstores and the usage of vitamin supplements in Thailand. My dad also teaches at [Mae-Fah Luang University](http://www.mfu.ac.th).  My brother, Krist (Muu), is closest to me in the family. When we were young, we shared every toy and always played together. We both love soccer and Manchester United. As we grow up, we share similar interests in Computer and Design. Actually, he studied Human-Computer Interaction too. We are also close to our little sister, Nicha, too. We often take a picture of three of us and joke people that we are actually triplets.  My grandparents are also influential in my life. When I was in primary school, my grandpa always taught us English and Math after school. This certainly provided me with a strong fundamental knowledge. My grandma is also a great chef. While I am in the United States, her food is one of the things I miss the most.  My auntie, her husband, also live with us in the same house.  At home, it can be confusing at times but mostly we are happy to live together. 
+
+### Childhood: Lego, Computers, Design and Computers!
 
 I did my formative studies at [Assumption College][] in Bangkok from grades 1 to 12.  I remembered playing Lego with my brother and trying to build new stuff from houses, castles to spaceships from those magical bricks everyday after school.
 
@@ -41,11 +41,11 @@ After Lego, computer had become my brother and my main toy when my dad bought ou
 My interests in design and technology emerged in my grade 7, when I followed my brother to join the school's Graphics and Internet club, in which I learned how to use Photoshop and HTML to design websites.
 I then became interested in a club right next door, the Olympic in Informatics Club (ACIOI[^ACIOI]), which I subsequently joined and learned how to use programming and algorithms to solve programming challenges <!--[]](http://en.wikipedia.org/wiki/Competitive_programming)-->.  It was as fun as playing games. Before I really noticed, I was selected to join the National Olympiad in Informatics camp for two consecutive years in Grade 10 and 11.  <!--I was also named an alternative national candidate for the [International Olympiad in Informatics](http://en.wikipedia.org/wiki/International_Olympiad_in_Informatics).-->  Meanwhile, I still developed my love for design and headed the [design of my school's yearbook](/project/acyearbook.md).
 
-#### College life at Chulalongkorn University
+### College life at Chulalongkorn University
 
 With love for programming and design and influence from parents who are entrepreneurs, I hoped to study Computer Engineering, Product Design and Business.
  However, undergraduate interdisciplinary education was largely limited in Thailand so I can only chose one.
-I finally entered the Computer Engineering [^ComEng] program at Chulalongkorn University.
+I finally entered the Computer Engineering[^ComEng] program at Chulalongkorn University.
 
 <!-- picture of calculus guide-->
 
@@ -61,7 +61,7 @@ Another good thing about these projects was if you did well, then you won some f
 
 Back to Chulalongkorn University, I was busy with projects and thesis. Right after my undergraduate thesis presentation, I had ten days to apply for the Fulbright Scholarship.  I knew that I wanted to become a person who could bridge the gap between technology and people. So I was deciding between Computer Science with focus in Human-computer Interaction and Engineer Management (with focus on Entrepreneurship).  Both looked great for my goal. Within that short time, I chose Engineering Management simply because Stanford's Engineering Management ([MS&E][msande]) program is famous for entrepreneurship course and also very flexible for taking courses in other department including Computer Science and Design[^HCI].  More importantly, I felt that I should study something different from my elder brother, who was doing a PhD in Human-computer Interaction at the time.
 
-#### Fulbright scholar and Stanford University
+### Fulbright scholar and Stanford University
 
 <!-- TODO not sure if go through is a good idea -->
 
@@ -73,7 +73,7 @@ I also started doing research.  I was also fortunate to work with a number of wo
 
 I also went to the CHI, a major conference in Human-computer Interaction–thanks to my brother who allowed me to clash his hotel room.  There was so many amazing people are doing there.  My project with Neema also took me to UIST, another major HCI conference and again, it was so inspiring.
 
-At this point, I am consider to continue to do my PhD in Computer Science/Human-computer Interaction next year.  I know it is a big bet in terms of time.  But I just tried to follow my heart so let's see how it goes.  
+At this point, I am considering to continue to do my PhD in Computer Science/Human-computer Interaction next year.  I know it is a big bet in terms of time.  But I just tried to follow my heart so let's see how it goes.  
 
 Thank you so much for reading.  I hope you enjoyed it and hope it help you know me more.  After reading all of this long bio, please feel free to [shoot me an email](mailto:kanitw@gmail.com) to ask questions or comment.  I also have a FAQs section below too.
 
@@ -90,7 +90,7 @@ Thank you so much for reading.  I hope you enjoyed it and hope it help you know 
 
 ## Frequently Asked Questions
 
-##### Why both Kanit and Ham? {#why-ham}
+#### Why both Kanit and Ham? {#why-ham}
 
 In general, Thai people usually have one formal first name and another short nickname that can be any short Thai, English or Chinese word that might not be related to our first name at all.  For example, I have friends who named Jump, Bird, etc.
 
@@ -98,25 +98,25 @@ So *Kanit* is my formal first name but *Ham* is what people who know me personal
 
 For my name *Ham*, it was given by my parent and it is my parent's word play.  My brother's nickname is Muu, which means pig in Thai.  Since Ham is made from pork, Thai people commonly call Ham(the meat) transliterally "Muu-Ham".  So we are "Muu-Ham" brothers.
 
-##### Why are Thai people's surnames so long? {#surname}
+#### Why are Thai people's surnames so long? {#surname}
 
 Many Thai-Chinese families have very long Thai surnames because we named our surnames lately (mostly during my dad's generation) and we had creative freedom to create surnames with good meanings.  So if you see any Asian/Chinese-looking people with long surnames, I can bet that most of them are from Thailand.  For my surname,  *Wong* means family in Thai,  *Supha* means happiness, wealth, or goodness and *Sawat* also means goodness, prosperity.  So my family name roughly means *family of happiness and prosperity*.
 
 You might also notice that *Wong* from Wongsuphasawat is actually *Huáng*(黄) in Cantonese[^Huang].  Basically, many Thai Chinese families including mine intentionally hid our Chinese surname in our Thai surname.  Now, you might also notice why this domain is yellowpigz.com. (Huáng means yellow and my brother and my names are both related to pig.)
 
-<!--##### How do you pronounce you name?
+<!--#### How do you pronounce you name?
 
 Listen to this 
 <a href="javascript: void(0);" onclick="playSound('/assets/profile/kanitw.mov');" class="bordered-link dark">clip</a>.
 -->
 
-##### How is Chulalongkorn Photography Club like? {#cuphoto}
+#### How is Chulalongkorn Photography Club like? {#cuphoto}
 
 Photography Club was one of my best memories at Chulalongkorn University .  Every year, we had a trip to National parks and take pictures of flowers and landscapes.  We also liked taking portrait pictures.  In one of our trips, we wore jacket suites to take pictures in a corn field like a rockstar.
 
 We were also responsible for taking photos in the Chulalongkorn-Thammasat annual memorial game, which is a memorial game between two of the oldest (and the best) university in Thailand.  So, once in a lifetime, I was a professional photographers taking picture in a national game. 
 
-##### How did you come up with the Calculus Guide idea? {#calculus-guide}
+#### How did you come up with the Calculus Guide idea? {#calculus-guide}
 
 As I was good at Math during high school and the National University Entrance Examination, a lot of my college friends bugged me to teach them Calculus during the first year.  Well, teaching them all one by one was not a feasible solution.  Meanwhile, photocopying (*xerox*) was really cheap in Thailand.
 Thus, I neatly wrote my solution when I worked on the exercise problems from the textbooks and just let my friends photocopied it to use as solution guide.  In our freshman Calculus classes, besides the lecture, students were left to study on their own without either teaching assistant or problem solving guide.  Thus, my guide–in fact, more like scratch papers–became widely popular especially in the Faculty of Engineering and Faculty of Science.
@@ -124,14 +124,14 @@ A week before the freshmen exam, I even had to carry several copies of this solu
 
 Later in 2011, I was curious about Facebook Fan Page's functionality so I did a fun experiment creating a [page for the guide](http://www.facebook.com/hamcalculus) without really promoting it.  Although it has been five years after I first distributed, it has so far earned over 700 likes and also some thank you posts.
 
-##### So you have also mastered Charcoal drawing? {#drawing}
+#### So you have also mastered Charcoal drawing? {#drawing}
 
 Actually, no.  But I am very happy that I did try.
 The short story was that while I did pretty well in my freshman year, studying only theoretical subjects get me bored.  So I and one of my best friend, Billy, went to an Art school to study Charcoal Drawing.
 
 I remembered we were talking about how some of our friends practiced playing guitars to sing songs for their girls, so maybe we could master drawing and draw pictures for girls too.  Although we later discovered that Charcoal drawing was extremely difficult and we did not have enough time to master it, it was just memorable that we were two unorthodox engineering students who carried drawing boards around the engineering school.  At least, this helped me make good conversation with friends since many of them asked me why was I carrying "this thing around".
 
-##### What is exactly your MS&E master's program? {#msande}
+#### What is exactly your MS&E master's program? {#msande}
 
 At Stanford, Management Science and Engineering department (MS&E) is a merger from three small, independent departments (Engineering Economic Systems, Operations Research, and Industrial Engineering and Engineering Management).
 As a result of a merger, the department has a broad interdisciplinary nature.  MS&E Master's program is very flexible with 8 main concentration that student can choose.  Student can also design their own concentration with in any engineering and related discipline. For my case, I designed my dual concentration in Human-computer Interaction and Entrepreneurship.
