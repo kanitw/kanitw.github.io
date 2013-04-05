@@ -97,11 +97,13 @@ Thank you so much for reading.  I hope you enjoyed it and hope it help you know 
 
 #### Why do you have the nickname *Ham*? {#why-ham}
 
-In general, Thai people usually have one formal first name and another nickname that can be any short Thai, English or Chinese word that might not be related to our first names at all.  For example, I have friends who are named Jump, Bird, etc.
+Oftentimes, my short answer is: I'm from Thailand.  It's a fun country so we have funny nicknames.
 
-So *Kanit* is my formal first name but *Ham* is what people who know me personally call me. And yes, *Ham* is actually an English word that means *meat from the upper part of a pig's leg salted and dried or smoked*.  I generally prefer people to call me *Ham* since most people cannot pronounce *Kanit* correctly.
+In general, Thai people usually have one formal first name (usually long and elaborated) and another nickname that can be any short Thai, English or Chinese word that might not be related to our first names at all.  For example, I have friends who are named Jump, Bird, etc.
 
-For my name *Ham*, it was given by my parents, and it is my parents' word play.  My brother's nickname is Muu, which means pig in Thai.  Since Ham is made from pork, Thai people commonly call Ham(the meat) transliterally "Muu-Ham".  So we are "Muu-Ham" brothers.
+So *Kanit* is my legal name but *Ham* is what people who know me personally call me. And yes, *Ham* is actually an English word that means *meat from the upper part of a pig's leg salted and dried or smoked*.  I generally prefer people to call me *Ham* since most people cannot pronounce *Kanit* correctly.
+
+For the name *Ham*, it was given by my parents, and it is my parents' word play.  My brother's nickname is Muu, which means pig in Thai.  Since Ham is made from pork, Thai people commonly call Ham(the meat) transliterally "Muu-Ham".  So we are "Muu-Ham" brothers.
 
 Now, you might also notice why this domain is yellowpigz.com. (Huáng means yellow and my brother and my names are both related to pig.)
 
