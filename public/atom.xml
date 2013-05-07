@@ -4,7 +4,7 @@
  <title>kanitw.yellowpigz.com</title>
  <link href="http://kanitw.yellowpigz.com/atom.xml" rel="self"/>
  <link href="http://kanitw.yellowpigz.com"/>
- <updated>2013-05-07T00:08:31-07:00</updated>
+ <updated>2013-05-07T00:24:25-07:00</updated>
  <id>http://kanitw.yellowpigz.com</id>
  <author>
    <name>Kanit Wongsuphasawat</name>
@@ -34,6 +34,127 @@
 &lt;p&gt;Venture lab has been covered in &lt;em&gt;Forbes&lt;/em&gt; and &lt;em&gt;Stanford News&lt;/em&gt;. Our first class in Entrepreneurship had over 50,000 students. One final project eventually received funding from a venture capital. &lt;/p&gt;
 
 &lt;p&gt;Join venture-lab classes &lt;a href='http://venture-lab.org'&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Setting up Sublime 2</title>
+   <link href="http://kanitw.yellowpigz.com/2012/06/28/sublime-2/"/>
+   <updated>2012-06-28T00:00:00-07:00</updated>
+   <id>http://kanitw.yellowpigz.com/2012/06/28/sublime-2</id>
+   <content type="html">&lt;p&gt;With &lt;a href='http://subtimetext.com'&gt;Sublime Text 2&lt;/a&gt;, I can forget about trying vim, textmate. To utilize the full power of sublime, we need to setup some stuffs and install extensions.&lt;/p&gt;
+
+&lt;h3 id='setting_up_for_command_line'&gt;Setting up for command line&lt;/h3&gt;
+
+&lt;p&gt;If you haven’t add ~/bin to your path, then add.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;echo &amp;#39;export PATH=~/bin:$PATH&amp;#39; &amp;gt;&amp;gt; ~/.profile&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;defaults write ~/.MacOSX/environment EDITOR &amp;quot;~/bin/subl -w &amp;quot;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id='options'&gt;Options&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;{
+ &amp;quot;color_scheme&amp;quot;: &amp;quot;Packages/Color Scheme - Default/Monokai.tmTheme&amp;quot;,
+ &amp;quot;font_size&amp;quot;: 12.0,
+ &amp;quot;highlight_line&amp;quot;: true,
+ &amp;quot;ignored_packages&amp;quot;:
+ [
+ &amp;quot;Vintage&amp;quot;
+ ],
+ &amp;quot;indent_guide_options&amp;quot;:
+ [
+ &amp;quot;draw_normal&amp;quot;,
+ &amp;quot;draw_active&amp;quot;
+ ],
+ &amp;quot;tab_size&amp;quot;: 2,
+ &amp;quot;translate_tabs_to_spaces&amp;quot;: true,
+ &amp;quot;trim_trailing_white_space_on_save&amp;quot;: true, // good practice to always remove trailing spaces
+ &amp;quot;word_wrap&amp;quot;: &amp;quot;true&amp;quot;
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id='shortkeys'&gt;Shortkeys&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;[
+ { &amp;quot;keys&amp;quot;: [&amp;quot;cmd alt r&amp;quot;], &amp;quot;command&amp;quot;: &amp;quot;reindent&amp;quot; , &amp;quot;args&amp;quot;: {&amp;quot;single_line&amp;quot;: false}}
+ ,
+ { &amp;quot;keys&amp;quot;: [&amp;quot;cmd shift k&amp;quot;], &amp;quot;command&amp;quot;: &amp;quot;run_macro_file&amp;quot;, &amp;quot;args&amp;quot;: {&amp;quot;file&amp;quot;: &amp;quot;Packages/Default/Delete Line.sublime-macro&amp;quot;} }
+ ,
+ { &amp;quot;keys&amp;quot;: [&amp;quot;super alt f&amp;quot;], &amp;quot;command&amp;quot;: &amp;quot;show_panel&amp;quot;, &amp;quot;args&amp;quot;: {&amp;quot;panel&amp;quot;: &amp;quot;find&amp;quot;} }
+ ,
+ { &amp;quot;keys&amp;quot;: [&amp;quot;super f&amp;quot;], &amp;quot;command&amp;quot;: &amp;quot;show_panel&amp;quot;, &amp;quot;args&amp;quot;: {&amp;quot;panel&amp;quot;: &amp;quot;replace&amp;quot;} }
+ ,
+ { &amp;quot;keys&amp;quot;: [&amp;quot;ctrl shift t&amp;quot;], &amp;quot;command&amp;quot;: &amp;quot;delete_trailing_spaces&amp;quot; }
+]&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id='id9'&gt;#&lt;/h2&gt;
+
+&lt;h3 id='plugins'&gt;plugins&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href='http://wbond.net/sublime_packages/package_control/installation'&gt;&lt;em&gt;Package Control&lt;/em&gt; &lt;/a&gt;- which can install many plugins including * &lt;strong&gt;General Purpose&lt;/strong&gt; * &lt;em&gt;SublimeCodeIntel&lt;/em&gt; – super cool autocompletion * &lt;em&gt;AllAutoComplete&lt;/em&gt; – extend sublime autocomplete to check all opened files. * &lt;em&gt;Alignment&lt;/em&gt; * &lt;em&gt;BracketHighlighter&lt;/em&gt; * &lt;em&gt;Nettuts Fetch&lt;/em&gt; * Edit History * &lt;em&gt;EasyMotion&lt;/em&gt; super fast navigation with cmd+;+&lt;span&gt;&lt;em&gt;character that you want to jump to&lt;/em&gt;&lt;/span&gt;–a super plugin inspired from Vim * &lt;em&gt;Gist&lt;/em&gt; * Inc-Dec-Value * filediffs * &lt;em&gt;sublimelinter&lt;/em&gt; – Great for checking syntax errors and warning for most popular languages&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;*   Indent Guide
+*   SublimeTODO - allow you to generate TODO list from TODO comments
+*   docblockr – creating documentation block really easy!  (/** enter = done!)&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Version Control&lt;/strong&gt; * SideBarGit – add git support to context menu&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;HTML/Web&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Emmet&lt;/em&gt; – quick html coding&lt;/li&gt;
+
+&lt;li&gt;&lt;em&gt;browser-refresh sublime&lt;/em&gt; – insanely great for web editing&lt;/li&gt;
+
+&lt;li&gt;csslint&lt;/li&gt;
+
+&lt;li&gt;JQuery&lt;/li&gt;
+
+&lt;li&gt;sublime-jslint  – run jslint when save (or with ctrl j)&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='https://github.com/danro/LESS-sublime'&gt;less&lt;/a&gt; - support less.css&lt;/li&gt;
+
+&lt;li&gt;livecss - highlights all your hex and rgb colors in css/scss files with that actual color!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Design&lt;/strong&gt; * ColorPick – using Mac Color Picker in Sublime.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;** Code Prettifer &lt;strong&gt;: &lt;em&gt;PrettyJSON&lt;/em&gt;, &lt;em&gt;SublimePythonTidy&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;I plan to try&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;RosettaCode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href='http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-tips-and-tricks/'&gt;Tutsplus’s&lt;/a&gt; guid &lt;a href='http://kakubei.blogspot.com/2012/07/sublime-text-2-tips-and-tricks.html'&gt;kakubei’s&lt;/a&gt; article are are pretty useful.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;h3 id='extras'&gt;Extras&lt;/h3&gt;
+
+&lt;p&gt;This &lt;a href='http://icoloma.blogspot.com.es/2012/09/sublime-text-editor-tips-and-tricks-for.html'&gt;article&lt;/a&gt; has very helpful tips and trick for html.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;</content>
  </entry>
  
  <entry>

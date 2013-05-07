@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+{% include JB/setup %}
 
 <div class="page-header">
   <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
@@ -16,12 +16,10 @@ layout: default
 <div class="row">
   <div class="span12">
 
-    {% for post in site.posts limit:5 %}
-      {%if page.layout == 'post'%}
-        {% assign page = post %}
+    {% for post in site.posts %}
+      {%if post.layout == 'post'%}
 
         <article>
-          {% for post in site.posts %}
             <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
             <i><span>{{ post.date | date_to_string }}</span></i>
             โดย
@@ -31,7 +29,6 @@ layout: default
             <br/>
             <br/>
             {{post.content | truncatewords: 300 }}
-          {% endfor %}
             <br/>
             <a href="{{ BASE_PATH }}{{ post.url }}">Read &raquo;</a>
           <hr/>
