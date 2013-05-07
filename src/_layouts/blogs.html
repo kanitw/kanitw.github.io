@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+
+<div class="page-header">
+  <h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+</div>
+
+<div class="row">
+  <div class="span12">
+    {{ content }}
+  </div>
+</div>
+
+<div class="row">
+  <div class="span12">
+
+    {% for post in site.posts limit:5 %}
+      {%if page.layout == 'post'%}
+        {% assign page = post %}
+
+        <article>
+          {% for post in site.posts %}
+            <h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
+            <i><span>{{ post.date | date_to_string }}</span></i>
+            โดย
+            {% if page.author %}
+              <a href="/author/{{page.author}}.html">{{page.author}}</a>
+            {% endif %}
+            <br/>
+            <br/>
+            {{post.content | truncatewords: 300 }}
+          {% endfor %}
+            <br/>
+            <a href="{{ BASE_PATH }}{{ post.url }}">Read &raquo;</a>
+          <hr/>
+        </article>
+      {%endif%}
+
+    {% endfor %}
+
+  </div>
+</div>

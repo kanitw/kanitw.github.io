@@ -1,7 +1,8 @@
 
-http://kanitw.yellowpigz.com/archive.html
 http://kanitw.yellowpigz.com/atom.xml
 http://kanitw.yellowpigz.com/bio.html
+http://kanitw.yellowpigz.com/blogs-archive.html
+http://kanitw.yellowpigz.com/blogs.html
 http://kanitw.yellowpigz.com/categories.html
 http://kanitw.yellowpigz.com/index.html
 http://kanitw.yellowpigz.com/sitemap.txt
