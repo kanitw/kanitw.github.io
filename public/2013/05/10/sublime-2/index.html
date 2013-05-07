@@ -1,0 +1,325 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Setting up Sublime 2</title>
+  
+  <meta name="author" content="Kanit Wongsuphasawat">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Le styles -->
+  <script src="/assets/themes/twitter/bootstrap/js/jquery-1.8.1.js"></script>
+
+  <script src="/assets/themes/twitter/bootstrap/js/bootstrap.js"></script>
+  <!--<script src="/assets/themes/twitter/bootstrap/js/pxem.jQuery.js"></script>
+  <script src="/assets/themes/twitter/bootstrap/js/jQuery.equalHeights.js"></script>-->
+
+  <link href="/assets/themes/twitter/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat">
+   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans">
+   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
+  <!-- <link href="/assets/themes/twitter/bootstrap/css/bootstrap-responsive.css" rel="stylesheet"> -->
+  <link href="/assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+  <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">-->
+
+  </head>
+<body>
+
+  <div class="navbar navbar-static-top">
+
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="brand" href="/">kanitw.yellowpigz.com</a>
+        <!--<ul class="nav">
+          
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/blogs-archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+        </ul>-->
+        <ul class="nav pull-right">
+          <li><a href="bio.html">Bio</a></li>
+          <!-- <li><a href="blog.html">Blog</a></li> -->
+          <li></li>
+          <li><a href="/assets/profile/cv_kanit.pdf">CV</a></li>
+          <li><a href="/assets/profile/resume_kanit.pdf">Resume</a></li>
+          <!-- <li><a href="/assets/profile/port_kanit.pdf">PDF Portfolio</a></li> -->
+          <!-- <li><a href="http://www.github.com/kanitw">GitHub</a></li> -->
+          <!-- <li><a href="http://www.twitter.com/kanitw">Twitter</a></li> -->
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="content">
+
+<div class="page-header">
+  <h1>
+    Setting up Sublime 2
+    <small></small>
+  </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <img src="" class='figure'>
+    <p>With <a href='http://subtimetext.com'>Sublime Text 2</a>, I can forget about trying vim, textmate. To utilize the full power of sublime, we need to setup some stuffs and install extensions.</p>
+
+<h3 id='setting_up_for_command_line'>Setting up for command line</h3>
+
+<p>If you haven’t add ~/bin to your path, then add.</p>
+
+<pre><code>echo &#39;export PATH=~/bin:$PATH&#39; &gt;&gt; ~/.profile</code></pre>
+
+<p>Then</p>
+
+<pre><code>defaults write ~/.MacOSX/environment EDITOR &quot;~/bin/subl -w &quot;</code></pre>
+
+<h3 id='options'>Options</h3>
+
+<pre><code>{
+ &quot;color_scheme&quot;: &quot;Packages/Color Scheme - Default/Monokai.tmTheme&quot;,
+ &quot;font_size&quot;: 12.0,
+ &quot;highlight_line&quot;: true,
+ &quot;ignored_packages&quot;:
+ [
+ &quot;Vintage&quot;
+ ],
+ &quot;indent_guide_options&quot;:
+ [
+ &quot;draw_normal&quot;,
+ &quot;draw_active&quot;
+ ],
+ &quot;tab_size&quot;: 2,
+ &quot;translate_tabs_to_spaces&quot;: true,
+ &quot;trim_trailing_white_space_on_save&quot;: true, // good practice to always remove trailing spaces
+ &quot;word_wrap&quot;: &quot;true&quot;
+}</code></pre>
+
+<h3 id='shortkeys'>Shortkeys</h3>
+
+<p>The default short keys that comes with Sublime Text 2 are great. But there are some useful addition that I think it is helpful as well.</p>
+
+<pre><code>[
+ { &quot;keys&quot;: [&quot;cmd alt r&quot;], &quot;command&quot;: &quot;reindent&quot; , &quot;args&quot;: {&quot;single_line&quot;: false}}
+ ,
+ { &quot;keys&quot;: [&quot;cmd shift k&quot;], &quot;command&quot;: &quot;run_macro_file&quot;, &quot;args&quot;: {&quot;file&quot;: &quot;Packages/Default/Delete Line.sublime-macro&quot;} }
+ ,
+ { &quot;keys&quot;: [&quot;super alt f&quot;], &quot;command&quot;: &quot;show_panel&quot;, &quot;args&quot;: {&quot;panel&quot;: &quot;find&quot;} }
+ ,
+ { &quot;keys&quot;: [&quot;super f&quot;], &quot;command&quot;: &quot;show_panel&quot;, &quot;args&quot;: {&quot;panel&quot;: &quot;replace&quot;} }
+ ,
+ { &quot;keys&quot;: [&quot;ctrl shift t&quot;], &quot;command&quot;: &quot;delete_trailing_spaces&quot; }
+]</code></pre>
+
+<h3 id='plugins'>Plugins</h3>
+
+<ul>
+<li>
+<p><a href='http://wbond.net/sublime_packages/package_control/installation'><em>Package Control</em> </a>- which can install many plugins including * <strong>General Purpose</strong> * <em>SublimeCodeIntel</em> – super cool autocompletion * <em>AllAutoComplete</em> – extend sublime autocomplete to check all opened files. * <em>Alignment</em> * <em>BracketHighlighter</em> * <em>Nettuts Fetch</em> * Edit History * <em>EasyMotion</em> super fast navigation with cmd+;+<span><em>character that you want to jump to</em></span>–a super plugin inspired from Vim * <em>Gist</em> * Inc-Dec-Value * filediffs * <em>sublimelinter</em> – Great for checking syntax errors and warning for most popular languages</p>
+
+<pre><code>*   Indent Guide
+*   SublimeTODO - allow you to generate TODO list from TODO comments
+*   docblockr – creating documentation block really easy!  (/** enter = done!)</code></pre>
+
+<ul>
+<li>
+<p><strong>Version Control</strong> * SideBarGit – add git support to context menu</p>
+</li>
+
+<li>
+<p><strong>HTML/Web</strong></p>
+
+<ul>
+<li><em>Emmet</em> – quick html coding</li>
+
+<li><em>browser-refresh sublime</em> – insanely great for web editing</li>
+
+<li>csslint</li>
+
+<li>JQuery</li>
+
+<li>sublime-jslint  – run jslint when save (or with ctrl j)</li>
+
+<li><a href='https://github.com/danro/LESS-sublime'>less</a> - support less.css</li>
+
+<li>livecss - highlights all your hex and rgb colors in css/scss files with that actual color!</li>
+</ul>
+</li>
+
+<li>
+<p><strong>Design</strong> * ColorPick – using Mac Color Picker in Sublime.</p>
+</li>
+
+<li>
+<p>** Code Prettifer <strong>: <em>PrettyJSON</em>, <em>SublimePythonTidy</em></strong></p>
+</li>
+
+<li>
+<p>I plan to try</p>
+</li>
+
+<li>
+<ul>
+<li>RosettaCode</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<p><a href='http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-tips-and-tricks/'>Tutsplus’s</a> guid <a href='http://kakubei.blogspot.com/2012/07/sublime-text-2-tips-and-tricks.html'>kakubei’s</a> article are are pretty useful.</p>
+<!-- TODO
+ http://blog.alainmeier.com/post/27255145114/some-things-beginners-might-not-know-about-sublime-text
+ -->
+<h3 id='extras'>Extras</h3>
+
+<p>This <a href='http://icoloma.blogspot.com.es/2012/09/sublime-text-editor-tips-and-tricks-for.html'>article</a> has very helpful tips and trick for html.</p>
+
+<p> </p>
+  </div>
+
+  <div class="span4">
+
+    <h4>Published</h4>
+      <div class="date">
+        <span>10 May 2013</span>
+      </div>
+
+  </div>
+</div>
+
+<hr>
+<div class="row-fluid">
+  <div class="span8">
+    
+  </div>
+  <div class="span4">
+    <div class="pagination">
+      <ul class="pull-right">
+        
+        <li class="prev">
+          <a href="/2012/12/06/peereviz/" title="Peereviz">&larr; Previous</a>
+        </li>
+        
+        <!-- <li>
+          <a href="/archive.html">Archive</a>
+        </li> -->
+        
+        <li class="next disabled">
+          <a>Next &rarr;</a>
+          
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<hr>
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'kanitwong'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+</div>
+
+    <footer>
+      <p>
+        &copy; Kanit Wongsuphasawat 2012.
+          Designed with
+        <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+        and
+        <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+      </p>
+    </footer>
+
+  </div>
+  <!-- /container --></body>
+</html>

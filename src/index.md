@@ -16,7 +16,7 @@ He is working in [Stanford HCI Group](http://hci.stanford.edu) with [Scott Klemm
 He will join [Computer Science & Engineering](http://cse.uw.edu) PhD program at [University of Washington](http://uw.edu) in Fall 2013.  His current research interests include *Human-Computer Interaction*, *Data Visualization*,
 *Design and Prototyping Tools*, *Tools for Education* and *Ubiquitous Computing*.
 
-Besides work, Kanit loves playing soccer and is a big fan of [Manchester United FC](http://www.manutd.com]).  He also love movies, books and photography.  <!--He also blogs both in [English](/blogs.html) and [Thai](http://blog.yellowpigz.com).-->
+Besides work, Kanit loves playing soccer and is a big fan of [Manchester United FC](http://www.manutd.com]).  He also loves movies, books and photography.  <!--He also blogs both in [English](/blogs.html) and [Thai](http://blog.yellowpigz.com).-->
 
 
 Please also feel free to look at his projects and his [full personal bio](/bio.html).
