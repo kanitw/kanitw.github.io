@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "Plasma-Z : Soccer-Robot"
 description: "Multi-agent robotic systems that plays soccer in the International Robocup."
 category: "selected-projects"

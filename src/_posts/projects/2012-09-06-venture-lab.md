@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "Venture Lab"
 tagline: ""
 description: "The world's first project-based Massive Online Education Platform."

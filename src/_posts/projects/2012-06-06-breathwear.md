@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "Breathwear"
 
 description: "User Interface for Improving Users' Calm by Respiratory Regulation."

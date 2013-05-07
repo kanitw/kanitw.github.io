@@ -1,6 +1,6 @@
 ---
 
-layout: post
+layout: project
 title: "Together We Smile"
 description: "T-Shirt Design for Smiley Home, a recreational group."
 category: "graphic-design"

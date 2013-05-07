@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "StudyMania"
 description: "Make homework fun by challenging your friend."
 category: "class-project"

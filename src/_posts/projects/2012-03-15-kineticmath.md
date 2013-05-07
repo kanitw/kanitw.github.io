@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "Kinetic Math"
 description: "Teaching maths to children via kinesthetic, visual and engaging game."
 category: "class-project"
