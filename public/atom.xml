@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>kanitw.github.com</title>
- <link href="http://kanitw.github.com/atom.xml" rel="self"/>
- <link href="http://kanitw.github.com"/>
- <updated>2013-05-06T22:16:29-07:00</updated>
- <id>http://kanitw.github.com</id>
+ <title>kanitw.yellowpigz.com</title>
+ <link href="http://kanitw.yellowpigz.com/atom.xml" rel="self"/>
+ <link href="http://kanitw.yellowpigz.com"/>
+ <updated>2013-05-06T22:24:29-07:00</updated>
+ <id>http://kanitw.yellowpigz.com</id>
  <author>
    <name>Kanit Wongsuphasawat</name>
    <email>kanitw@gmail.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Peereviz</title>
-   <link href="http://kanitw.github.com/2012/12/06/peereviz/"/>
+   <link href="http://kanitw.yellowpigz.com/2012/12/06/peereviz/"/>
    <updated>2012-12-06T00:00:00-08:00</updated>
-   <id>http://kanitw.github.com/2012/12/06/peereviz</id>
+   <id>http://kanitw.yellowpigz.com/2012/12/06/peereviz</id>
    <content type="html">&lt;p&gt;A large ratio of students per teacher in the massive online courses introduces difficulties for the assessment of students’ work especially for open ended assignments. Peer review is one possible solution for scaling assessment of open-ended assignments in massive online courses. However, the amount of data from the peer review system makes it difficult for teaching staff to explore and understand the review data.&lt;/p&gt;
 
 &lt;p&gt;Peereviz utilized existing text visualization techniques as well as multiple coordinated views to explore the massive scale of data in the peer review system of massive online courses.&lt;/p&gt;</content>
@@ -24,9 +24,9 @@
  
  <entry>
    <title>Venture Lab</title>
-   <link href="http://kanitw.github.com/2012/09/06/venture-lab/"/>
+   <link href="http://kanitw.yellowpigz.com/2012/09/06/venture-lab/"/>
    <updated>2012-09-06T00:00:00-07:00</updated>
-   <id>http://kanitw.github.com/2012/09/06/venture-lab</id>
+   <id>http://kanitw.yellowpigz.com/2012/09/06/venture-lab</id>
    <content type="html">&lt;p&gt;Online education is changing the world’s education landscape. Besides lectures and quizzes, project-based learning is also an influential experience in school. Venture Lab was built to bring project-based learning to the online education world.  &lt;/p&gt;
 
 &lt;p&gt;I led the User Interface Design of Venture-lab, the first project-based Massive Online Open Classes. We have introduced algorithmic team matching and peer reviews system in online education. The peer review system has enabled the assessment of massive scale online classroom.&lt;/p&gt;
@@ -38,9 +38,9 @@
  
  <entry>
    <title>Breathwear</title>
-   <link href="http://kanitw.github.com/2012/06/06/breathwear/"/>
+   <link href="http://kanitw.yellowpigz.com/2012/06/06/breathwear/"/>
    <updated>2012-06-06T00:00:00-07:00</updated>
-   <id>http://kanitw.github.com/2012/06/06/breathwear</id>
+   <id>http://kanitw.yellowpigz.com/2012/06/06/breathwear</id>
    <content type="html">&lt;p&gt;One problem that has always intrigued me is how might we use technology to induce positive behavioral change? As respiratory regulation can reduce stress and increase parasympathetic tone, my colleague and I designed an application using a visual guide and an auditory guide based on the Stanford Calming Technology Lab’s Breathwear system. We did a user study to compare the effect of using these two different modalities for breathing regulation. We discovered that the audio guide led to higher self-reported calm ratings but the visual guidance led to more respiratory change. We concluded that motivating users to exert physical or mental efforts may counter the calming effects of slow breathing. The result has been presented at UIST2012.&lt;/p&gt;
 
 &lt;p&gt;See our &lt;a href='/assets/breathwear/poster_final.pdf'&gt;poster&lt;/a&gt; and &lt;a href='http://hci.stanford.edu/publications/2012/CantForceCalmUIST2012.pdf'&gt;extended abstract&lt;/a&gt;!&lt;/p&gt;
@@ -51,9 +51,9 @@ Interactive systems are increasingly being used to explicitly support change in 
  
  <entry>
    <title>Kinetic Math</title>
-   <link href="http://kanitw.github.com/2012/03/15/kineticmath/"/>
+   <link href="http://kanitw.yellowpigz.com/2012/03/15/kineticmath/"/>
    <updated>2012-03-15T00:00:00-07:00</updated>
-   <id>http://kanitw.github.com/2012/03/15/kineticmath</id>
+   <id>http://kanitw.yellowpigz.com/2012/03/15/kineticmath</id>
    <content type="html">&lt;p&gt;Addition and subtraction play a crucial role in mastering math concepts such as Algebra. Learning math through tons of text can be boring, abstract and ineffective.&lt;/p&gt;
 
 &lt;p&gt;Kinetic math offer a fun and interactive way for kids to learn Math by playing a game with Microsoft Kinect. &lt;/p&gt;
@@ -63,9 +63,9 @@ Interactive systems are increasingly being used to explicitly support change in 
  
  <entry>
    <title>Habit Buddy</title>
-   <link href="http://kanitw.github.com/2012/03/15/habitbuddy/"/>
+   <link href="http://kanitw.yellowpigz.com/2012/03/15/habitbuddy/"/>
    <updated>2012-03-15T00:00:00-07:00</updated>
-   <id>http://kanitw.github.com/2012/03/15/habitbuddy</id>
+   <id>http://kanitw.yellowpigz.com/2012/03/15/habitbuddy</id>
    <content type="html">&lt;h5 id='point_of_view'&gt;Point of View&lt;/h5&gt;
 
 &lt;p&gt;People NEEDS a fun way to help them start and maintain good habits BECAUSE changing behavior is not an easy task.&lt;/p&gt;
@@ -75,9 +75,9 @@ Interactive systems are increasingly being used to explicitly support change in 
  
  <entry>
    <title>Kitch-It: Brand Campaign</title>
-   <link href="http://kanitw.github.com/2012/03/06/kitchit/"/>
+   <link href="http://kanitw.yellowpigz.com/2012/03/06/kitchit/"/>
    <updated>2012-03-06T00:00:00-08:00</updated>
-   <id>http://kanitw.github.com/2012/03/06/kitchit</id>
+   <id>http://kanitw.yellowpigz.com/2012/03/06/kitchit</id>
    <content type="html">&lt;p&gt;Kitchit is a web-service that allows users to hire a world-class chef to cook for themselves at their home.&lt;/p&gt;
 
 &lt;p&gt;Our social brand class project tried to raise Kitchit&amp;#8217;s brand awareness with our &amp;#8220;Juggling campaign&amp;#8221;.&lt;/p&gt;
@@ -87,9 +87,9 @@ Interactive systems are increasingly being used to explicitly support change in 
  
  <entry>
    <title>StudyMania</title>
-   <link href="http://kanitw.github.com/2011/09/06/studymania/"/>
+   <link href="http://kanitw.yellowpigz.com/2011/09/06/studymania/"/>
    <updated>2011-09-06T00:00:00-07:00</updated>
-   <id>http://kanitw.github.com/2011/09/06/studymania</id>
+   <id>http://kanitw.yellowpigz.com/2011/09/06/studymania</id>
    <content type="html">&lt;p&gt;Students need motivation to study. Our goal was to provide a simple way for students to create fun challenges by betting against their friends. As part of CS147 (Intro to Human Computer Interaction &amp;amp; Design) course, our team conducted the whole design process: from needfinding, alternative generation, prototyping, heuristic evaluation, rapid prototyping and user testing. As a result, Studymania provides a simple way to create fun way to engage students in learning. This competitive settings drive users to study hard and get stuff done in order to beat their friends.&lt;/p&gt;
 
 &lt;p&gt;Feel free to see &lt;a href='/images/studymania/studymania-small.jpg'&gt;Poster&lt;/a&gt; and &lt;a href='http://www.slideshare.net/kanitw/studymaniapresentationpdf'&gt;Slide&lt;/a&gt;!&lt;/p&gt;</content>
@@ -97,9 +97,9 @@ Interactive systems are increasingly being used to explicitly support change in 
  
  <entry>
    <title>Facespot</title>
-   <link href="http://kanitw.github.com/2010/09/06/facespot/"/>
+   <link href="http://kanitw.yellowpigz.com/2010/09/06/facespot/"/>
    <updated>2010-09-06T00:00:00-07:00</updated>
-   <id>http://kanitw.github.com/2010/09/06/facespot</id>
+   <id>http://kanitw.yellowpigz.com/2010/09/06/facespot</id>
    <content type="html">&lt;!--- start with the lack... --&gt;
 &lt;p&gt;Mobile cameras have increased the number of personal photos. Our goal was to enable Linux users to have Face Recognition feature just as Apple users enjoyed a similar feature in iPhoto. Facespot, a face recognition plugin for F-Spot, was built to achieve this goal.&lt;/p&gt;
 
@@ -112,9 +112,9 @@ Interactive systems are increasingly being used to explicitly support change in 
  
  <entry>
    <title>Plasma-Z : Soccer-Robot</title>
-   <link href="http://kanitw.github.com/2009/09/06/plasma-z-robocup/"/>
+   <link href="http://kanitw.yellowpigz.com/2009/09/06/plasma-z-robocup/"/>
    <updated>2009-09-06T00:00:00-07:00</updated>
-   <id>http://kanitw.github.com/2009/09/06/plasma-z-robocup</id>
+   <id>http://kanitw.yellowpigz.com/2009/09/06/plasma-z-robocup</id>
    <content type="html">&lt;!--youtube: http://www.youtube.com/embed/FfuM3UGA9Ug--&gt;
 &lt;p&gt;Soccer is the most popular sport for humans. It is also the most popular sport for robots as well–at least at the International Robocup!&lt;/p&gt;
 
@@ -129,9 +129,9 @@ Interactive systems are increasingly being used to explicitly support change in 
  
  <entry>
    <title>Vidview–Mobile Video View</title>
-   <link href="http://kanitw.github.com/2008/06/06/vidview/"/>
+   <link href="http://kanitw.yellowpigz.com/2008/06/06/vidview/"/>
    <updated>2008-06-06T00:00:00-07:00</updated>
-   <id>http://kanitw.github.com/2008/06/06/vidview</id>
+   <id>http://kanitw.yellowpigz.com/2008/06/06/vidview</id>
    <content type="html">&lt;!--youtube: http://www.youtube.com/embed/bbDOpRBIN6c--&gt;
 &lt;p&gt;Prior to Apple iPhone and its popular Youtube application’s release in 2007, People were enjoying Youtube from their PCs.  However, the most popular phones then did not have sufficient processing power to decode complex video formats.&lt;/p&gt;
 
@@ -148,17 +148,17 @@ Interactive systems are increasingly being used to explicitly support change in 
  
  <entry>
    <title>CUPhoto Memorial DVD</title>
-   <link href="http://kanitw.github.com/2008/06/06/cuphotocd/"/>
+   <link href="http://kanitw.yellowpigz.com/2008/06/06/cuphotocd/"/>
    <updated>2008-06-06T00:00:00-07:00</updated>
-   <id>http://kanitw.github.com/2008/06/06/cuphotocd</id>
+   <id>http://kanitw.yellowpigz.com/2008/06/06/cuphotocd</id>
    <content type="html">&lt;p&gt;Every year, the Chulalongkorn University Photography Club documents the annual soccer game between Chulalongkorn and Thammasat, the two oldest universities in Thailand. I contributed the graphic design to the memorial DVD in 2008. &lt;/p&gt;</content>
  </entry>
  
  <entry>
    <title>EIC Logo Design</title>
-   <link href="http://kanitw.github.com/2008/03/06/eiclogo/"/>
+   <link href="http://kanitw.yellowpigz.com/2008/03/06/eiclogo/"/>
    <updated>2008-03-06T00:00:00-08:00</updated>
-   <id>http://kanitw.github.com/2008/03/06/eiclogo</id>
+   <id>http://kanitw.yellowpigz.com/2008/03/06/eiclogo</id>
    <content type="html">&lt;p&gt;Logo Concept for Engineering Innovator Club.&lt;/p&gt;
 
 &lt;p&gt;The Maroon gear represents Faculty of Engineering, Chulalongkorn University, the home of Engineering Innovator Club.&lt;/p&gt;
@@ -168,25 +168,25 @@ Interactive systems are increasingly being used to explicitly support change in 
  
  <entry>
    <title>Perj: Translation Jelly</title>
-   <link href="http://kanitw.github.com/2008/02/26/perj/"/>
+   <link href="http://kanitw.yellowpigz.com/2008/02/26/perj/"/>
    <updated>2008-02-26T00:00:00-08:00</updated>
-   <id>http://kanitw.github.com/2008/02/26/perj</id>
+   <id>http://kanitw.yellowpigz.com/2008/02/26/perj</id>
    <content type="html">&lt;p&gt;For the Packaging Design course final project, students need to design a packaging for any particular product. We decided to design a playful packaging for the Translation Jelly from Doraemon. Our design also envisioned if the Translation Jelly has different flavors for different languages.&lt;/p&gt;</content>
  </entry>
  
  <entry>
    <title>Together We Smile</title>
-   <link href="http://kanitw.github.com/2007/06/01/smileshirt/"/>
+   <link href="http://kanitw.yellowpigz.com/2007/06/01/smileshirt/"/>
    <updated>2007-06-01T00:00:00-07:00</updated>
-   <id>http://kanitw.github.com/2007/06/01/smileshirt</id>
+   <id>http://kanitw.yellowpigz.com/2007/06/01/smileshirt</id>
    <content type="html">&lt;p&gt;I designed this T-Shirt for the Smiley Home, a recreational group in the freshmen orientation week.  My design goal was to encourages freshmen to open up their minds and make new friends from the event.&lt;/p&gt;</content>
  </entry>
  
  <entry>
    <title>Memories in a School Bag</title>
-   <link href="http://kanitw.github.com/2006/03/01/acyearbook/"/>
+   <link href="http://kanitw.yellowpigz.com/2006/03/01/acyearbook/"/>
    <updated>2006-03-01T00:00:00-08:00</updated>
-   <id>http://kanitw.github.com/2006/03/01/acyearbook</id>
+   <id>http://kanitw.yellowpigz.com/2006/03/01/acyearbook</id>
    <content type="html">&lt;p&gt;For 12 years from grade one to twelve, Assumption College had studied together. One of the common memories they have is to carry this uniform school bag everyday. As a lead graphic designer, I decided to impose this bag images on the protective case of the yearbook to represent our 12-year memories. We also designed the graphic of the yearbook using minimalist design principle.&lt;/p&gt;</content>
  </entry>
  
