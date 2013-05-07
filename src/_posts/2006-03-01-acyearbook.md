@@ -7,7 +7,7 @@ category: "graphic-design"
 home_section: "design"
 tags: [Book Design, Graphic Design, Package Design]
 
-thumb: assets/acyearbook/thumb.png
+thumb: /assets/acyearbook/thumb.png
 figure: /assets/acyearbook/figure.png
 thumb_align: top
 
