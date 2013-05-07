@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Kanitw's Lab</title>
+ <link href="http://kanitw.github.com/atom.xml" rel="self"/>
+ <link href="http://kanitw.github.com"/>
+ <updated>2012-10-05T20:24:33-07:00</updated>
+ <id>http://kanitw.github.com</id>
+ <author>
+   <name>Kanit Wongsuphasawat</name>
+   <email>kanitw@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Venture Lab</title>
+   <link href="http://kanitw.github.com/2012/09/06/venture-lab"/>
+   <updated>2012-09-06T00:00:00-07:00</updated>
+   <id>http://kanitw.github.com/2012/09/06/venture-lab</id>
+   <content type="html">&lt;p&gt;Since April 2012, I worked with my Stanford advisor, Professor Saberi and Venture Lab team, to develop Venture-lab, a Massive Online Open Classes(MOOC).&lt;/p&gt;
+
+&lt;p&gt;I am responsible for User Experience Design of venture lab.&lt;/p&gt;
+
+&lt;p&gt;Venture lab has been covered in Stanford news, Forbe&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Breathwear: Calming Technology Research</title>
+   <link href="http://kanitw.github.com/2012/09/06/breathwear"/>
+   <updated>2012-09-06T00:00:00-07:00</updated>
+   <id>http://kanitw.github.com/2012/09/06/breathwear</id>
+   <content type="html">&lt;p&gt;In Spring 2012, I worked with Stanford University&amp;#8217;s &lt;a href='http://calmingtechnology.org/'&gt;Calming Technology Lab&lt;/a&gt; to research on different techniques for supporting respiratory regulation to reduce stress and increase parasympathetic tone.&lt;/p&gt;
+
+&lt;p&gt;With supervision from Neema Moraveji, the Calming Technology Lab founder, I implemented a respiratory regulation application using visual guide and auditory guide based on the lab&amp;#8217;s Breathware system. We did a user study to compare the effect of using these two different modalities for breathing regulation.&lt;/p&gt;
+
+&lt;p&gt;Finally, our poster and extended abstract are accepted into &lt;a href='http://www.acm.org/uist/uist2012/'&gt;ACM UIST 2012&lt;/a&gt;&amp;#8217;s poster session.&lt;/p&gt;
+
+&lt;h3 id='abstract'&gt;Abstract&lt;/h3&gt;
+
+&lt;p&gt;Interactive systems are increasingly being used to explicitly support change in the user&amp;#8217;s psychophysiological state and behavior. One important trend in this vein is systems that support calm breathing habits. We designed and evaluated techniques to support respiratory regulation to reduce stress and increase parasympathetic tone. Our study revealed that auditory guidance was more effective than visual at creating self-reported calm. We attribute this to the users&amp;#8217; ability to effectively map sound to respiration, thereby reducing cognitive load and mental exertion. Interestingly, we found that visual guidance led to more respiratory change but less subjective calm. Thus, motivating users to exert physical or mental efforts may counter the calming effects of slow breathing. Designers of calming technologies must acknowledge the discrepancy between mechanical slow breathing and experiential calm in designing future systems.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>StudyMania</title>
+   <link href="http://kanitw.github.com/2011/09/06/studymania"/>
+   <updated>2011-09-06T00:00:00-07:00</updated>
+   <id>http://kanitw.github.com/2011/09/06/studymania</id>
+   <content type="html">&lt;p&gt;As part of CS147 (Intro to Human Computer Interaction &amp;amp; Design) course, our team conduct the whole design process: from needfinding, alternative generation, prototyping, heuristic evaluation, rapid prototyping and user testing.&lt;/p&gt;
+
+&lt;p&gt;As a result, Studymania provide a simple way to create fun challenge/bet against their friends. This competitive settings will drive users to study hard and get stuff done in order to beat their friends&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Facespot</title>
+   <link href="http://kanitw.github.com/2010/09/06/facespot"/>
+   <updated>2010-09-06T00:00:00-07:00</updated>
+   <id>http://kanitw.github.com/2010/09/06/facespot</id>
+   <content type="html">&lt;p&gt;In 2012, I was looking at&lt;/p&gt;
+
+&lt;p&gt;For my senior project, my team aims to provide Linux users with Face Recognition Functionality in Photo Management Software so they can easily distinguish faces in their photo gallery.&lt;/p&gt;
+
+&lt;h5 id='award'&gt;Award&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Winner of Thailand National Software Contest 2010&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Plasma-Z : International Robocup Soccer-Robot</title>
+   <link href="http://kanitw.github.com/2009/09/06/plasma-z-robocup"/>
+   <updated>2009-09-06T00:00:00-07:00</updated>
+   <id>http://kanitw.github.com/2009/09/06/plasma-z-robocup</id>
+   <content type="html">&lt;p&gt;As part of Engineering Innovator Club, our Plasma-Z team designs small size soccer robot to compete in the International Robocup. I led the software dev. team in 2009, co-developed tactical systems and initiated using software configuration management system in the project. After months of development and testing, we got 3rd place in the International Robocup 2009.&lt;/p&gt;
+
+&lt;h5 id='awards'&gt;Awards&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;3rd Place International Robocup Small-sized League soccer robot&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Vidview</title>
+   <link href="http://kanitw.github.com/2008/06/06/vidview"/>
+   <updated>2008-06-06T00:00:00-07:00</updated>
+   <id>http://kanitw.github.com/2008/06/06/vidview</id>
+   <content type="html">&lt;p&gt;Back in early 2007, before iPhone was released, Youtube&amp;#8217;s popularity was skyrocketting. I and my classmates envisioned an opportunity to watch video via cellphone. So we implemented a mobile application that enable users to search and watch Youtube Video on JavaME-supported Phone. We submitted the projects to different venues and won the following awards.&lt;/p&gt;
+
+&lt;h4 id='awards'&gt;Awards&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1st place of SAMART Innovation Award 2007&lt;/li&gt;
+
+&lt;li&gt;Runner-Up of Thailand ICT Award 2008 (College Mobile Apps Category)&lt;/li&gt;
+
+&lt;li&gt;3rd Place Accenture Academic Exhibition 2008&lt;/li&gt;
+&lt;/ul&gt;</content>
+ </entry>
+ 
+ 
+</feed>

@@ -1,0 +1,12 @@
+
+http://kanitw.github.com/about.html
+http://kanitw.github.com/atom.xml
+http://kanitw.github.com/index.html
+http://kanitw.github.com/sitemap.txt
+
+http://kanitw.github.com/2012/09/06/venture-lab
+http://kanitw.github.com/2012/09/06/breathwear
+http://kanitw.github.com/2011/09/06/studymania
+http://kanitw.github.com/2010/09/06/facespot
+http://kanitw.github.com/2009/09/06/plasma-z-robocup
+http://kanitw.github.com/2008/06/06/vidview
