@@ -9,10 +9,12 @@ layout: default
   <h3>
   {% case section %}
 
-  {% when 'selected' %}
-    Selected Research and Competitive Projects
+  {% when 'selected-research' %}
+    Research Projects
+  {% when 'selected-projects' %}
+    Award Winning Projects
   {% when 'design' %}
-    Other Design Projects
+    Design Projects
   {% else %}
     Other Computer Science Projects
   {% endcase %}

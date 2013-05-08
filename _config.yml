@@ -21,8 +21,7 @@ author :
   github : kanitw
   twitter : kanitw
 
-home_sections: ["selected", "class", "design"]
-
+home_sections: ["selected-research", "selected-projects", "class", "design"]
 #  feedburner :
 
 # The production_url is only used when full-domain names are needed

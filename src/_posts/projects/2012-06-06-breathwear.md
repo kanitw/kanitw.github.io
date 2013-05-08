@@ -3,8 +3,8 @@ layout: project
 title: "Breathwear"
 
 description: "User Interface for Improving Users' Calm by Respiratory Regulation."
-category: "selected-projects"
-home_section: "selected"
+category: "selected-research"
+home_section: "selected-research"
 tags: [ios,calming technology, HCI]
 
 thumb: "/assets/breathwear/thumb1.png"

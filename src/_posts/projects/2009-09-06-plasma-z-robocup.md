@@ -4,7 +4,7 @@ title: "Plasma-Z : Soccer-Robot"
 description: "Multi-agent robotic systems that plays soccer in the International Robocup."
 category: "selected-projects"
 tags: [Highlight, C#, Robotic, System]
-home_section: "selected"
+home_section: "selected-projects"
 thumb: assets/plasmaz/plasmaz.png
 figure: "/assets/plasmaz/plasmaz-big.png"
 
