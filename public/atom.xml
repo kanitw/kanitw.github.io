@@ -4,7 +4,7 @@
  <title>kanitw.yellowpigz.com</title>
  <link href="http://kanitw.yellowpigz.com/atom.xml" rel="self"/>
  <link href="http://kanitw.yellowpigz.com"/>
- <updated>2013-05-07T15:30:23-07:00</updated>
+ <updated>2013-05-08T00:34:21-07:00</updated>
  <id>http://kanitw.yellowpigz.com</id>
  <author>
    <name>Kanit Wongsuphasawat</name>
@@ -223,9 +223,7 @@ Interactive systems are increasingly being used to explicitly support change in 
    <id>http://kanitw.yellowpigz.com/2010/09/06/facespot</id>
    <content type="html">&lt;!--- start with the lack... --&gt;
 &lt;p&gt;Mobile cameras have increased the number of personal photos. Our goal was to enable Linux users to have Face Recognition feature just as Apple users enjoyed a similar feature in iPhoto. Facespot, a face recognition plugin for F-Spot, was built to achieve this goal.&lt;/p&gt;
-
-&lt;p&gt;See &lt;a href='http://www.youtube.com/watch?feature=player_embedded&amp;amp;v=5Xa1z0saIM4'&gt;Video&lt;/a&gt; and &lt;a href='http://www.scribd.com/doc/68709577/Final-Presentation'&gt;Slide&lt;/a&gt;&lt;/p&gt;
-&lt;h4 class='award'&gt;&lt;i class='icon-star'&gt;&amp;nbsp;&lt;/i&gt; Awards&lt;/h4&gt;
+&lt;!-- See [Video](http://www.youtube.com/watch?feature=player_embedded&amp;v=5Xa1z0saIM4) and [Slide](http://www.scribd.com/doc/68709577/Final-Presentation) --&gt;&lt;h4 class='award'&gt;&lt;i class='icon-star'&gt;&amp;nbsp;&lt;/i&gt; Awards&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Winner of Thailand National Software Contest 2010&lt;/li&gt;
 &lt;/ul&gt;</content>
