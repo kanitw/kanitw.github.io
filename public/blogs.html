@@ -140,24 +140,24 @@
     
       
 
-    
-      
-
-    
-      
-
         <article>
-            <h2><a href="/2012/06/28/sublime-2/">Setting up Sublime 2</a></h2>
-            <i><span>28 Jun 2012</span></i>
+            <h2><a href="/2013/05/10/sublime-2/">Setting up Sublime 2</a></h2>
+            <i><span>10 May 2013</span></i>
             โดย
             
             <br/>
             <br/>
-            <p>With <a href='http://subtimetext.com'>Sublime Text 2</a>, I can forget about trying vim, textmate. To utilize the full power of sublime, we need to setup some stuffs and install extensions.</p> <h3 id='setting_up_for_command_line'>Setting up for command line</h3> <p>If you haven’t add ~/bin to your path, then add.</p> <pre><code>echo &#39;export PATH=~/bin:$PATH&#39; &gt;&gt; ~/.profile</code></pre> <p>Then</p> <pre><code>defaults write ~/.MacOSX/environment EDITOR &quot;~/bin/subl -w &quot;</code></pre> <h3 id='options'>Options</h3> <pre><code>{ &quot;color_scheme&quot;: &quot;Packages/Color Scheme - Default/Monokai.tmTheme&quot;, &quot;font_size&quot;: 12.0, &quot;highlight_line&quot;: true, &quot;ignored_packages&quot;: [ &quot;Vintage&quot; ], &quot;indent_guide_options&quot;: [ &quot;draw_normal&quot;, &quot;draw_active&quot; ], &quot;tab_size&quot;: 2, &quot;translate_tabs_to_spaces&quot;: true, &quot;trim_trailing_white_space_on_save&quot;: true, // good practice to always remove trailing spaces &quot;word_wrap&quot;: &quot;true&quot; }</code></pre> <h3 id='shortkeys'>Shortkeys</h3> <pre><code>[ { &quot;keys&quot;: [&quot;cmd alt r&quot;], &quot;command&quot;: &quot;reindent&quot; , &quot;args&quot;: {&quot;single_line&quot;: false}} , { &quot;keys&quot;: [&quot;cmd shift k&quot;], &quot;command&quot;: &quot;run_macro_file&quot;, &quot;args&quot;: {&quot;file&quot;: &quot;Packages/Default/Delete Line.sublime-macro&quot;} } , { &quot;keys&quot;: [&quot;super alt f&quot;], &quot;command&quot;: &quot;show_panel&quot;, &quot;args&quot;: {&quot;panel&quot;: &quot;find&quot;} } , { &quot;keys&quot;: [&quot;super f&quot;], &quot;command&quot;: &quot;show_panel&quot;, &quot;args&quot;: {&quot;panel&quot;: &quot;replace&quot;} } , { &quot;keys&quot;: [&quot;ctrl shift t&quot;], &quot;command&quot;: &quot;delete_trailing_spaces&quot; } ]</code></pre> <h2 id='id1'>#</h2> <h3 id='plugins'>plugins</h3> <ul> <li> <p><a href='http://wbond.net/sublime_packages/package_control/installation'><em>Package Control</em> </a>- which can install many plugins including * <strong>General Purpose</strong> * <em>SublimeCodeIntel</em> – super cool autocompletion * <em>AllAutoComplete</em> – extend sublime autocomplete to check all opened files. * <em>Alignment</em> * <em>BracketHighlighter</em> * <em>Nettuts Fetch</em> * Edit History * <em>EasyMotion</em> super fast navigation with cmd+;+<span><em>character that you want to jump to</em></span>–a super plugin inspired from Vim * <em>Gist</em> * Inc-Dec-Value * filediffs * <em>sublimelinter</em> – Great for checking syntax errors and warning for most popular languages</p> <pre><code>* Indent Guide * SublimeTODO - allow you to generate TODO list from TODO comments * docblockr – creating documentation block really easy!  (/** enter = done!)</code></pre> <ul> <li> <p><strong>Version Control</strong> * SideBarGit – add git support to context menu</p> </li> <li> <p><strong>HTML/Web</strong></p> <ul> <li><em>Emmet</em> – quick html coding</li> <li><em>browser-refresh sublime</em> – insanely great for web editing</li> <li>csslint</li> <li>JQuery</li> <li>sublime-jslint  – run...
+            <p>With <a href='http://subtimetext.com'>Sublime Text 2</a>, I can forget about trying vim, textmate. To utilize the full power of sublime, we need to setup some stuffs and install extensions.</p> <h3 id='setting_up_for_command_line'>Setting up for command line</h3> <p>If you haven’t add ~/bin to your path, then add.</p> <pre><code>echo &#39;export PATH=~/bin:$PATH&#39; &gt;&gt; ~/.profile</code></pre> <p>Then</p> <pre><code>defaults write ~/.MacOSX/environment EDITOR &quot;~/bin/subl -w &quot;</code></pre> <h3 id='options'>Options</h3> <pre><code>{ &quot;color_scheme&quot;: &quot;Packages/Color Scheme - Default/Monokai.tmTheme&quot;, &quot;font_size&quot;: 12.0, &quot;highlight_line&quot;: true, &quot;ignored_packages&quot;: [ &quot;Vintage&quot; ], &quot;indent_guide_options&quot;: [ &quot;draw_normal&quot;, &quot;draw_active&quot; ], &quot;tab_size&quot;: 2, &quot;translate_tabs_to_spaces&quot;: true, &quot;trim_trailing_white_space_on_save&quot;: true, // good practice to always remove trailing spaces &quot;word_wrap&quot;: &quot;true&quot; }</code></pre> <h3 id='shortkeys'>Shortkeys</h3> <p>The default short keys that comes with Sublime Text 2 are great. But there are some useful addition that I think it is helpful as well.</p> <pre><code>[ { &quot;keys&quot;: [&quot;cmd alt r&quot;], &quot;command&quot;: &quot;reindent&quot; , &quot;args&quot;: {&quot;single_line&quot;: false}} , { &quot;keys&quot;: [&quot;cmd shift k&quot;], &quot;command&quot;: &quot;run_macro_file&quot;, &quot;args&quot;: {&quot;file&quot;: &quot;Packages/Default/Delete Line.sublime-macro&quot;} } , { &quot;keys&quot;: [&quot;super alt f&quot;], &quot;command&quot;: &quot;show_panel&quot;, &quot;args&quot;: {&quot;panel&quot;: &quot;find&quot;} } , { &quot;keys&quot;: [&quot;super f&quot;], &quot;command&quot;: &quot;show_panel&quot;, &quot;args&quot;: {&quot;panel&quot;: &quot;replace&quot;} } , { &quot;keys&quot;: [&quot;ctrl shift t&quot;], &quot;command&quot;: &quot;delete_trailing_spaces&quot; } ]</code></pre> <h3 id='plugins'>Plugins</h3> <ul> <li> <p><a href='http://wbond.net/sublime_packages/package_control/installation'><em>Package Control</em> </a>- which can install many plugins including * <strong>General Purpose</strong> * <em>SublimeCodeIntel</em> – super cool autocompletion * <em>AllAutoComplete</em> – extend sublime autocomplete to check all opened files. * <em>Alignment</em> * <em>BracketHighlighter</em> * <em>Nettuts Fetch</em> * Edit History * <em>EasyMotion</em> super fast navigation with cmd+;+<span><em>character that you want to jump to</em></span>–a super plugin inspired from Vim * <em>Gist</em> * Inc-Dec-Value * filediffs * <em>sublimelinter</em> – Great for checking syntax errors and warning for most popular languages</p> <pre><code>* Indent Guide * SublimeTODO - allow you to generate TODO list from TODO comments * docblockr – creating documentation block really easy!  (/** enter = done!)</code></pre> <ul> <li> <p><strong>Version Control</strong> * SideBarGit – add git support to...
             <br/>
-            <a href="/2012/06/28/sublime-2/">Read &raquo;</a>
+            <a href="/2013/05/10/sublime-2/">Read &raquo;</a>
           <hr/>
         </article>
+      
+
+    
+      
+
+    
       
 
     

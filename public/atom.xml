@@ -4,7 +4,7 @@
  <title>kanitw.yellowpigz.com</title>
  <link href="http://kanitw.yellowpigz.com/atom.xml" rel="self"/>
  <link href="http://kanitw.yellowpigz.com"/>
- <updated>2013-05-07T00:27:09-07:00</updated>
+ <updated>2013-05-07T15:30:23-07:00</updated>
  <id>http://kanitw.yellowpigz.com</id>
  <author>
    <name>Kanit Wongsuphasawat</name>
@@ -13,34 +13,10 @@
 
  
  <entry>
-   <title>Peereviz</title>
-   <link href="http://kanitw.yellowpigz.com/2012/12/06/peereviz/"/>
-   <updated>2012-12-06T00:00:00-08:00</updated>
-   <id>http://kanitw.yellowpigz.com/2012/12/06/peereviz</id>
-   <content type="html">&lt;p&gt;A large ratio of students per teacher in the massive online courses introduces difficulties for the assessment of students’ work especially for open ended assignments. Peer review is one possible solution for scaling assessment of open-ended assignments in massive online courses. However, the amount of data from the peer review system makes it difficult for teaching staff to explore and understand the review data.&lt;/p&gt;
-
-&lt;p&gt;Peereviz utilized existing text visualization techniques as well as multiple coordinated views to explore the massive scale of data in the peer review system of massive online courses.&lt;/p&gt;</content>
- </entry>
- 
- <entry>
-   <title>Venture Lab</title>
-   <link href="http://kanitw.yellowpigz.com/2012/09/06/venture-lab/"/>
-   <updated>2012-09-06T00:00:00-07:00</updated>
-   <id>http://kanitw.yellowpigz.com/2012/09/06/venture-lab</id>
-   <content type="html">&lt;p&gt;Online education is changing the world’s education landscape. Besides lectures and quizzes, project-based learning is also an influential experience in school. Venture Lab was built to bring project-based learning to the online education world.  &lt;/p&gt;
-
-&lt;p&gt;I led the User Interface Design of Venture-lab, the first project-based Massive Online Open Classes. We have introduced algorithmic team matching and peer reviews system in online education. The peer review system has enabled the assessment of massive scale online classroom.&lt;/p&gt;
-
-&lt;p&gt;Venture lab has been covered in &lt;em&gt;Forbes&lt;/em&gt; and &lt;em&gt;Stanford News&lt;/em&gt;. Our first class in Entrepreneurship had over 50,000 students. One final project eventually received funding from a venture capital. &lt;/p&gt;
-
-&lt;p&gt;Join venture-lab classes &lt;a href='http://venture-lab.org'&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
- </entry>
- 
- <entry>
    <title>Setting up Sublime 2</title>
-   <link href="http://kanitw.yellowpigz.com/2012/06/28/sublime-2/"/>
-   <updated>2012-06-28T00:00:00-07:00</updated>
-   <id>http://kanitw.yellowpigz.com/2012/06/28/sublime-2</id>
+   <link href="http://kanitw.yellowpigz.com/2013/05/10/sublime-2/"/>
+   <updated>2013-05-10T00:00:00-07:00</updated>
+   <id>http://kanitw.yellowpigz.com/2013/05/10/sublime-2</id>
    <content type="html">&lt;p&gt;With &lt;a href='http://subtimetext.com'&gt;Sublime Text 2&lt;/a&gt;, I can forget about trying vim, textmate. To utilize the full power of sublime, we need to setup some stuffs and install extensions.&lt;/p&gt;
 
 &lt;h3 id='setting_up_for_command_line'&gt;Setting up for command line&lt;/h3&gt;
@@ -76,6 +52,8 @@
 
 &lt;h3 id='shortkeys'&gt;Shortkeys&lt;/h3&gt;
 
+&lt;p&gt;The default short keys that comes with Sublime Text 2 are great. But there are some useful addition that I think it is helpful as well.&lt;/p&gt;
+
 &lt;pre&gt;&lt;code&gt;[
  { &amp;quot;keys&amp;quot;: [&amp;quot;cmd alt r&amp;quot;], &amp;quot;command&amp;quot;: &amp;quot;reindent&amp;quot; , &amp;quot;args&amp;quot;: {&amp;quot;single_line&amp;quot;: false}}
  ,
@@ -88,9 +66,7 @@
  { &amp;quot;keys&amp;quot;: [&amp;quot;ctrl shift t&amp;quot;], &amp;quot;command&amp;quot;: &amp;quot;delete_trailing_spaces&amp;quot; }
 ]&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id='id1'&gt;#&lt;/h2&gt;
-
-&lt;h3 id='plugins'&gt;plugins&lt;/h3&gt;
+&lt;h3 id='plugins'&gt;Plugins&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;
@@ -147,14 +123,38 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a href='http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-tips-and-tricks/'&gt;Tutsplus’s&lt;/a&gt; guid &lt;a href='http://kakubei.blogspot.com/2012/07/sublime-text-2-tips-and-tricks.html'&gt;kakubei’s&lt;/a&gt; article are are pretty useful.&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
+&lt;!-- TODO
+ http://blog.alainmeier.com/post/27255145114/some-things-beginners-might-not-know-about-sublime-text
+ --&gt;
 &lt;h3 id='extras'&gt;Extras&lt;/h3&gt;
 
 &lt;p&gt;This &lt;a href='http://icoloma.blogspot.com.es/2012/09/sublime-text-editor-tips-and-tricks-for.html'&gt;article&lt;/a&gt; has very helpful tips and trick for html.&lt;/p&gt;
 
 &lt;p&gt; &lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Peereviz</title>
+   <link href="http://kanitw.yellowpigz.com/2012/12/06/peereviz/"/>
+   <updated>2012-12-06T00:00:00-08:00</updated>
+   <id>http://kanitw.yellowpigz.com/2012/12/06/peereviz</id>
+   <content type="html">&lt;p&gt;A large ratio of students per teacher in the massive online courses introduces difficulties for the assessment of students’ work especially for open ended assignments. Peer review is one possible solution for scaling assessment of open-ended assignments in massive online courses. However, the amount of data from the peer review system makes it difficult for teaching staff to explore and understand the review data.&lt;/p&gt;
+
+&lt;p&gt;Peereviz utilized existing text visualization techniques as well as multiple coordinated views to explore the massive scale of data in the peer review system of massive online courses.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Venture Lab</title>
+   <link href="http://kanitw.yellowpigz.com/2012/09/06/venture-lab/"/>
+   <updated>2012-09-06T00:00:00-07:00</updated>
+   <id>http://kanitw.yellowpigz.com/2012/09/06/venture-lab</id>
+   <content type="html">&lt;p&gt;Online education is changing the world’s education landscape. Besides lectures and quizzes, project-based learning is also an influential experience in school. Venture Lab was built to bring project-based learning to the online education world.  &lt;/p&gt;
+
+&lt;p&gt;I led the User Interface Design of Venture-lab, the first project-based Massive Online Open Classes. We have introduced algorithmic team matching and peer reviews system in online education. The peer review system has enabled the assessment of massive scale online classroom.&lt;/p&gt;
+
+&lt;p&gt;Venture lab has been covered in &lt;em&gt;Forbes&lt;/em&gt; and &lt;em&gt;Stanford News&lt;/em&gt;. Our first class in Entrepreneurship had over 50,000 students. One final project eventually received funding from a venture capital. &lt;/p&gt;
+
+&lt;p&gt;Join venture-lab classes &lt;a href='http://venture-lab.org'&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
  </entry>
  
  <entry>
