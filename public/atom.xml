@@ -4,13 +4,23 @@
  <title>kanitw.yellowpigz.com</title>
  <link href="http://kanitw.yellowpigz.com/atom.xml" rel="self"/>
  <link href="http://kanitw.yellowpigz.com"/>
- <updated>2013-05-08T00:34:21-07:00</updated>
+ <updated>2013-05-08T09:54:50-07:00</updated>
  <id>http://kanitw.yellowpigz.com</id>
  <author>
    <name>Kanit Wongsuphasawat</name>
    <email>kanitw@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>PeerAPI</title>
+   <link href="http://kanitw.yellowpigz.com/2013/06/30/peerapi/"/>
+   <updated>2013-06-30T00:00:00-07:00</updated>
+   <id>http://kanitw.yellowpigz.com/2013/06/30/peerapi</id>
+   <content type="html">&lt;p&gt;Creative fields like design are burgeoning. So are project-based learning approaches. However, providing feedback and assessment of design and other creative work is extremely time consuming &amp;#8211; this bottleneck is the major capacity constraint for scaling assessment.&lt;/p&gt;
+
+&lt;p&gt;Large-scale peer assessment in online classrooms creates unique educational opportunities. For the first time, students can see work from classmates on different continents, with different perspectives and strengths. The PeerAPI project is an experiment to tap into these opportunities. It offers programmatic methods for improving peer assessment, and requires minimal instructor involvement.&lt;/p&gt;</content>
+ </entry>
  
  <entry>
    <title>Setting up Sublime 2</title>
