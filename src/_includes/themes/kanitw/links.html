@@ -1,43 +1,55 @@
 {%assign post_id = post.id | split:'/' | last %}
 
 <!-- PAPER -->
-
+<!-- {{post.layout}} -->
 {%if post.paper %}
   <a href="{{ post.paper }}" class="paper"><i class="icon-file"></i> Paper</a>
 {%endif%}
 
 <!-- VIDEO-->
-{%if post.youtube %}
+{%if post.youtube-id %} <!--post.youtube-->
+  {% if post.layout == "index" %}
+    <a href="http://www.youtube.com/watch?v={{post.youtube-id}}" target="_blank" role="button" data-toggle="modal"><i class="icon-facetime-video" class="video"></i> Video</a>
+  {% else %}
+    <a href="#youtube-{{post_id}}" role="button" data-toggle="modal"><i class="icon-facetime-video" class="video"></i> Video</a>
 
-  <a href="#youtube-{{post_id}}" role="button" data-toggle="modal"><i class="icon-facetime-video" class="video"></i> Video</a>
-
-  <div class="modal hide fade" id="youtube-{{post_id}}">
-    <div class="modal-header">
-      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-      <h3>Video: {{post.title}}</h3>
+    <div class="modal hide fade" id="youtube-{{post_id}}">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3>Video: {{post.title}}</h3>
+      </div>
+      <div class="modal-body center">
+        <iframe width="420" height="315" src="{{ post.youtube }}" frameborder="0" allowfullscreen></iframe>
+      </div>
     </div>
-    <div class="modal-body center">
-      <iframe width="420" height="315" src="{{ post.youtube }}" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
+  {%endif%}
 {%endif%}
 {%if post.vimeo-id %}
-   <a href="#vimeo-{{post_id}}" role="button" data-toggle="modal"><i class="icon-facetime-video" class="video"></i> Video</a>
+  {% if post.layout == "index" %}
+    <a href="http://vimeo.com/{{post.vimeo-id}}"  target="_blank"  role="button" data-toggle="modal"><i class="icon-facetime-video" class="video"></i> Video</a>
+  {% else %}
+    <a href="#vimeo-{{post_id}}" role="button" data-toggle="modal"><i class="icon-facetime-video" class="video"></i> Video</a>
 
-  <div class="modal hide fade" id="vimeo-{{post_id}}">
-    <div class="modal-header">
-      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-      <h3>Video: {{post.title}}</h3>
+    <div class="modal hide fade" id="vimeo-{{post_id}}">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3>Video: {{post.title}}</h3>
+      </div>
+      <div class="modal-body center">
+        <iframe src="http://player.vimeo.com/video/{{post.vimeo-id}}" width="450" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+      </div>
     </div>
-    <div class="modal-body center">
-      <iframe src="http://player.vimeo.com/video/{{post.vimeo-id}}" width="450" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-    </div>
-  </div>
-
+  {%endif%}
 {%endif%}
 
 <!-- SLIDE -->
-{%if post.slideshare-id %}
+<!-- if post.slideshare-id -->
+
+{%if post.slideshare%}
+  {% if post.layout == "index" %}
+    <a href="{{post.slideshare}}"  target="_blank"  role="button" data-toggle="modal" class="slide"><i class="icon-slide"></i> Slides</a>
+  {% else %}
+
   <a href="#slideshare-{{post_id}}" role="button" data-toggle="modal" class="slide"><i class="icon-slide"></i> Slides</a>
   <div class="modal hide fade" id="slideshare-{{post_id}}">
     <div class="modal-header">
@@ -50,19 +62,24 @@
   </div>
 <!--
  <div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/kanitw/studymaniapresentationpdf" title="StudyManiaPresentation.pdf" target="_blank">StudyManiaPresentation.pdf</a> </strong> from <strong><a href="http://www.slideshare.net/kanitw" target="_blank">Kanit Ham Wongsuphasawat</a></strong> </div> -->
+  {%endif%}
 {%endif%}
 
-{%if post.scribd %}
-  <a href="#scribd-{{post_id}}" role="button" data-toggle="modal" class="slide"><i class="icon-slide"></i> Slides</a>
-  <div class="modal hide fade" id="scribd-{{post_id}}">
-    <div class="modal-header">
-      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-      <h3>Slide: {{post.title}}</h3>
+{%if post.scribd-id %}
+  {% if post.layout == "index" %}
+    <a href="http://www.scribd.com/doc/{{post.scribd-id}}" target="_blank" role="button" data-toggle="modal" class="slide"><i class="icon-slide"></i> Slides</a>
+  {% else %}
+  <a href="#scribd-{{post_id}}" target="_blank" role="button" data-toggle="modal" class="slide"><i class="icon-slide"></i> Slides</a>
+    <div class="modal hide fade" id="scribd-{{post_id}}">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3>Slide: {{post.title}}</h3>
+      </div>
+      <div class="modal-body center">
+        <iframe class="scribd_iframe_embed" src="http://www.scribd.com/embeds/{{post.scribd-id}}/content?start_page=1&view_mode=scroll&access_key=key-1rjx6s05d068gmf9mrh3" data-auto-height="false" data-aspect-ratio="1.29936305732484" scrolling="no" id="doc_76493" width="100%" height="400" frameborder="0"></iframe>
+      </div>
     </div>
-    <div class="modal-body center">
-      <iframe class="scribd_iframe_embed" src="http://www.scribd.com/embeds/68709577/content?start_page=1&view_mode=scroll&access_key=key-1rjx6s05d068gmf9mrh3" data-auto-height="false" data-aspect-ratio="1.29936305732484" scrolling="no" id="doc_76493" width="100%" height="400" frameborder="0"></iframe>
-    </div>
-  </div>
+  {%endif%}
 {%endif%}
 
 {%if post.slide %}
