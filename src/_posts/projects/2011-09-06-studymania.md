@@ -8,6 +8,7 @@ thumb: "/images/studymania/studymania-small.jpg"
 thumb_align: top
 figure: "/images/studymania/studymania.jpg"
 slideshare-id: 10722558
+slideshare: "http://www.slideshare.net/kanitw/studymaniapresentationpdf"
 poster: /images/studymania/studymania-small.jpg
 tags: [mobile, class-project]
 ---
