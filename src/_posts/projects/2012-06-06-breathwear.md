@@ -14,7 +14,7 @@ slide: "/assets/breathwear/slide.pdf"
 poster: "/assets/breathwear/poster_final.pdf"
 
 vimeo-id: 57799276
-
+collaborators: [["Neema Moraveji", "http://moraveji.org/"],["Alex Gamburg"]]
 ---
 {% include JB/setup %}
 

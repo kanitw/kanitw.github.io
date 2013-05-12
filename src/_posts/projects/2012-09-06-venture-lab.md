@@ -13,6 +13,9 @@ thumb_align: top
 figure: "/assets/venturelab/thumb.png"
 
 link: "http://www.venture-lab.org"
+
+collaborators: [["Farnaz Ronaghi", "http://www.stanford.edu/~farnaaz/"],["Chih Chiang Wei"], ["Joseph Wen"]]
+advisors: [["Amin Saberi", "http://www.stanford.edu/~saberi/"]]
 ---
 {% include JB/setup %}
 
