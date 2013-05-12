@@ -4,7 +4,7 @@
  <title>kanitw.yellowpigz.com</title>
  <link href="http://kanitw.yellowpigz.com/atom.xml" rel="self"/>
  <link href="http://kanitw.yellowpigz.com"/>
- <updated>2013-05-08T11:22:42-07:00</updated>
+ <updated>2013-05-11T22:58:51-07:00</updated>
  <id>http://kanitw.yellowpigz.com</id>
  <author>
    <name>Kanit Wongsuphasawat</name>
@@ -23,11 +23,21 @@
  </entry>
  
  <entry>
-   <title>Setting up Sublime 2</title>
+   <title>My Sublime 2 Handbook</title>
    <link href="http://kanitw.yellowpigz.com/2013/05/10/sublime-2/"/>
    <updated>2013-05-10T00:00:00-07:00</updated>
    <id>http://kanitw.yellowpigz.com/2013/05/10/sublime-2</id>
-   <content type="html">&lt;p&gt;With &lt;a href='http://subtimetext.com'&gt;Sublime Text 2&lt;/a&gt;, I can forget about trying vim, textmate. To utilize the full power of sublime, we need to setup some stuffs and install extensions.&lt;/p&gt;
+   <content type="html">&lt;p&gt;With &lt;a href='http://subtimetext.com'&gt;Sublime Text 2&lt;/a&gt;, I can forget about trying vim, textmate.&lt;br /&gt;To utilize the full power of sublime, we need to setup some stuffs and install extensions.&lt;/p&gt;
+
+&lt;h3 id='power_features'&gt;Power features&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Project&lt;/li&gt;
+
+&lt;li&gt;Multiple cursors&lt;/li&gt;
+
+&lt;li&gt;Useful shortkeys&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id='setting_up_for_command_line'&gt;Setting up for command line&lt;/h3&gt;
 
