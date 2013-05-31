@@ -4,7 +4,7 @@
  <title>kanitw.yellowpigz.com</title>
  <link href="http://kanitw.yellowpigz.com/atom.xml" rel="self"/>
  <link href="http://kanitw.yellowpigz.com"/>
- <updated>2013-05-11T23:41:45-07:00</updated>
+ <updated>2013-05-31T12:07:10-07:00</updated>
  <id>http://kanitw.yellowpigz.com</id>
  <author>
    <name>Kanit Wongsuphasawat</name>
@@ -90,15 +90,77 @@
 
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href='http://wbond.net/sublime_packages/package_control/installation'&gt;&lt;em&gt;Package Control&lt;/em&gt; &lt;/a&gt;- which can install many plugins including * &lt;strong&gt;General Purpose&lt;/strong&gt; * &lt;em&gt;SublimeCodeIntel&lt;/em&gt; – super cool autocompletion * &lt;em&gt;AllAutoComplete&lt;/em&gt; – extend sublime autocomplete to check all opened files. * &lt;em&gt;Alignment&lt;/em&gt; * &lt;em&gt;BracketHighlighter&lt;/em&gt; * &lt;em&gt;Nettuts Fetch&lt;/em&gt; * Edit History * &lt;em&gt;EasyMotion&lt;/em&gt; super fast navigation with cmd+;+&lt;span&gt;&lt;em&gt;character that you want to jump to&lt;/em&gt;&lt;/span&gt;–a super plugin inspired from Vim * &lt;em&gt;Gist&lt;/em&gt; * Inc-Dec-Value * filediffs * &lt;em&gt;sublimelinter&lt;/em&gt; – Great for checking syntax errors and warning for most popular languages&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;*   Indent Guide
-*   SublimeTODO - allow you to generate TODO list from TODO comments
-*   docblockr – creating documentation block really easy!  (/** enter = done!)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href='http://wbond.net/sublime_packages/package_control/installation'&gt;&lt;em&gt;Package Control&lt;/em&gt; &lt;/a&gt;- which can install many plugins including:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Version Control&lt;/strong&gt; * SideBarGit – add git support to context menu&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;General Purpose&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;SublimeCodeIntel&lt;/em&gt; – super cool autocompletion&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;AllAutoComplete&lt;/em&gt; – extend sublime autocomplete to check all opened files.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Alignment&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;BracketHighlighter&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Nettuts Fetch&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Edit History&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;EasyMotion&lt;/em&gt; super fast navigation with cmd+;+&lt;span&gt;&lt;em&gt;character that you want to jump to&lt;/em&gt;&lt;/span&gt;–a super plugin inspired from Vim&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Gist&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Inc-Dec-Value&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;filediffs&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;sublimelinter&lt;/em&gt; – Great for checking syntax errors and warning for most popular languages&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Indent Guide&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;SublimeTODO - allow you to generate TODO list from TODO comments&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;docblockr – creating documentation block really easy!  (/** enter = done!)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Version Control&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SideBarGit – add git support to context menu&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
@@ -122,18 +184,20 @@
 &lt;/li&gt;
 
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Design&lt;/strong&gt; * ColorPick – using Mac Color Picker in Sublime.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Design&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ColorPick – using Mac Color Picker in Sublime.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
-&lt;p&gt;** Code Prettifer &lt;strong&gt;: &lt;em&gt;PrettyJSON&lt;/em&gt;, &lt;em&gt;SublimePythonTidy&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Code Prettifer&lt;/strong&gt;: &lt;em&gt;PrettyJSON&lt;/em&gt;, &lt;em&gt;SublimePythonTidy&lt;/em&gt;&lt;/p&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
 &lt;p&gt;I plan to try&lt;/p&gt;
-&lt;/li&gt;
 
-&lt;li&gt;
 &lt;ul&gt;
 &lt;li&gt;RosettaCode&lt;/li&gt;
 &lt;/ul&gt;
@@ -168,11 +232,11 @@
    <link href="http://kanitw.yellowpigz.com/2012/09/06/venture-lab/"/>
    <updated>2012-09-06T00:00:00-07:00</updated>
    <id>http://kanitw.yellowpigz.com/2012/09/06/venture-lab</id>
-   <content type="html">&lt;p&gt;Online education is changing the world’s education. Besides lectures and quizzes, project-based learning is also influential. Venture Lab was built to bring project-based and collaborative learning to the online education world.  &lt;/p&gt;
+   <content type="html">&lt;p&gt;Online education is changing the world’s education landscape. Besides lectures and quizzes, project-based learning is also an influential experience in school. Venture Lab was built to bring project-based learning to the online education world.  &lt;/p&gt;
 
-&lt;p&gt;I led the early User Interface Design of Venture-lab in 2012. We introduced algorithmic team matching and peer reviews system in online education. The peer review system has enabled the assessment of massive scale online classroom.&lt;/p&gt;
+&lt;p&gt;I led the User Interface Design of Venture-lab, the first project-based Massive Online Open Classes. We have introduced algorithmic team matching and peer reviews system in online education. The peer review system has enabled the assessment of massive scale online classroom.&lt;/p&gt;
 
-&lt;p&gt;Venture lab has been covered in &lt;a href=''&gt;Forbes&lt;/a&gt; and &lt;a href='http://news.stanford.edu/news/2012/september/venture-lab-platform-091712.html'&gt;Stanf&lt;/a&gt;&lt;a href='http://news.stanford.edu/news/2013/january/seelig-online-creativity-012213.html'&gt;ord News&lt;/a&gt;. Our first class in Entrepreneurship had over 50,000 students. One final project eventually received funding from a venture capital. &lt;/p&gt;
+&lt;p&gt;Venture lab has been covered in &lt;em&gt;Forbes&lt;/em&gt; and &lt;em&gt;Stanford News&lt;/em&gt;. Our first class in Entrepreneurship had over 50,000 students. One final project eventually received funding from a venture capital. &lt;/p&gt;
 
 &lt;p&gt;Join venture-lab classes &lt;a href='http://venture-lab.org'&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
  </entry>
@@ -257,8 +321,8 @@ Interactive systems are increasingly being used to explicitly support change in 
    <content type="html">&lt;!--youtube: http://www.youtube.com/embed/FfuM3UGA9Ug--&gt;
 &lt;p&gt;Soccer is the most popular sport for humans. It is also the most popular sport for robots as well–at least at the International Robocup!&lt;/p&gt;
 
-&lt;p&gt;As part of the Plasma-Z team, I led the development of our robotic software system. This system integrated inputs from computer vision and motion control feedback system to generate real-time strategies and command fast-paced small size soccer robots. Besides developing game playing strategies, I also introduced user interfaces that allow easy calibration and testing of our system.&lt;/p&gt;
-&lt;!-- In addition, I have also initiated using software configuration management system in the project to manage complexities in our system. --&gt;
+&lt;p&gt;As part of the Plasma-Z team, I led the development of our robotic software system. This system integrated inputs from computer vision and motion control feedback system to generate real-time strategies and command fast-paced small size soccer robots. Besides developing game playing strategies, I introduced user interfaces that allow easy calibration and testing of our system. In addition, I have also initiated using software configuration management system in the project to manage complexities in our system.&lt;/p&gt;
+
 &lt;p&gt;Watch our video on &lt;a href='http://www.youtube.com/watch?v=FfuM3UGA9Ug'&gt;Youtube&lt;/a&gt;&lt;/p&gt;
 &lt;h4 class='award'&gt;&lt;i class='icon-star'&gt;&amp;nbsp;&lt;/i&gt; Awards&lt;/h4&gt;
 &lt;ul&gt;
