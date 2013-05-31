@@ -2,6 +2,13 @@
 
 <!-- PAPER -->
 
+{% if show_links_text %}
+  {% if post.paper or post.youtube-id or post.vimeo-id or post.slideshare or post.scribd-id or post.slide or post.poster or post.link or post.prototype or post.website %}
+  Links:
+  {% endif %}
+{% endif %}
+
+
 {%if post.paper %}
   <a href="{{ post.paper }}" class="paper"><i class="icon-file"></i> Paper</a>
 {%endif%}

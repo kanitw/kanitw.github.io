@@ -3,12 +3,13 @@ require 'rake'
 require 'yaml'
 require 'time'
 
-SOURCE = "."
+SOURCE = "./src"
 CONFIG = {
   'version' => "0.2.13",
   'themes' => File.join(SOURCE, "_includes", "themes"),
   'layouts' => File.join(SOURCE, "_layouts"),
-  'posts' => File.join(SOURCE, "_posts"),
+  'posts' => File.join(SOURCE, "_posts","blogs"),
+  'projects' => File.join(SOURCE, "_posts","projects"),
   'post_ext' => "md",
   'theme_package_version' => "0.1.0"
 }
@@ -22,7 +23,8 @@ module JB
       :themes => "_includes/themes",
       :theme_assets => "assets/themes",
       :theme_packages => "_theme_packages",
-      :posts => "_posts"
+      :posts => "_posts/blogs",
+      :projects => "_posts/projects"
     }
 
     def self.base
@@ -66,6 +68,59 @@ task :post do
     post.puts "category: "
     post.puts "tags: []"
     post.puts " "
+    post.puts "---"
+    post.puts "{% include JB/setup %}"
+  end
+end # task :post
+
+
+# Usage: rake project title="A Title" [date="2012-02-09"]
+desc "Begin a new project in #{CONFIG['projects']}"
+task :project do
+  abort("rake aborted: '#{CONFIG['projects']}' directory not found.") unless FileTest.directory?(CONFIG['projects'])
+  title = ENV["title"] || "new-post"
+  slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+  begin
+    date = (ENV['date'] ? Time.parse(ENV['date']) : Time.now).strftime('%Y-%m-%d')
+  rescue Exception => e
+    puts "Error - date format must be YYYY-MM-DD, please check you typed it correctly!"
+    exit -1
+  end
+  filename = File.join(CONFIG['projects'], "#{date}-#{slug}.#{CONFIG['post_ext']}")
+  if File.exist?(filename)
+    abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
+  end
+
+  puts "Creating new project: #{filename}"
+  open(filename, 'w') do |post|
+    post.puts "---"
+    post.puts "layout: project"
+    post.puts "title: \"#{title.gsub(/-/,' ')}\""
+    post.puts 'description: ""'
+    post.puts "category: "
+    post.puts "tags: []"
+    post.puts "home_section: "
+    post.puts " "
+    post.puts "figure: "
+    post.puts "thumb: "
+    post.puts ""
+    post.puts "paper: "
+    post.puts "youtube-id: "
+    post.puts "vimeo-id: "
+    post.puts "scribd-id: "
+    post.puts ""
+    post.puts "<!--required both for slideshare-->"
+    post.puts "slideshare-id: "
+    post.puts "slideshare: "
+    post.puts ""
+    post.puts "slide: "
+    post.puts "poster: "
+    post.puts "link: "
+    post.puts "prototype: "
+    post.puts "website: "
+    post.puts ""
+    post.puts "collaborators: []"
+    post.puts "advisors: []"
     post.puts "---"
     post.puts "{% include JB/setup %}"
   end
