@@ -4,7 +4,7 @@
  <title>kanitw.yellowpigz.com</title>
  <link href="http://kanitw.yellowpigz.com/atom.xml" rel="self"/>
  <link href="http://kanitw.yellowpigz.com"/>
- <updated>2013-05-11T22:58:51-07:00</updated>
+ <updated>2013-05-31T12:07:10-07:00</updated>
  <id>http://kanitw.yellowpigz.com</id>
  <author>
    <name>Kanit Wongsuphasawat</name>
@@ -90,15 +90,77 @@
 
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href='http://wbond.net/sublime_packages/package_control/installation'&gt;&lt;em&gt;Package Control&lt;/em&gt; &lt;/a&gt;- which can install many plugins including * &lt;strong&gt;General Purpose&lt;/strong&gt; * &lt;em&gt;SublimeCodeIntel&lt;/em&gt; – super cool autocompletion * &lt;em&gt;AllAutoComplete&lt;/em&gt; – extend sublime autocomplete to check all opened files. * &lt;em&gt;Alignment&lt;/em&gt; * &lt;em&gt;BracketHighlighter&lt;/em&gt; * &lt;em&gt;Nettuts Fetch&lt;/em&gt; * Edit History * &lt;em&gt;EasyMotion&lt;/em&gt; super fast navigation with cmd+;+&lt;span&gt;&lt;em&gt;character that you want to jump to&lt;/em&gt;&lt;/span&gt;–a super plugin inspired from Vim * &lt;em&gt;Gist&lt;/em&gt; * Inc-Dec-Value * filediffs * &lt;em&gt;sublimelinter&lt;/em&gt; – Great for checking syntax errors and warning for most popular languages&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;*   Indent Guide
-*   SublimeTODO - allow you to generate TODO list from TODO comments
-*   docblockr – creating documentation block really easy!  (/** enter = done!)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href='http://wbond.net/sublime_packages/package_control/installation'&gt;&lt;em&gt;Package Control&lt;/em&gt; &lt;/a&gt;- which can install many plugins including:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Version Control&lt;/strong&gt; * SideBarGit – add git support to context menu&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;General Purpose&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;SublimeCodeIntel&lt;/em&gt; – super cool autocompletion&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;AllAutoComplete&lt;/em&gt; – extend sublime autocomplete to check all opened files.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Alignment&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;BracketHighlighter&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Nettuts Fetch&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Edit History&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;EasyMotion&lt;/em&gt; super fast navigation with cmd+;+&lt;span&gt;&lt;em&gt;character that you want to jump to&lt;/em&gt;&lt;/span&gt;–a super plugin inspired from Vim&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Gist&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Inc-Dec-Value&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;filediffs&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;sublimelinter&lt;/em&gt; – Great for checking syntax errors and warning for most popular languages&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Indent Guide&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;SublimeTODO - allow you to generate TODO list from TODO comments&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;docblockr – creating documentation block really easy!  (/** enter = done!)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Version Control&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SideBarGit – add git support to context menu&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
@@ -122,18 +184,20 @@
 &lt;/li&gt;
 
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Design&lt;/strong&gt; * ColorPick – using Mac Color Picker in Sublime.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Design&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ColorPick – using Mac Color Picker in Sublime.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
-&lt;p&gt;** Code Prettifer &lt;strong&gt;: &lt;em&gt;PrettyJSON&lt;/em&gt;, &lt;em&gt;SublimePythonTidy&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Code Prettifer&lt;/strong&gt;: &lt;em&gt;PrettyJSON&lt;/em&gt;, &lt;em&gt;SublimePythonTidy&lt;/em&gt;&lt;/p&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
 &lt;p&gt;I plan to try&lt;/p&gt;
-&lt;/li&gt;
 
-&lt;li&gt;
 &lt;ul&gt;
 &lt;li&gt;RosettaCode&lt;/li&gt;
 &lt;/ul&gt;
