@@ -9,11 +9,13 @@ portfolio: [
 ---
 {% include JB/setup %}
 
-Kanit is a Fulbright scholar studying *Human-Computer Interaction* and *Entrepreneurship* at Stanford University.  He currently holds a B.Eng. in Computer Engineering (First Honor and Gold Medal) from Chulalongkorn University in Thailand.
+Kanit is a PhD Student at the [University of Washington](http://www.uw.edu)'s [Computer Science & Engineering Department](http://cs.washington.edu), where he works with [Prof. Jeffrey Heer](http://jheer.org) on Human-computer Interaction (HCI) and Information Visualization.  My specific interest is developing interactive systems for visual analysis, communication, and design. 
 
-He is working in [Stanford HCI Group](http://hci.stanford.edu) with [Scott Klemmer](http://hci.stanford.edu/srk/) and [Michael Bernstein](http://hci.stanford.edu/msb) on a peer assessment system for massive online open courses.  Previously, he worked with [Prof. Amin Saberi](http://www.stanford.edu/~saberi/) and designed user interfaces for [*Venture Lab*](http://venture-lab.org), a massive online course platform that focuses on team-based projects.  He also worked at *Google* in the *HCI Research Group* to research  mobile ubiquitous computing  with [Elin Pedersen](http://research.google.com/pubs/author36234.html) and [Bay Wei Chang](http://research.google.com/pubs/author100.html).
+Formerly, Kanit worked at [Tableau Software](http://www.tableausoftware.com)'s Visual Analysis Research Group, at [Google](http://www.google.com)'s HCI group.  Kanit holds a MS in [Management Science & Engineering](http://msande.stanford.edu) from Stanford University, where he worked with [Scott Klemmer](http://hci.stanford.edu/srk) in the [Stanford HCI Group](http://hci.stanford.edu) and a B.Eng
+in Computer Engineering (First Honor and Gold Medal) from Chulalongkorn University in Thailand.
 
-He will join [Computer Science & Engineering](http://cse.uw.edu) PhD program at [University of Washington](http://uw.edu) in Fall 2013.  His current research interests include *Human-Computer Interaction*, *Interactive Systems for Visual Analysis and Communication*, *Design and Prototyping Tools*, *Tools for Education* and *Ubiquitous Computing*.
+
+
 
 Besides work, Kanit loves playing soccer and is a big fan of [Manchester United FC](http://www.manutd.com]).  He also loves movies, books and photography.  <!--He also blogs both in [English](/blogs.html) and [Thai](http://blog.yellowpigz.com).-->
 
