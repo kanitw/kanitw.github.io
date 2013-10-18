@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>My Sublime 2 Handbook</title>
+  <title>Becoming a Sublime (Text) Ninja</title>
   
   <meta name="author" content="Kanit Wongsuphasawat">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -127,7 +127,7 @@
 
 <div class="page-header">
   <h1>
-    My Sublime 2 Handbook
+    Becoming a Sublime (Text) Ninja
     <small></small>
   </h1>
 </div>
@@ -135,17 +135,7 @@
 <div class="row">
   <div class="span8">
     <img src="" class='figure'>
-    <p>With <a href='http://subtimetext.com'>Sublime Text 2</a>, I can forget about trying vim, textmate.<br />To utilize the full power of sublime, we need to setup some stuffs and install extensions.</p>
-
-<h3 id='power_features'>Power features</h3>
-
-<ul>
-<li>Project</li>
-
-<li>Multiple cursors</li>
-
-<li>Useful shortkeys</li>
-</ul>
+    <p>With <a href='http://subtimetext.com'>Sublime Text 2</a>, I can forget about trying vim, textmate. To utilize the full power of sublime, we need to setup some stuffs and install extensions.</p>
 
 <h3 id='setting_up_for_command_line'>Setting up for command line</h3>
 
@@ -157,6 +147,22 @@
 
 <pre><code>defaults write ~/.MacOSX/environment EDITOR &quot;~/bin/subl -w &quot;</code></pre>
 
+<h3 id='sync_sublime_options'>Sync Sublime Options</h3>
+
+<p>Modified from <a href='https://rolandwarmerdam.co.nz/sync-sublime-text-2-settings/'>Roland Warmerdam&#8217;s Blog</a></p>
+
+<p>In other computer cd ln -s ~/Dropbox/Apps/sublime2/settings/ &#8220;Sublime Text 2&#8221;</p>
+
+<h3 id='power_features'>Power features</h3>
+
+<ul>
+<li>Project</li>
+
+<li>Multiple cursors</li>
+
+<li>Useful shortkeys</li>
+</ul>
+
 <h3 id='options'>Options</h3>
 
 <pre><code>{
@@ -164,9 +170,7 @@
  &quot;font_size&quot;: 12.0,
  &quot;highlight_line&quot;: true,
  &quot;ignored_packages&quot;:
- [
- &quot;Vintage&quot;
- ],
+ [],
  &quot;indent_guide_options&quot;:
  [
  &quot;draw_normal&quot;,
@@ -183,22 +187,24 @@
 <p>The default short keys that comes with Sublime Text 2 are great. But there are some useful addition that I think it is helpful as well.</p>
 
 <pre><code>[
- { &quot;keys&quot;: [&quot;cmd alt r&quot;], &quot;command&quot;: &quot;reindent&quot; , &quot;args&quot;: {&quot;single_line&quot;: false}}
+ { &quot;keys&quot;: [&quot;cmd+alt+r&quot;], &quot;command&quot;: &quot;reindent&quot; , &quot;args&quot;: {&quot;single_line&quot;: false}}
  ,
- { &quot;keys&quot;: [&quot;cmd shift k&quot;], &quot;command&quot;: &quot;run_macro_file&quot;, &quot;args&quot;: {&quot;file&quot;: &quot;Packages/Default/Delete Line.sublime-macro&quot;} }
+ { &quot;keys&quot;: [&quot;cmd+shift+k&quot;], &quot;command&quot;: &quot;run_macro_file&quot;, &quot;args&quot;: {&quot;file&quot;: &quot;Packages/Default/Delete Line.sublime-macro&quot;} }
  ,
- { &quot;keys&quot;: [&quot;super alt f&quot;], &quot;command&quot;: &quot;show_panel&quot;, &quot;args&quot;: {&quot;panel&quot;: &quot;find&quot;} }
+ { &quot;keys&quot;: [&quot;super+alt+f&quot;], &quot;command&quot;: &quot;show_panel&quot;, &quot;args&quot;: {&quot;panel&quot;: &quot;find&quot;} }
  ,
- { &quot;keys&quot;: [&quot;super f&quot;], &quot;command&quot;: &quot;show_panel&quot;, &quot;args&quot;: {&quot;panel&quot;: &quot;replace&quot;} }
+ { &quot;keys&quot;: [&quot;super+f&quot;], &quot;command&quot;: &quot;show_panel&quot;, &quot;args&quot;: {&quot;panel&quot;: &quot;replace&quot;} }
  ,
- { &quot;keys&quot;: [&quot;ctrl shift t&quot;], &quot;command&quot;: &quot;delete_trailing_spaces&quot; }
+ { &quot;keys&quot;: [&quot;ctrl+shift+t&quot;], &quot;command&quot;: &quot;delete_trailing_spaces&quot; }
 ]</code></pre>
+
+<h3 id='theme'>Theme</h3>
+
+<p>Sublime has a lot of theme, I prefer <a href='https://github.com/chriskempson/tomorrow-theme'>Tomorrow-Night</a>.</p>
 
 <h3 id='plugins'>Plugins</h3>
 
-<ul>
-<li>
-<p><a href='http://wbond.net/sublime_packages/package_control/installation'><em>Package Control</em> </a>- which can install many plugins including:</p>
+<p>Install <a href='http://wbond.net/sublime_packages/package_control/installation'><em>Package Control</em> </a> first. Then you can easily install any of the following good plugins:</p>
 
 <ul>
 <li>
@@ -222,27 +228,11 @@
 </li>
 
 <li>
-<p><em>Nettuts Fetch</em></p>
+<p><em>Sidebar Enhancement</em> - many cool add-ons to the sidebar.</p>
 </li>
 
 <li>
-<p>Edit History</p>
-</li>
-
-<li>
-<p><em>EasyMotion</em> super fast navigation with cmd+;+<span><em>character that you want to jump to</em></span>–a super plugin inspired from Vim</p>
-</li>
-
-<li>
-<p><em>Gist</em></p>
-</li>
-
-<li>
-<p>Inc-Dec-Value</p>
-</li>
-
-<li>
-<p>filediffs</p>
+<p><em>EasyMotion</em> super fast navigation with cmd+;+&lt;<em>character-to-jump-to</em>&gt;–a super plugin inspired from Vim</p>
 </li>
 
 <li>
@@ -250,15 +240,55 @@
 </li>
 
 <li>
-<p>Indent Guide</p>
+<p><em><a href='https://github.com/randy3k/ChangeList'>ChangeList</a></em> Go to next edited/last edited location.</p>
 </li>
 
 <li>
-<p>SublimeTODO - allow you to generate TODO list from TODO comments</p>
+<p><em>SublimeTODO</em> - allow you to generate TODO list from TODO comments</p>
 </li>
 
 <li>
-<p>docblockr – creating documentation block really easy!  (/** enter = done!)</p>
+<p><em>docblockr</em> – creating documentation block really easy!  (/** enter = done!)</p>
+</li>
+
+<li>
+<p><em>AdvancedNewFile</em> - create new file anywhere with cmd+opt+n</p>
+</li>
+
+<li>
+<p><em>Nettuts Fetch</em> – Quickly Fetch files here</p>
+</li>
+
+<li>
+<p><em>Sublime REPL</em>–have REPL right in your sublime!</p>
+</li>
+
+<li>
+<p><a href='http://www.jisaacks.com/gitgutter'><em>SublimeGutter</em></a> - view changes in git instantly in your editor</p>
+</li>
+
+<li>
+<p><a href='www.caniswitchtosublimetext3.com'><em>CanISwitchToSublimeText3</em></a> - This will help me decide.</p>
+</li>
+
+<li>
+<p><em>MacTerminal</em> &#8211; open this folder in terminal. (Support iTerm2)</p>
+</li>
+
+<li>
+<p><em>Local History</em></p>
+</li>
+
+<li>
+<p><a href='https://sublime.wbond.net/packages/VAlign'><em>VAlign</em></a> easily vertically-align the text around the cursor with cmd+\</p>
+</li>
+
+<li>
+<p>TidyTabs &#8211; A simple keystroke ctrl + alt + w will close all tabs whose file has not been modified in the last 30 minutes.</p>
+</li>
+
+<li>
+<p>AutoFileName</p>
 </li>
 </ul>
 </li>
@@ -275,52 +305,125 @@
 <p><strong>HTML/Web</strong></p>
 
 <ul>
+<li><em>Tag</em></li>
+
 <li><em>Emmet</em> – quick html coding</li>
 
 <li><em>browser-refresh sublime</em> – insanely great for web editing</li>
 
-<li>csslint</li>
-
-<li>JQuery</li>
-
-<li>sublime-jslint  – run jslint when save (or with ctrl j)</li>
-
-<li><a href='https://github.com/danro/LESS-sublime'>less</a> - support less.css</li>
-
 <li>livecss - highlights all your hex and rgb colors in css/scss files with that actual color!</li>
+
+<li><em><a href='http://hayakubundle.com/'>Hayaku</a></em> - Fuzzy abbreviations for CSS – make you write stylesheet superfast.</li>
 </ul>
 </li>
 
 <li>
-<p><strong>Design</strong></p>
+<p><strong>Design</strong> * ColorPick – using Mac Color Picker in Sublime. (Other Platforms?&#8211;try <a href='http://weslly.github.io/ColorPicker/'>ColorPicker</a>)</p>
+</li>
+
+<li>
+<p><strong>Language-specific</strong></p>
 
 <ul>
-<li>ColorPick – using Mac Color Picker in Sublime.</li>
+<li>
+<p>MarkdownEditing</p>
+</li>
+
+<li>
+<p><strong>Python</strong>: SublimeRope</p>
+</li>
+
+<li>
+<p><strong>Syntax Highlighters</strong>: JQuery, <a href='https://github.com/danro/LESS-sublime'>Less</a>, CoffeeScript, HTML5, <a href=''>Syntax Highlighting for Sass</a></p>
+</li>
+
+<li>
+<p><strong>Snippets</strong>: HTML5, Bootstrap,</p>
+</li>
+
+<li>
+<p><strong>Javascript</strong></p>
+
+<ul>
+<li>Autocomplete Javascript with Method Signature</li>
+
+<li>TernJS</li>
+</ul>
+</li>
 </ul>
 </li>
 
 <li>
-<p><strong>Code Prettifer</strong>: <em>PrettyJSON</em>, <em>SublimePythonTidy</em></p>
+<p><strong>Code Formatters</strong></p>
+
+<ul>
+<li><em>Coffee Formatter</em></li>
+
+<li><em>JSFormatter</em></li>
+
+<li><em>SublimePythonTidy</em></li>
+
+<li><em>PrettyJSON</em></li>
+
+<li><em>ToggleQuotes</em>?</li>
+</ul>
 </li>
 
 <li>
-<p>I plan to try</p>
+<p>I also plan to try</p>
 
 <ul>
+<li><em>Gist</em></li>
+
 <li>RosettaCode</li>
+
+<li>filediffs</li>
+
+<li>Indent Guide</li>
+
+<li><em>Sublime Evernote</em></li>
+
+<li><em>LiveReload</em></li>
+
+<li><em>Surround With</em></li>
+
+<li><em>Edit History</em></li>
+
+<li><a href='https://github.com/skuroda/FindKeyConflicts'><em>Find Key Conflicts</em></a></li>
+
+<li>CssComb</li>
+
+<li>https://sublime.wbond.net/packages/Strapdown%20Markdown%20Preview</li>
+
+<li>Comment Snippets</li>
 </ul>
+
+<p>https://github.com/BoundInCode/AutoFileName</p>
 </li>
 </ul>
-</li>
+
+<h3 id='other_modification'>Other Modification</h3>
+
+<ul>
+<li>See this <a href='http://stackoverflow.com/questions/9655039/sublime-text-2-recognize-underscore-templates-as-html?rq=1'>StackOverflow question</a> to make sublime read <pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'>REXML could not parse this XML/HTML: 
+&lt;script type=&quot;text/html&quot;&gt; as HTML for underscore.js templates.</pre></li>
 </ul>
 
 <p><a href='http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-tips-and-tricks/'>Tutsplus’s</a> guid <a href='http://kakubei.blogspot.com/2012/07/sublime-text-2-tips-and-tricks.html'>kakubei’s</a> article are are pretty useful.</p>
 <!-- TODO
  http://blog.alainmeier.com/post/27255145114/some-things-beginners-might-not-know-about-sublime-text
  -->
-<h3 id='extras'>Extras</h3>
+<h3 id='more_techniques'>More techniques</h3>
 
-<p>This <a href='http://icoloma.blogspot.com.es/2012/09/sublime-text-editor-tips-and-tricks-for.html'>article</a> has very helpful tips and trick for html.</p>
+<ul>
+<li>
+<p>http://opensourcehacker.com/2012/05/11/sublime-text-2-tips-for-python-and-web-developers/#Favorite_plug-ins_list</p>
+</li>
+
+<li>
+<p>http://icoloma.blogspot.com.es/2012/09/sublime-text-editor-tips-and-tricks-for.html</p>
+</li>
+</ul>
 
 <p> </p>
   </div>
@@ -353,7 +456,7 @@
         </li> -->
         
         <li class="next">
-          <a href="/2013/06/30/peerapi/" title="PeerAPI">Next &rarr;</a>
+          <a href="/2013/05/11/test/" title="Test">Next &rarr;</a>
         </li>
         
         </li>

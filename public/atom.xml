@@ -4,7 +4,7 @@
  <title>kanitw.yellowpigz.com</title>
  <link href="http://kanitw.yellowpigz.com/atom.xml" rel="self"/>
  <link href="http://kanitw.yellowpigz.com"/>
- <updated>2013-05-31T12:07:10-07:00</updated>
+ <updated>2013-10-18T09:23:42-04:00</updated>
  <id>http://kanitw.yellowpigz.com</id>
  <author>
    <name>Kanit Wongsuphasawat</name>
@@ -13,9 +13,9 @@
 
  
  <entry>
-   <title>PeerAPI</title>
+   <title>Peerapi</title>
    <link href="http://kanitw.yellowpigz.com/2013/06/30/peerapi/"/>
-   <updated>2013-06-30T00:00:00-07:00</updated>
+   <updated>2013-06-30T00:00:00-04:00</updated>
    <id>http://kanitw.yellowpigz.com/2013/06/30/peerapi</id>
    <content type="html">&lt;p&gt;Creative fields like design are burgeoning. So are project-based learning approaches. However, providing feedback and assessment of design and other creative work is extremely time consuming &amp;#8211; this bottleneck is the major capacity constraint for scaling assessment.&lt;/p&gt;
 
@@ -23,21 +23,19 @@
  </entry>
  
  <entry>
-   <title>My Sublime 2 Handbook</title>
+   <title>Test</title>
+   <link href="http://kanitw.yellowpigz.com/2013/05/11/test/"/>
+   <updated>2013-05-11T00:00:00-04:00</updated>
+   <id>http://kanitw.yellowpigz.com/2013/05/11/test</id>
+   <content type="html">&lt;p&gt;ddd&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Becoming a Sublime (Text) Ninja</title>
    <link href="http://kanitw.yellowpigz.com/2013/05/10/sublime-2/"/>
-   <updated>2013-05-10T00:00:00-07:00</updated>
+   <updated>2013-05-10T00:00:00-04:00</updated>
    <id>http://kanitw.yellowpigz.com/2013/05/10/sublime-2</id>
-   <content type="html">&lt;p&gt;With &lt;a href='http://subtimetext.com'&gt;Sublime Text 2&lt;/a&gt;, I can forget about trying vim, textmate.&lt;br /&gt;To utilize the full power of sublime, we need to setup some stuffs and install extensions.&lt;/p&gt;
-
-&lt;h3 id='power_features'&gt;Power features&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Project&lt;/li&gt;
-
-&lt;li&gt;Multiple cursors&lt;/li&gt;
-
-&lt;li&gt;Useful shortkeys&lt;/li&gt;
-&lt;/ul&gt;
+   <content type="html">&lt;p&gt;With &lt;a href='http://subtimetext.com'&gt;Sublime Text 2&lt;/a&gt;, I can forget about trying vim, textmate. To utilize the full power of sublime, we need to setup some stuffs and install extensions.&lt;/p&gt;
 
 &lt;h3 id='setting_up_for_command_line'&gt;Setting up for command line&lt;/h3&gt;
 
@@ -49,6 +47,22 @@
 
 &lt;pre&gt;&lt;code&gt;defaults write ~/.MacOSX/environment EDITOR &amp;quot;~/bin/subl -w &amp;quot;&lt;/code&gt;&lt;/pre&gt;
 
+&lt;h3 id='sync_sublime_options'&gt;Sync Sublime Options&lt;/h3&gt;
+
+&lt;p&gt;Modified from &lt;a href='https://rolandwarmerdam.co.nz/sync-sublime-text-2-settings/'&gt;Roland Warmerdam&amp;#8217;s Blog&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In other computer cd ln -s ~/Dropbox/Apps/sublime2/settings/ &amp;#8220;Sublime Text 2&amp;#8221;&lt;/p&gt;
+
+&lt;h3 id='power_features'&gt;Power features&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Project&lt;/li&gt;
+
+&lt;li&gt;Multiple cursors&lt;/li&gt;
+
+&lt;li&gt;Useful shortkeys&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h3 id='options'&gt;Options&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code&gt;{
@@ -56,9 +70,7 @@
  &amp;quot;font_size&amp;quot;: 12.0,
  &amp;quot;highlight_line&amp;quot;: true,
  &amp;quot;ignored_packages&amp;quot;:
- [
- &amp;quot;Vintage&amp;quot;
- ],
+ [],
  &amp;quot;indent_guide_options&amp;quot;:
  [
  &amp;quot;draw_normal&amp;quot;,
@@ -75,22 +87,24 @@
 &lt;p&gt;The default short keys that comes with Sublime Text 2 are great. But there are some useful addition that I think it is helpful as well.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;[
- { &amp;quot;keys&amp;quot;: [&amp;quot;cmd alt r&amp;quot;], &amp;quot;command&amp;quot;: &amp;quot;reindent&amp;quot; , &amp;quot;args&amp;quot;: {&amp;quot;single_line&amp;quot;: false}}
+ { &amp;quot;keys&amp;quot;: [&amp;quot;cmd+alt+r&amp;quot;], &amp;quot;command&amp;quot;: &amp;quot;reindent&amp;quot; , &amp;quot;args&amp;quot;: {&amp;quot;single_line&amp;quot;: false}}
  ,
- { &amp;quot;keys&amp;quot;: [&amp;quot;cmd shift k&amp;quot;], &amp;quot;command&amp;quot;: &amp;quot;run_macro_file&amp;quot;, &amp;quot;args&amp;quot;: {&amp;quot;file&amp;quot;: &amp;quot;Packages/Default/Delete Line.sublime-macro&amp;quot;} }
+ { &amp;quot;keys&amp;quot;: [&amp;quot;cmd+shift+k&amp;quot;], &amp;quot;command&amp;quot;: &amp;quot;run_macro_file&amp;quot;, &amp;quot;args&amp;quot;: {&amp;quot;file&amp;quot;: &amp;quot;Packages/Default/Delete Line.sublime-macro&amp;quot;} }
  ,
- { &amp;quot;keys&amp;quot;: [&amp;quot;super alt f&amp;quot;], &amp;quot;command&amp;quot;: &amp;quot;show_panel&amp;quot;, &amp;quot;args&amp;quot;: {&amp;quot;panel&amp;quot;: &amp;quot;find&amp;quot;} }
+ { &amp;quot;keys&amp;quot;: [&amp;quot;super+alt+f&amp;quot;], &amp;quot;command&amp;quot;: &amp;quot;show_panel&amp;quot;, &amp;quot;args&amp;quot;: {&amp;quot;panel&amp;quot;: &amp;quot;find&amp;quot;} }
  ,
- { &amp;quot;keys&amp;quot;: [&amp;quot;super f&amp;quot;], &amp;quot;command&amp;quot;: &amp;quot;show_panel&amp;quot;, &amp;quot;args&amp;quot;: {&amp;quot;panel&amp;quot;: &amp;quot;replace&amp;quot;} }
+ { &amp;quot;keys&amp;quot;: [&amp;quot;super+f&amp;quot;], &amp;quot;command&amp;quot;: &amp;quot;show_panel&amp;quot;, &amp;quot;args&amp;quot;: {&amp;quot;panel&amp;quot;: &amp;quot;replace&amp;quot;} }
  ,
- { &amp;quot;keys&amp;quot;: [&amp;quot;ctrl shift t&amp;quot;], &amp;quot;command&amp;quot;: &amp;quot;delete_trailing_spaces&amp;quot; }
+ { &amp;quot;keys&amp;quot;: [&amp;quot;ctrl+shift+t&amp;quot;], &amp;quot;command&amp;quot;: &amp;quot;delete_trailing_spaces&amp;quot; }
 ]&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id='theme'&gt;Theme&lt;/h3&gt;
+
+&lt;p&gt;Sublime has a lot of theme, I prefer &lt;a href='https://github.com/chriskempson/tomorrow-theme'&gt;Tomorrow-Night&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id='plugins'&gt;Plugins&lt;/h3&gt;
 
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href='http://wbond.net/sublime_packages/package_control/installation'&gt;&lt;em&gt;Package Control&lt;/em&gt; &lt;/a&gt;- which can install many plugins including:&lt;/p&gt;
+&lt;p&gt;Install &lt;a href='http://wbond.net/sublime_packages/package_control/installation'&gt;&lt;em&gt;Package Control&lt;/em&gt; &lt;/a&gt; first. Then you can easily install any of the following good plugins:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;
@@ -114,27 +128,11 @@
 &lt;/li&gt;
 
 &lt;li&gt;
-&lt;p&gt;&lt;em&gt;Nettuts Fetch&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Sidebar Enhancement&lt;/em&gt; - many cool add-ons to the sidebar.&lt;/p&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
-&lt;p&gt;Edit History&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;em&gt;EasyMotion&lt;/em&gt; super fast navigation with cmd+;+&lt;span&gt;&lt;em&gt;character that you want to jump to&lt;/em&gt;&lt;/span&gt;–a super plugin inspired from Vim&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;em&gt;Gist&lt;/em&gt;&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Inc-Dec-Value&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;filediffs&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;EasyMotion&lt;/em&gt; super fast navigation with cmd+;+&amp;lt;&lt;em&gt;character-to-jump-to&lt;/em&gt;&amp;gt;–a super plugin inspired from Vim&lt;/p&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
@@ -142,15 +140,55 @@
 &lt;/li&gt;
 
 &lt;li&gt;
-&lt;p&gt;Indent Guide&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href='https://github.com/randy3k/ChangeList'&gt;ChangeList&lt;/a&gt;&lt;/em&gt; Go to next edited/last edited location.&lt;/p&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
-&lt;p&gt;SublimeTODO - allow you to generate TODO list from TODO comments&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;SublimeTODO&lt;/em&gt; - allow you to generate TODO list from TODO comments&lt;/p&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
-&lt;p&gt;docblockr – creating documentation block really easy!  (/** enter = done!)&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;docblockr&lt;/em&gt; – creating documentation block really easy!  (/** enter = done!)&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;AdvancedNewFile&lt;/em&gt; - create new file anywhere with cmd+opt+n&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Nettuts Fetch&lt;/em&gt; – Quickly Fetch files here&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Sublime REPL&lt;/em&gt;–have REPL right in your sublime!&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;a href='http://www.jisaacks.com/gitgutter'&gt;&lt;em&gt;SublimeGutter&lt;/em&gt;&lt;/a&gt; - view changes in git instantly in your editor&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;a href='www.caniswitchtosublimetext3.com'&gt;&lt;em&gt;CanISwitchToSublimeText3&lt;/em&gt;&lt;/a&gt; - This will help me decide.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;MacTerminal&lt;/em&gt; &amp;#8211; open this folder in terminal. (Support iTerm2)&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Local History&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;a href='https://sublime.wbond.net/packages/VAlign'&gt;&lt;em&gt;VAlign&lt;/em&gt;&lt;/a&gt; easily vertically-align the text around the cursor with cmd+\&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;TidyTabs &amp;#8211; A simple keystroke ctrl + alt + w will close all tabs whose file has not been modified in the last 30 minutes.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;AutoFileName&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -167,52 +205,125 @@
 &lt;p&gt;&lt;strong&gt;HTML/Web&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Tag&lt;/em&gt;&lt;/li&gt;
+
 &lt;li&gt;&lt;em&gt;Emmet&lt;/em&gt; – quick html coding&lt;/li&gt;
 
 &lt;li&gt;&lt;em&gt;browser-refresh sublime&lt;/em&gt; – insanely great for web editing&lt;/li&gt;
 
-&lt;li&gt;csslint&lt;/li&gt;
-
-&lt;li&gt;JQuery&lt;/li&gt;
-
-&lt;li&gt;sublime-jslint  – run jslint when save (or with ctrl j)&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='https://github.com/danro/LESS-sublime'&gt;less&lt;/a&gt; - support less.css&lt;/li&gt;
-
 &lt;li&gt;livecss - highlights all your hex and rgb colors in css/scss files with that actual color!&lt;/li&gt;
+
+&lt;li&gt;&lt;em&gt;&lt;a href='http://hayakubundle.com/'&gt;Hayaku&lt;/a&gt;&lt;/em&gt; - Fuzzy abbreviations for CSS – make you write stylesheet superfast.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Design&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Design&lt;/strong&gt; * ColorPick – using Mac Color Picker in Sublime. (Other Platforms?&amp;#8211;try &lt;a href='http://weslly.github.io/ColorPicker/'&gt;ColorPicker&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Language-specific&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;ColorPick – using Mac Color Picker in Sublime.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;MarkdownEditing&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Python&lt;/strong&gt;: SublimeRope&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Syntax Highlighters&lt;/strong&gt;: JQuery, &lt;a href='https://github.com/danro/LESS-sublime'&gt;Less&lt;/a&gt;, CoffeeScript, HTML5, &lt;a href=''&gt;Syntax Highlighting for Sass&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Snippets&lt;/strong&gt;: HTML5, Bootstrap,&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Javascript&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Autocomplete Javascript with Method Signature&lt;/li&gt;
+
+&lt;li&gt;TernJS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Code Prettifer&lt;/strong&gt;: &lt;em&gt;PrettyJSON&lt;/em&gt;, &lt;em&gt;SublimePythonTidy&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Code Formatters&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Coffee Formatter&lt;/em&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;em&gt;JSFormatter&lt;/em&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;em&gt;SublimePythonTidy&lt;/em&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;em&gt;PrettyJSON&lt;/em&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;em&gt;ToggleQuotes&lt;/em&gt;?&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 
 &lt;li&gt;
-&lt;p&gt;I plan to try&lt;/p&gt;
+&lt;p&gt;I also plan to try&lt;/p&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Gist&lt;/em&gt;&lt;/li&gt;
+
 &lt;li&gt;RosettaCode&lt;/li&gt;
+
+&lt;li&gt;filediffs&lt;/li&gt;
+
+&lt;li&gt;Indent Guide&lt;/li&gt;
+
+&lt;li&gt;&lt;em&gt;Sublime Evernote&lt;/em&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;em&gt;LiveReload&lt;/em&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;em&gt;Surround With&lt;/em&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;em&gt;Edit History&lt;/em&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href='https://github.com/skuroda/FindKeyConflicts'&gt;&lt;em&gt;Find Key Conflicts&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;CssComb&lt;/li&gt;
+
+&lt;li&gt;https://sublime.wbond.net/packages/Strapdown%20Markdown%20Preview&lt;/li&gt;
+
+&lt;li&gt;Comment Snippets&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;https://github.com/BoundInCode/AutoFileName&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/li&gt;
+
+&lt;h3 id='other_modification'&gt;Other Modification&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;See this &lt;a href='http://stackoverflow.com/questions/9655039/sublime-text-2-recognize-underscore-templates-as-html?rq=1'&gt;StackOverflow question&lt;/a&gt; to make sublime read &lt;pre class='markdown-html-error' style='border: solid 3px red; background-color: pink'&gt;REXML could not parse this XML/HTML: 
+&amp;lt;script type=&amp;quot;text/html&amp;quot;&amp;gt; as HTML for underscore.js templates.&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a href='http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-tips-and-tricks/'&gt;Tutsplus’s&lt;/a&gt; guid &lt;a href='http://kakubei.blogspot.com/2012/07/sublime-text-2-tips-and-tricks.html'&gt;kakubei’s&lt;/a&gt; article are are pretty useful.&lt;/p&gt;
 &lt;!-- TODO
  http://blog.alainmeier.com/post/27255145114/some-things-beginners-might-not-know-about-sublime-text
  --&gt;
-&lt;h3 id='extras'&gt;Extras&lt;/h3&gt;
+&lt;h3 id='more_techniques'&gt;More techniques&lt;/h3&gt;
 
-&lt;p&gt;This &lt;a href='http://icoloma.blogspot.com.es/2012/09/sublime-text-editor-tips-and-tricks-for.html'&gt;article&lt;/a&gt; has very helpful tips and trick for html.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;http://opensourcehacker.com/2012/05/11/sublime-text-2-tips-for-python-and-web-developers/#Favorite_plug-ins_list&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;http://icoloma.blogspot.com.es/2012/09/sublime-text-editor-tips-and-tricks-for.html&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt; &lt;/p&gt;</content>
  </entry>
@@ -220,7 +331,7 @@
  <entry>
    <title>Peereviz</title>
    <link href="http://kanitw.yellowpigz.com/2012/12/06/peereviz/"/>
-   <updated>2012-12-06T00:00:00-08:00</updated>
+   <updated>2012-12-06T00:00:00-05:00</updated>
    <id>http://kanitw.yellowpigz.com/2012/12/06/peereviz</id>
    <content type="html">&lt;p&gt;A large ratio of students per teacher in the massive online courses introduces difficulties for the assessment of students’ work especially for open ended assignments. Peer review is one possible solution for scaling assessment of open-ended assignments in massive online courses. However, the amount of data from the peer review system makes it difficult for teaching staff to explore and understand the review data.&lt;/p&gt;
 
@@ -230,13 +341,13 @@
  <entry>
    <title>Venture Lab</title>
    <link href="http://kanitw.yellowpigz.com/2012/09/06/venture-lab/"/>
-   <updated>2012-09-06T00:00:00-07:00</updated>
+   <updated>2012-09-06T00:00:00-04:00</updated>
    <id>http://kanitw.yellowpigz.com/2012/09/06/venture-lab</id>
-   <content type="html">&lt;p&gt;Online education is changing the world’s education landscape. Besides lectures and quizzes, project-based learning is also an influential experience in school. Venture Lab was built to bring project-based learning to the online education world.  &lt;/p&gt;
+   <content type="html">&lt;p&gt;Online education is changing the world’s education. Besides lectures and quizzes, project-based learning is also influential. Venture Lab was built to bring project-based and collaborative learning to the online education world.  &lt;/p&gt;
 
-&lt;p&gt;I led the User Interface Design of Venture-lab, the first project-based Massive Online Open Classes. We have introduced algorithmic team matching and peer reviews system in online education. The peer review system has enabled the assessment of massive scale online classroom.&lt;/p&gt;
+&lt;p&gt;I led the early User Interface Design of Venture-lab in 2012. We introduced algorithmic team matching and peer reviews system in online education. The peer review system has enabled the assessment of massive scale online classroom.&lt;/p&gt;
 
-&lt;p&gt;Venture lab has been covered in &lt;em&gt;Forbes&lt;/em&gt; and &lt;em&gt;Stanford News&lt;/em&gt;. Our first class in Entrepreneurship had over 50,000 students. One final project eventually received funding from a venture capital. &lt;/p&gt;
+&lt;p&gt;Venture lab has been covered in &lt;a href=''&gt;Forbes&lt;/a&gt; and &lt;a href='http://news.stanford.edu/news/2012/september/venture-lab-platform-091712.html'&gt;Stanf&lt;/a&gt;&lt;a href='http://news.stanford.edu/news/2013/january/seelig-online-creativity-012213.html'&gt;ord News&lt;/a&gt;. Our first class in Entrepreneurship had over 50,000 students. One final project eventually received funding from a venture capital. &lt;/p&gt;
 
 &lt;p&gt;Join venture-lab classes &lt;a href='http://venture-lab.org'&gt;here&lt;/a&gt;.&lt;/p&gt;</content>
  </entry>
@@ -244,7 +355,7 @@
  <entry>
    <title>Breathwear</title>
    <link href="http://kanitw.yellowpigz.com/2012/06/06/breathwear/"/>
-   <updated>2012-06-06T00:00:00-07:00</updated>
+   <updated>2012-06-06T00:00:00-04:00</updated>
    <id>http://kanitw.yellowpigz.com/2012/06/06/breathwear</id>
    <content type="html">&lt;p&gt;One problem that has always intrigued me is how might we use technology to induce positive behavioral change? As respiratory regulation can reduce stress and increase parasympathetic tone, my colleague and I designed an application using a visual guide and an auditory guide based on the Stanford Calming Technology Lab’s Breathwear system. We did a user study to compare the effect of using these two different modalities for breathing regulation. We discovered that the audio guide led to higher self-reported calm ratings but the visual guidance led to more respiratory change. We concluded that motivating users to exert physical or mental efforts may counter the calming effects of slow breathing. The result has been presented at UIST2012.&lt;/p&gt;
 
@@ -255,9 +366,60 @@ Interactive systems are increasingly being used to explicitly support change in 
  </entry>
  
  <entry>
+   <title>Getting start with my mac like a Pro</title>
+   <link href="http://kanitw.yellowpigz.com/2012/06/02/setup-mac/"/>
+   <updated>2012-06-02T00:00:00-04:00</updated>
+   <id>http://kanitw.yellowpigz.com/2012/06/02/setup-mac</id>
+   <content type="html">&lt;!--TODO new intro--&gt;
+&lt;p&gt;Setting up a new computer takes time since we need to put all great tools and configs into the computer. Having a list is useful and here is my list.&lt;/p&gt;
+
+&lt;h2 id='osx_settings'&gt;OSX Settings&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mouse Setting&lt;/strong&gt; - Go to System Preference &amp;gt; Trackpad - then enable &amp;#8220;Tap to click&amp;#8221; and &amp;#8220;3 Finger Drag&amp;#8221;&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Show Hidden Files&lt;/strong&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;Keyboard Shortcuts&lt;/strong&gt;–One great thing about mac setting is you&lt;/li&gt;
+
+&lt;li&gt;&lt;strong&gt;alt&lt;/strong&gt; – alt + - = –, alt + = = ≠, alt + &amp;lt; = ≤, alt + &amp;gt; = ≥&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id='quicklook'&gt;Quicklook&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Quicklook Plugins&lt;/strong&gt; – help your mac&amp;#8217;s quicklook able to quick look more type of files. See &lt;a href='http://gigaom.com/2009/05/06/four-useful-quicklook-plugins/'&gt;GigaOm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id='design'&gt;Design&lt;/h4&gt;
+
+&lt;p&gt;http://www.iconboxapp.com/&lt;/p&gt;
+
+&lt;h3 id='mail'&gt;Mail&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mail&lt;/strong&gt; - Apple’s Mail app. Some people like it over Sparrow It works much better with gmail if you set easy shortcut key to “archive” and “flag” (eq. to star on Gmail). I use F1 for archive and F2 for Flag. Colorhexa – not an app but useful tool for picking colors&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id='i_want_to_try'&gt;I want to try&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;setting up &lt;em&gt;zsh&lt;/em&gt; sheel&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Pick color theme from color theme gallery.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please feel free to recommend if you have any cool tool/apps suggestion. I will keep updating this list!&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
    <title>Kinetic Math</title>
    <link href="http://kanitw.yellowpigz.com/2012/03/15/kineticmath/"/>
-   <updated>2012-03-15T00:00:00-07:00</updated>
+   <updated>2012-03-15T00:00:00-04:00</updated>
    <id>http://kanitw.yellowpigz.com/2012/03/15/kineticmath</id>
    <content type="html">&lt;p&gt;Addition and subtraction play a crucial role in mastering math concepts such as Algebra. Learning math through tons of text can be boring, abstract and ineffective.&lt;/p&gt;
 
@@ -269,7 +431,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>Habit Buddy</title>
    <link href="http://kanitw.yellowpigz.com/2012/03/15/habitbuddy/"/>
-   <updated>2012-03-15T00:00:00-07:00</updated>
+   <updated>2012-03-15T00:00:00-04:00</updated>
    <id>http://kanitw.yellowpigz.com/2012/03/15/habitbuddy</id>
    <content type="html">&lt;h5 id='point_of_view'&gt;Point of View&lt;/h5&gt;
 
@@ -281,7 +443,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>Kitch-It: Brand Campaign</title>
    <link href="http://kanitw.yellowpigz.com/2012/03/06/kitchit/"/>
-   <updated>2012-03-06T00:00:00-08:00</updated>
+   <updated>2012-03-06T00:00:00-05:00</updated>
    <id>http://kanitw.yellowpigz.com/2012/03/06/kitchit</id>
    <content type="html">&lt;p&gt;Kitchit is a web-service that allows users to hire a world-class chef to cook for themselves at their home.&lt;/p&gt;
 
@@ -293,7 +455,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>StudyMania</title>
    <link href="http://kanitw.yellowpigz.com/2011/09/06/studymania/"/>
-   <updated>2011-09-06T00:00:00-07:00</updated>
+   <updated>2011-09-06T00:00:00-04:00</updated>
    <id>http://kanitw.yellowpigz.com/2011/09/06/studymania</id>
    <content type="html">&lt;p&gt;Students need motivation to study. Our goal was to provide a simple way for students to create fun challenges by betting against their friends. As part of CS147 (Intro to Human Computer Interaction &amp;amp; Design) course, our team conducted the whole design process: from needfinding, alternative generation, prototyping, heuristic evaluation, rapid prototyping and user testing. As a result, Studymania provides a simple way to create fun way to engage students in learning. This competitive settings drive users to study hard and get stuff done in order to beat their friends.&lt;/p&gt;
 
@@ -303,7 +465,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>Facespot</title>
    <link href="http://kanitw.yellowpigz.com/2010/09/06/facespot/"/>
-   <updated>2010-09-06T00:00:00-07:00</updated>
+   <updated>2010-09-06T00:00:00-04:00</updated>
    <id>http://kanitw.yellowpigz.com/2010/09/06/facespot</id>
    <content type="html">&lt;!--- start with the lack... --&gt;
 &lt;p&gt;Mobile cameras have increased the number of personal photos. Our goal was to enable Linux users to have Face Recognition feature just as Apple users enjoyed a similar feature in iPhoto. Facespot, a face recognition plugin for F-Spot, was built to achieve this goal.&lt;/p&gt;
@@ -316,13 +478,13 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>Plasma-Z : Soccer-Robot</title>
    <link href="http://kanitw.yellowpigz.com/2009/09/06/plasma-z-robocup/"/>
-   <updated>2009-09-06T00:00:00-07:00</updated>
+   <updated>2009-09-06T00:00:00-04:00</updated>
    <id>http://kanitw.yellowpigz.com/2009/09/06/plasma-z-robocup</id>
    <content type="html">&lt;!--youtube: http://www.youtube.com/embed/FfuM3UGA9Ug--&gt;
 &lt;p&gt;Soccer is the most popular sport for humans. It is also the most popular sport for robots as well–at least at the International Robocup!&lt;/p&gt;
 
-&lt;p&gt;As part of the Plasma-Z team, I led the development of our robotic software system. This system integrated inputs from computer vision and motion control feedback system to generate real-time strategies and command fast-paced small size soccer robots. Besides developing game playing strategies, I introduced user interfaces that allow easy calibration and testing of our system. In addition, I have also initiated using software configuration management system in the project to manage complexities in our system.&lt;/p&gt;
-
+&lt;p&gt;As part of the Plasma-Z team, I led the development of our robotic software system. This system integrated inputs from computer vision and motion control feedback system to generate real-time strategies and command fast-paced small size soccer robots. Besides developing game playing strategies, I also introduced user interfaces that allow easy calibration and testing of our system.&lt;/p&gt;
+&lt;!-- In addition, I have also initiated using software configuration management system in the project to manage complexities in our system. --&gt;
 &lt;p&gt;Watch our video on &lt;a href='http://www.youtube.com/watch?v=FfuM3UGA9Ug'&gt;Youtube&lt;/a&gt;&lt;/p&gt;
 &lt;h4 class='award'&gt;&lt;i class='icon-star'&gt;&amp;nbsp;&lt;/i&gt; Awards&lt;/h4&gt;
 &lt;ul&gt;
@@ -333,7 +495,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>Vidview–Mobile Video View</title>
    <link href="http://kanitw.yellowpigz.com/2008/06/06/vidview/"/>
-   <updated>2008-06-06T00:00:00-07:00</updated>
+   <updated>2008-06-06T00:00:00-04:00</updated>
    <id>http://kanitw.yellowpigz.com/2008/06/06/vidview</id>
    <content type="html">&lt;!--youtube: http://www.youtube.com/embed/bbDOpRBIN6c--&gt;
 &lt;p&gt;Prior to Apple iPhone and its popular Youtube application’s release in 2007, People were enjoying Youtube from their PCs.  However, the most popular phones then did not have sufficient processing power to decode complex video formats.&lt;/p&gt;
@@ -352,7 +514,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>CUPhoto Memorial DVD</title>
    <link href="http://kanitw.yellowpigz.com/2008/06/06/cuphotocd/"/>
-   <updated>2008-06-06T00:00:00-07:00</updated>
+   <updated>2008-06-06T00:00:00-04:00</updated>
    <id>http://kanitw.yellowpigz.com/2008/06/06/cuphotocd</id>
    <content type="html">&lt;p&gt;Every year, the Chulalongkorn University Photography Club documents the annual soccer game between Chulalongkorn and Thammasat, the two oldest universities in Thailand. I contributed the graphic design to the memorial DVD in 2008. &lt;/p&gt;</content>
  </entry>
@@ -360,7 +522,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>EIC Logo Design</title>
    <link href="http://kanitw.yellowpigz.com/2008/03/06/eiclogo/"/>
-   <updated>2008-03-06T00:00:00-08:00</updated>
+   <updated>2008-03-06T00:00:00-05:00</updated>
    <id>http://kanitw.yellowpigz.com/2008/03/06/eiclogo</id>
    <content type="html">&lt;p&gt;Logo Concept for Engineering Innovator Club.&lt;/p&gt;
 
@@ -372,7 +534,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>Perj: Translation Jelly</title>
    <link href="http://kanitw.yellowpigz.com/2008/02/26/perj/"/>
-   <updated>2008-02-26T00:00:00-08:00</updated>
+   <updated>2008-02-26T00:00:00-05:00</updated>
    <id>http://kanitw.yellowpigz.com/2008/02/26/perj</id>
    <content type="html">&lt;p&gt;For the Packaging Design course final project, students need to design a packaging for any particular product. We decided to design a playful packaging for the Translation Jelly from Doraemon. Our design also envisioned if the Translation Jelly has different flavors for different languages.&lt;/p&gt;</content>
  </entry>
@@ -380,7 +542,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>Together We Smile</title>
    <link href="http://kanitw.yellowpigz.com/2007/06/01/smileshirt/"/>
-   <updated>2007-06-01T00:00:00-07:00</updated>
+   <updated>2007-06-01T00:00:00-04:00</updated>
    <id>http://kanitw.yellowpigz.com/2007/06/01/smileshirt</id>
    <content type="html">&lt;p&gt;I designed this T-Shirt for the Smiley Home, a recreational group in the freshmen orientation week.  My design goal was to encourages freshmen to open up their minds and make new friends from the event.&lt;/p&gt;</content>
  </entry>
@@ -388,7 +550,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>Memories in a School Bag</title>
    <link href="http://kanitw.yellowpigz.com/2006/03/01/acyearbook/"/>
-   <updated>2006-03-01T00:00:00-08:00</updated>
+   <updated>2006-03-01T00:00:00-05:00</updated>
    <id>http://kanitw.yellowpigz.com/2006/03/01/acyearbook</id>
    <content type="html">&lt;p&gt;For 12 years from grade one to twelve, Assumption College had studied together. One of the common memories they have is to carry this uniform school bag everyday. As a lead graphic designer, I decided to impose this bag images on the protective case of the yearbook to represent our 12-year memories. We also designed the graphic of the yearbook using minimalist design principle.&lt;/p&gt;</content>
  </entry>

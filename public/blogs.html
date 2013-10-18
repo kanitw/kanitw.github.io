@@ -144,14 +144,17 @@
     
       
 
+    
+      
+
         <article>
-            <h2><a href="/2013/05/10/sublime-2/">My Sublime 2 Handbook</a></h2>
+            <h2><a href="/2013/05/10/sublime-2/">Becoming a Sublime (Text) Ninja</a></h2>
             <i><span>10 May 2013</span></i>
             โดย
             
             <br/>
             <br/>
-            <p>With <a href='http://subtimetext.com'>Sublime Text 2</a>, I can forget about trying vim, textmate.<br />To utilize the full power of sublime, we need to setup some stuffs and install extensions.</p> <h3 id='power_features'>Power features</h3> <ul> <li>Project</li> <li>Multiple cursors</li> <li>Useful shortkeys</li> </ul> <h3 id='setting_up_for_command_line'>Setting up for command line</h3> <p>If you haven’t add ~/bin to your path, then add.</p> <pre><code>echo &#39;export PATH=~/bin:$PATH&#39; &gt;&gt; ~/.profile</code></pre> <p>Then</p> <pre><code>defaults write ~/.MacOSX/environment EDITOR &quot;~/bin/subl -w &quot;</code></pre> <h3 id='options'>Options</h3> <pre><code>{ &quot;color_scheme&quot;: &quot;Packages/Color Scheme - Default/Monokai.tmTheme&quot;, &quot;font_size&quot;: 12.0, &quot;highlight_line&quot;: true, &quot;ignored_packages&quot;: [ &quot;Vintage&quot; ], &quot;indent_guide_options&quot;: [ &quot;draw_normal&quot;, &quot;draw_active&quot; ], &quot;tab_size&quot;: 2, &quot;translate_tabs_to_spaces&quot;: true, &quot;trim_trailing_white_space_on_save&quot;: true, // good practice to always remove trailing spaces &quot;word_wrap&quot;: &quot;true&quot; }</code></pre> <h3 id='shortkeys'>Shortkeys</h3> <p>The default short keys that comes with Sublime Text 2 are great. But there are some useful addition that I think it is helpful as well.</p> <pre><code>[ { &quot;keys&quot;: [&quot;cmd alt r&quot;], &quot;command&quot;: &quot;reindent&quot; , &quot;args&quot;: {&quot;single_line&quot;: false}} , { &quot;keys&quot;: [&quot;cmd shift k&quot;], &quot;command&quot;: &quot;run_macro_file&quot;, &quot;args&quot;: {&quot;file&quot;: &quot;Packages/Default/Delete Line.sublime-macro&quot;} } , { &quot;keys&quot;: [&quot;super alt f&quot;], &quot;command&quot;: &quot;show_panel&quot;, &quot;args&quot;: {&quot;panel&quot;: &quot;find&quot;} } , { &quot;keys&quot;: [&quot;super f&quot;], &quot;command&quot;: &quot;show_panel&quot;, &quot;args&quot;: {&quot;panel&quot;: &quot;replace&quot;} } , { &quot;keys&quot;: [&quot;ctrl shift t&quot;], &quot;command&quot;: &quot;delete_trailing_spaces&quot; } ]</code></pre> <h3 id='plugins'>Plugins</h3> <ul> <li> <p><a href='http://wbond.net/sublime_packages/package_control/installation'><em>Package Control</em> </a>- which can install many plugins including:</p> <ul> <li> <p><strong>General Purpose</strong></p> <ul> <li> <p><em>SublimeCodeIntel</em> – super cool autocompletion</p> </li> <li> <p><em>AllAutoComplete</em> – extend sublime autocomplete to check all opened files.</p> </li> <li> <p><em>Alignment</em></p> </li> <li> <p><em>BracketHighlighter</em></p> </li> <li> <p><em>Nettuts Fetch</em></p> </li> <li> <p>Edit History</p> </li> <li> <p><em>EasyMotion</em> super fast navigation with cmd+;+<span><em>character that you want to jump to</em></span>–a super plugin inspired from Vim</p> </li> <li> <p><em>Gist</em></p> </li> <li> <p>Inc-Dec-Value</p> </li> <li> <p>filediffs</p> </li> <li> <p><em>sublimelinter</em> – Great for checking syntax errors and warning for most popular languages</p> </li> <li> <p>Indent Guide</p> </li> <li> <p>SublimeTODO - allow you to generate TODO list from TODO...
+            <p>With <a href='http://subtimetext.com'>Sublime Text 2</a>, I can forget about trying vim, textmate. To utilize the full power of sublime, we need to setup some stuffs and install extensions.</p> <h3 id='setting_up_for_command_line'>Setting up for command line</h3> <p>If you haven’t add ~/bin to your path, then add.</p> <pre><code>echo &#39;export PATH=~/bin:$PATH&#39; &gt;&gt; ~/.profile</code></pre> <p>Then</p> <pre><code>defaults write ~/.MacOSX/environment EDITOR &quot;~/bin/subl -w &quot;</code></pre> <h3 id='sync_sublime_options'>Sync Sublime Options</h3> <p>Modified from <a href='https://rolandwarmerdam.co.nz/sync-sublime-text-2-settings/'>Roland Warmerdam&#8217;s Blog</a></p> <p>In other computer cd ln -s ~/Dropbox/Apps/sublime2/settings/ &#8220;Sublime Text 2&#8221;</p> <h3 id='power_features'>Power features</h3> <ul> <li>Project</li> <li>Multiple cursors</li> <li>Useful shortkeys</li> </ul> <h3 id='options'>Options</h3> <pre><code>{ &quot;color_scheme&quot;: &quot;Packages/Color Scheme - Default/Monokai.tmTheme&quot;, &quot;font_size&quot;: 12.0, &quot;highlight_line&quot;: true, &quot;ignored_packages&quot;: [], &quot;indent_guide_options&quot;: [ &quot;draw_normal&quot;, &quot;draw_active&quot; ], &quot;tab_size&quot;: 2, &quot;translate_tabs_to_spaces&quot;: true, &quot;trim_trailing_white_space_on_save&quot;: true, // good practice to always remove trailing spaces &quot;word_wrap&quot;: &quot;true&quot; }</code></pre> <h3 id='shortkeys'>Shortkeys</h3> <p>The default short keys that comes with Sublime Text 2 are great. But there are some useful addition that I think it is helpful as well.</p> <pre><code>[ { &quot;keys&quot;: [&quot;cmd+alt+r&quot;], &quot;command&quot;: &quot;reindent&quot; , &quot;args&quot;: {&quot;single_line&quot;: false}} , { &quot;keys&quot;: [&quot;cmd+shift+k&quot;], &quot;command&quot;: &quot;run_macro_file&quot;, &quot;args&quot;: {&quot;file&quot;: &quot;Packages/Default/Delete Line.sublime-macro&quot;} } , { &quot;keys&quot;: [&quot;super+alt+f&quot;], &quot;command&quot;: &quot;show_panel&quot;, &quot;args&quot;: {&quot;panel&quot;: &quot;find&quot;} } , { &quot;keys&quot;: [&quot;super+f&quot;], &quot;command&quot;: &quot;show_panel&quot;, &quot;args&quot;: {&quot;panel&quot;: &quot;replace&quot;} } , { &quot;keys&quot;: [&quot;ctrl+shift+t&quot;], &quot;command&quot;: &quot;delete_trailing_spaces&quot; } ]</code></pre> <h3 id='theme'>Theme</h3> <p>Sublime has a lot of theme, I prefer <a href='https://github.com/chriskempson/tomorrow-theme'>Tomorrow-Night</a>.</p> <h3 id='plugins'>Plugins</h3> <p>Install <a href='http://wbond.net/sublime_packages/package_control/installation'><em>Package Control</em> </a> first. Then you can easily install any of the following good plugins:</p> <ul> <li> <p><strong>General Purpose</strong></p> <ul> <li> <p><em>SublimeCodeIntel</em> – super cool autocompletion</p> </li> <li> <p><em>AllAutoComplete</em> – extend sublime autocomplete to check all opened files.</p> </li> <li> <p><em>Alignment</em></p> </li> <li> <p><em>BracketHighlighter</em></p> </li> <li> <p><em>Sidebar Enhancement</em> - many cool add-ons to the sidebar.</p> </li> <li> <p><em>EasyMotion</em> super fast navigation with cmd+;+&lt;<em>character-to-jump-to</em>&gt;–a super plugin inspired from Vim</p> </li> <li> <p><em>sublimelinter</em> – Great for checking syntax errors and warning for most popular languages</p> </li> <li>...
             <br/>
             <a href="/2013/05/10/sublime-2/">Read &raquo;</a>
           <hr/>
@@ -165,6 +168,66 @@
       
 
     
+      
+
+    
+      
+
+        <article>
+            <h2><a href="/2012/06/02/setup-mac/">Getting start with my mac like a Pro</a></h2>
+            <i><span>02 Jun 2012</span></i>
+            โดย
+            
+            <br/>
+            <br/>
+            <!--TODO new intro-->
+<p>Setting up a new computer takes time since we need to put all great tools and configs into the computer. Having a list is useful and here is my list.</p>
+
+<h2 id='osx_settings'>OSX Settings</h2>
+
+<ul>
+<li><strong>Mouse Setting</strong> - Go to System Preference &gt; Trackpad - then enable &#8220;Tap to click&#8221; and &#8220;3 Finger Drag&#8221;</li>
+
+<li><strong>Show Hidden Files</strong></li>
+
+<li><strong>Keyboard Shortcuts</strong>–One great thing about mac setting is you</li>
+
+<li><strong>alt</strong> – alt + - = –, alt + = = ≠, alt + &lt; = ≤, alt + &gt; = ≥</li>
+</ul>
+
+<h2 id='quicklook'>Quicklook</h2>
+
+<ul>
+<li><strong>Quicklook Plugins</strong> – help your mac&#8217;s quicklook able to quick look more type of files. See <a href='http://gigaom.com/2009/05/06/four-useful-quicklook-plugins/'>GigaOm</a></li>
+</ul>
+
+<h4 id='design'>Design</h4>
+
+<p>http://www.iconboxapp.com/</p>
+
+<h3 id='mail'>Mail</h3>
+
+<ul>
+<li><strong>Mail</strong> - Apple’s Mail app. Some people like it over Sparrow It works much better with gmail if you set easy shortcut key to “archive” and “flag” (eq. to star on Gmail). I use F1 for archive and F2 for Flag. Colorhexa – not an app but useful tool for picking colors</li>
+</ul>
+
+<h3 id='i_want_to_try'>I want to try</h3>
+
+<ul>
+<li>
+<p>setting up <em>zsh</em> sheel</p>
+</li>
+
+<li>
+<p>Pick color theme from color theme gallery.</p>
+</li>
+</ul>
+
+<p>Please feel free to recommend if you have any cool tool/apps suggestion. I will keep updating this list!</p>
+            <br/>
+            <a href="/2012/06/02/setup-mac/">Read &raquo;</a>
+          <hr/>
+        </article>
       
 
     
