@@ -9,16 +9,14 @@ portfolio: [
 ---
 {% include JB/setup %}
 
-Kanit is a PhD Student at the [University of Washington](http://www.uw.edu)'s [Computer Science & Engineering Department](http://cs.washington.edu), where he works with [Prof. Jeffrey Heer](http://jheer.org).  
+Kanit is a first year PhD Student at the [University of Washington](http://www.uw.edu)'s [Computer Science & Engineering Department](http://cs.washington.edu), where he is an active member in the [Interactive Data Lab](http://idl.cs.washington.edu]) and the [Design-Use-Build](http://dub.washington.edu) group.
+His advisor is [Prof. Jeffrey Heer](http://jheer.org).
 
-His research is designing and building interactive systems that augment people's abilities to work with data. My research spans Human-Computer Interaction, Information Visualization.
+His research interests are broadly in Human-Computer Interaction, Information Visualization and User Interface Software and Technology.  His research focus is on designing and building interactive systems for data analysis and data presentation.
 
-At the University of Washington, Kanit is an active member in [Interactive Data Lab](http://idl.cs.washington.edu]) and [Design-Use-Build group](http://dub.washington.edu).
-
-Formerly, Kanit worked at [Tableau Software](http://www.tableausoftware.com)'s Visual Analysis Research Group, at [Google](http://www.google.com)'s HCI group.  Kanit holds a MS in [Management Science & Engineering](http://msande.stanford.edu) from Stanford University, where he worked with [Scott Klemmer](http://hci.stanford.edu/srk) in the [Stanford HCI Group](http://hci.stanford.edu) and a B.Eng
-in Computer Engineering (First Honor and Gold Medal) from Chulalongkorn University in Thailand.
+Kanit was a recipient of Fulbright Scholarship and a MS in [Management Science & Engineering](http://msande.stanford.edu) from Stanford University, where he worked with [Scott Klemmer](http://hci.stanford.edu/srk) in the [Stanford HCI Group](http://hci.stanford.edu). He also holds a B.Eng in Computer Engineering (First Honor and Gold Medal) from Chulalongkorn University in Thailand.  Formerly, Kanit also worked at [Tableau Software](http://www.tableausoftware.com) with Jock Mackinlay and at [Google](http://www.google.com)'s HCI group.
 
 
-Besides work, Kanit loves playing soccer and is a fan of [Manchester United FC](http://www.manutd.com]).  He also loves movies, books and photography.  He also recently started blogging both in  [English](http://medium.com/@kanitw) and [Thai](http://blog.yellowpigz.com])
+Besides work, Kanit loves soccer, movies, books, photography, and writing.  He [blogs](http://medium.com/@aknitw) both in English and Thai.
 
-Please also feel free to look at his projects.
+Please feel free to look at his former projects.
