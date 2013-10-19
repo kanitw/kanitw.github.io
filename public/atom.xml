@@ -4,7 +4,7 @@
  <title>kanitw.yellowpigz.com</title>
  <link href="http://kanitw.yellowpigz.com/atom.xml" rel="self"/>
  <link href="http://kanitw.yellowpigz.com"/>
- <updated>2013-10-18T09:23:42-04:00</updated>
+ <updated>2013-10-19T00:03:36-07:00</updated>
  <id>http://kanitw.yellowpigz.com</id>
  <author>
    <name>Kanit Wongsuphasawat</name>
@@ -15,7 +15,7 @@
  <entry>
    <title>Peerapi</title>
    <link href="http://kanitw.yellowpigz.com/2013/06/30/peerapi/"/>
-   <updated>2013-06-30T00:00:00-04:00</updated>
+   <updated>2013-06-30T00:00:00-07:00</updated>
    <id>http://kanitw.yellowpigz.com/2013/06/30/peerapi</id>
    <content type="html">&lt;p&gt;Creative fields like design are burgeoning. So are project-based learning approaches. However, providing feedback and assessment of design and other creative work is extremely time consuming &amp;#8211; this bottleneck is the major capacity constraint for scaling assessment.&lt;/p&gt;
 
@@ -25,7 +25,7 @@
  <entry>
    <title>Test</title>
    <link href="http://kanitw.yellowpigz.com/2013/05/11/test/"/>
-   <updated>2013-05-11T00:00:00-04:00</updated>
+   <updated>2013-05-11T00:00:00-07:00</updated>
    <id>http://kanitw.yellowpigz.com/2013/05/11/test</id>
    <content type="html">&lt;p&gt;ddd&lt;/p&gt;</content>
  </entry>
@@ -33,7 +33,7 @@
  <entry>
    <title>Becoming a Sublime (Text) Ninja</title>
    <link href="http://kanitw.yellowpigz.com/2013/05/10/sublime-2/"/>
-   <updated>2013-05-10T00:00:00-04:00</updated>
+   <updated>2013-05-10T00:00:00-07:00</updated>
    <id>http://kanitw.yellowpigz.com/2013/05/10/sublime-2</id>
    <content type="html">&lt;p&gt;With &lt;a href='http://subtimetext.com'&gt;Sublime Text 2&lt;/a&gt;, I can forget about trying vim, textmate. To utilize the full power of sublime, we need to setup some stuffs and install extensions.&lt;/p&gt;
 
@@ -331,7 +331,7 @@
  <entry>
    <title>Peereviz</title>
    <link href="http://kanitw.yellowpigz.com/2012/12/06/peereviz/"/>
-   <updated>2012-12-06T00:00:00-05:00</updated>
+   <updated>2012-12-06T00:00:00-08:00</updated>
    <id>http://kanitw.yellowpigz.com/2012/12/06/peereviz</id>
    <content type="html">&lt;p&gt;A large ratio of students per teacher in the massive online courses introduces difficulties for the assessment of students’ work especially for open ended assignments. Peer review is one possible solution for scaling assessment of open-ended assignments in massive online courses. However, the amount of data from the peer review system makes it difficult for teaching staff to explore and understand the review data.&lt;/p&gt;
 
@@ -341,7 +341,7 @@
  <entry>
    <title>Venture Lab</title>
    <link href="http://kanitw.yellowpigz.com/2012/09/06/venture-lab/"/>
-   <updated>2012-09-06T00:00:00-04:00</updated>
+   <updated>2012-09-06T00:00:00-07:00</updated>
    <id>http://kanitw.yellowpigz.com/2012/09/06/venture-lab</id>
    <content type="html">&lt;p&gt;Online education is changing the world’s education. Besides lectures and quizzes, project-based learning is also influential. Venture Lab was built to bring project-based and collaborative learning to the online education world.  &lt;/p&gt;
 
@@ -355,7 +355,7 @@
  <entry>
    <title>Breathwear</title>
    <link href="http://kanitw.yellowpigz.com/2012/06/06/breathwear/"/>
-   <updated>2012-06-06T00:00:00-04:00</updated>
+   <updated>2012-06-06T00:00:00-07:00</updated>
    <id>http://kanitw.yellowpigz.com/2012/06/06/breathwear</id>
    <content type="html">&lt;p&gt;One problem that has always intrigued me is how might we use technology to induce positive behavioral change? As respiratory regulation can reduce stress and increase parasympathetic tone, my colleague and I designed an application using a visual guide and an auditory guide based on the Stanford Calming Technology Lab’s Breathwear system. We did a user study to compare the effect of using these two different modalities for breathing regulation. We discovered that the audio guide led to higher self-reported calm ratings but the visual guidance led to more respiratory change. We concluded that motivating users to exert physical or mental efforts may counter the calming effects of slow breathing. The result has been presented at UIST2012.&lt;/p&gt;
 
@@ -368,7 +368,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>Getting start with my mac like a Pro</title>
    <link href="http://kanitw.yellowpigz.com/2012/06/02/setup-mac/"/>
-   <updated>2012-06-02T00:00:00-04:00</updated>
+   <updated>2012-06-02T00:00:00-07:00</updated>
    <id>http://kanitw.yellowpigz.com/2012/06/02/setup-mac</id>
    <content type="html">&lt;!--TODO new intro--&gt;
 &lt;p&gt;Setting up a new computer takes time since we need to put all great tools and configs into the computer. Having a list is useful and here is my list.&lt;/p&gt;
@@ -419,7 +419,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>Kinetic Math</title>
    <link href="http://kanitw.yellowpigz.com/2012/03/15/kineticmath/"/>
-   <updated>2012-03-15T00:00:00-04:00</updated>
+   <updated>2012-03-15T00:00:00-07:00</updated>
    <id>http://kanitw.yellowpigz.com/2012/03/15/kineticmath</id>
    <content type="html">&lt;p&gt;Addition and subtraction play a crucial role in mastering math concepts such as Algebra. Learning math through tons of text can be boring, abstract and ineffective.&lt;/p&gt;
 
@@ -431,7 +431,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>Habit Buddy</title>
    <link href="http://kanitw.yellowpigz.com/2012/03/15/habitbuddy/"/>
-   <updated>2012-03-15T00:00:00-04:00</updated>
+   <updated>2012-03-15T00:00:00-07:00</updated>
    <id>http://kanitw.yellowpigz.com/2012/03/15/habitbuddy</id>
    <content type="html">&lt;h5 id='point_of_view'&gt;Point of View&lt;/h5&gt;
 
@@ -443,7 +443,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>Kitch-It: Brand Campaign</title>
    <link href="http://kanitw.yellowpigz.com/2012/03/06/kitchit/"/>
-   <updated>2012-03-06T00:00:00-05:00</updated>
+   <updated>2012-03-06T00:00:00-08:00</updated>
    <id>http://kanitw.yellowpigz.com/2012/03/06/kitchit</id>
    <content type="html">&lt;p&gt;Kitchit is a web-service that allows users to hire a world-class chef to cook for themselves at their home.&lt;/p&gt;
 
@@ -455,7 +455,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>StudyMania</title>
    <link href="http://kanitw.yellowpigz.com/2011/09/06/studymania/"/>
-   <updated>2011-09-06T00:00:00-04:00</updated>
+   <updated>2011-09-06T00:00:00-07:00</updated>
    <id>http://kanitw.yellowpigz.com/2011/09/06/studymania</id>
    <content type="html">&lt;p&gt;Students need motivation to study. Our goal was to provide a simple way for students to create fun challenges by betting against their friends. As part of CS147 (Intro to Human Computer Interaction &amp;amp; Design) course, our team conducted the whole design process: from needfinding, alternative generation, prototyping, heuristic evaluation, rapid prototyping and user testing. As a result, Studymania provides a simple way to create fun way to engage students in learning. This competitive settings drive users to study hard and get stuff done in order to beat their friends.&lt;/p&gt;
 
@@ -465,7 +465,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>Facespot</title>
    <link href="http://kanitw.yellowpigz.com/2010/09/06/facespot/"/>
-   <updated>2010-09-06T00:00:00-04:00</updated>
+   <updated>2010-09-06T00:00:00-07:00</updated>
    <id>http://kanitw.yellowpigz.com/2010/09/06/facespot</id>
    <content type="html">&lt;!--- start with the lack... --&gt;
 &lt;p&gt;Mobile cameras have increased the number of personal photos. Our goal was to enable Linux users to have Face Recognition feature just as Apple users enjoyed a similar feature in iPhoto. Facespot, a face recognition plugin for F-Spot, was built to achieve this goal.&lt;/p&gt;
@@ -478,7 +478,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>Plasma-Z : Soccer-Robot</title>
    <link href="http://kanitw.yellowpigz.com/2009/09/06/plasma-z-robocup/"/>
-   <updated>2009-09-06T00:00:00-04:00</updated>
+   <updated>2009-09-06T00:00:00-07:00</updated>
    <id>http://kanitw.yellowpigz.com/2009/09/06/plasma-z-robocup</id>
    <content type="html">&lt;!--youtube: http://www.youtube.com/embed/FfuM3UGA9Ug--&gt;
 &lt;p&gt;Soccer is the most popular sport for humans. It is also the most popular sport for robots as well–at least at the International Robocup!&lt;/p&gt;
@@ -495,7 +495,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>Vidview–Mobile Video View</title>
    <link href="http://kanitw.yellowpigz.com/2008/06/06/vidview/"/>
-   <updated>2008-06-06T00:00:00-04:00</updated>
+   <updated>2008-06-06T00:00:00-07:00</updated>
    <id>http://kanitw.yellowpigz.com/2008/06/06/vidview</id>
    <content type="html">&lt;!--youtube: http://www.youtube.com/embed/bbDOpRBIN6c--&gt;
 &lt;p&gt;Prior to Apple iPhone and its popular Youtube application’s release in 2007, People were enjoying Youtube from their PCs.  However, the most popular phones then did not have sufficient processing power to decode complex video formats.&lt;/p&gt;
@@ -514,7 +514,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>CUPhoto Memorial DVD</title>
    <link href="http://kanitw.yellowpigz.com/2008/06/06/cuphotocd/"/>
-   <updated>2008-06-06T00:00:00-04:00</updated>
+   <updated>2008-06-06T00:00:00-07:00</updated>
    <id>http://kanitw.yellowpigz.com/2008/06/06/cuphotocd</id>
    <content type="html">&lt;p&gt;Every year, the Chulalongkorn University Photography Club documents the annual soccer game between Chulalongkorn and Thammasat, the two oldest universities in Thailand. I contributed the graphic design to the memorial DVD in 2008. &lt;/p&gt;</content>
  </entry>
@@ -522,7 +522,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>EIC Logo Design</title>
    <link href="http://kanitw.yellowpigz.com/2008/03/06/eiclogo/"/>
-   <updated>2008-03-06T00:00:00-05:00</updated>
+   <updated>2008-03-06T00:00:00-08:00</updated>
    <id>http://kanitw.yellowpigz.com/2008/03/06/eiclogo</id>
    <content type="html">&lt;p&gt;Logo Concept for Engineering Innovator Club.&lt;/p&gt;
 
@@ -534,7 +534,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>Perj: Translation Jelly</title>
    <link href="http://kanitw.yellowpigz.com/2008/02/26/perj/"/>
-   <updated>2008-02-26T00:00:00-05:00</updated>
+   <updated>2008-02-26T00:00:00-08:00</updated>
    <id>http://kanitw.yellowpigz.com/2008/02/26/perj</id>
    <content type="html">&lt;p&gt;For the Packaging Design course final project, students need to design a packaging for any particular product. We decided to design a playful packaging for the Translation Jelly from Doraemon. Our design also envisioned if the Translation Jelly has different flavors for different languages.&lt;/p&gt;</content>
  </entry>
@@ -542,7 +542,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>Together We Smile</title>
    <link href="http://kanitw.yellowpigz.com/2007/06/01/smileshirt/"/>
-   <updated>2007-06-01T00:00:00-04:00</updated>
+   <updated>2007-06-01T00:00:00-07:00</updated>
    <id>http://kanitw.yellowpigz.com/2007/06/01/smileshirt</id>
    <content type="html">&lt;p&gt;I designed this T-Shirt for the Smiley Home, a recreational group in the freshmen orientation week.  My design goal was to encourages freshmen to open up their minds and make new friends from the event.&lt;/p&gt;</content>
  </entry>
@@ -550,7 +550,7 @@ Interactive systems are increasingly being used to explicitly support change in 
  <entry>
    <title>Memories in a School Bag</title>
    <link href="http://kanitw.yellowpigz.com/2006/03/01/acyearbook/"/>
-   <updated>2006-03-01T00:00:00-05:00</updated>
+   <updated>2006-03-01T00:00:00-08:00</updated>
    <id>http://kanitw.yellowpigz.com/2006/03/01/acyearbook</id>
    <content type="html">&lt;p&gt;For 12 years from grade one to twelve, Assumption College had studied together. One of the common memories they have is to carry this uniform school bag everyday. As a lead graphic designer, I decided to impose this bag images on the protective case of the yearbook to represent our 12-year memories. We also designed the graphic of the yearbook using minimalist design principle.&lt;/p&gt;</content>
  </entry>
