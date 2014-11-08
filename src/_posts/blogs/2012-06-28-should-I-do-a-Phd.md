@@ -16,6 +16,7 @@ However, since I have done some homework before deciding to spent my next many y
 
 * [The PhD Grind]() by Philip Guo
 
+<!-- Illustrated Guide to PhD-->
 
 * [Computing as a career](http://blog.jameslin.name/2012/02/16/computing-as-a-career/) by [James Lin](http://blog.jameslin.name/)
 

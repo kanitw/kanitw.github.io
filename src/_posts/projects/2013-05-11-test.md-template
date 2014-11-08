@@ -28,7 +28,7 @@ website:
 collaborators: []
 advisors: []
 ---
-
+{% include JB/setup %}
 
 
 ddd

@@ -7,3 +7,5 @@ tags: []
 published: false
 ---
 {% include JB/setup %}
+
+http://nathangrigg.net/2012/04/rsyncing-jekyll/

@@ -1,0 +1,17 @@
+layout: project
+title: "PeerAPI"
+tagline: ""
+description: "Peer Assessment Grading System for Massive Online Classrooms"
+home_section: "selected-research"
+category: "selected-research"
+tags: [Research, Education, MOOC, HCI, HTML/CSS, Javascript, Python, Systems]
+
+collaborators: [["Chinmay Kulkarni", "http://www.stanford.edu/~chinmay/"]]
+advisors: [["Scott Klemmer","http://hci.stanford.edu/~srk"], ["Michael Bernstein", "http://hci.stanford.edu/~msb"]]
+
+thumb: "/assets/peerapi/thumbs.png"
+thumb_align: top
+
+figure: "/assets/peerapi/thumbs.png"
+
+link: "http://hci.stanford.edu/research/assess/api/"
