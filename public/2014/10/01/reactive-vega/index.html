@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Facespot</title>
+  <title>Declarative Interaction Design for Data Visualization</title>
   
-  <meta name="description" content="Face Detection and Recognition add-ons for Linux's F-Spot.">
+  <meta name="description" content="Declarative Model for Interactive Visualization">
   
   <meta name="author" content="Kanit Wongsuphasawat">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -129,31 +129,28 @@
 
 <div class="page-header">
   <h1>
-    Facespot
+    Declarative Interaction Design for Data Visualization
     <small></small>
   </h1>
 </div>
 
 <div class="row">
   <div class="span8">
-    <img src="/assets/facespot/facespot.png" class='figure'>
+    <img src="/assets/reactive-vega/figure.png" class='figure'>
 
   </div>
 
   <div class="span4">
 
     
-<!--- start with the lack... -->
+<p>(by Arvind Satyanarayan, Kanit Wongsuphasawat, Jeffrey Heer)</p>
 
-<p>Mobile cameras have increased the number of personal photos.  Our goal was to enable Linux users to have Face Recognition feature just as Apple users enjoyed a similar feature in iPhoto.  Facespot, a face recognition plugin for F-Spot, was built to achieve this goal.</p>
+<p>Declarative visualization grammars can accelerate development, facilitate retargeting across platforms, and allow language-level optimizations. However, existing declarative visualization languages are primarily concerned with visual encoding, and rely on imperative event handlers for interactive behaviors. In response, we introduce a model of declarative interaction design for data visualizations. Adopting methods from reactive programming, we model low-level events as composable data streams from which we form higher-level semantic signals. Signals feed predicates and scale inversions, which allow us to generalize interactive selections at the level of item geometry (pixels) into interactive queries over the data domain. Production rules then use these queries to manipulate the visualization’s appearance. To facilitate reuse and sharing, these constructs can be encapsulated as named interactors: standalone, purely declarative specifications of interaction techniques. We assess our model’s feasibility and expressivity by instantiating it with extensions to the Vega visualization grammar. Through a diverse range of examples, we demonstrate coverage over an established taxonomy of visualization interaction techniques.</p>
 
-<!-- See [Video](http://www.youtube.com/watch?feature=player_embedded&v=5Xa1z0saIM4) and [Slide](http://www.scribd.com/doc/68709577/Final-Presentation) -->
+<!-- ### Abstract
 
-<h4 class="award"><i class="icon-star">&nbsp;</i> Awards</h4>
+Interactive systems are increasingly being used to explicitly support change in the user's psychophysiological state and behavior. One important trend in this vein is systems that support calm breathing habits. We designed and evaluated techniques to support respiratory regulation to reduce stress and increase parasympathetic tone. Our study revealed that auditory guidance was more effective than visual at creating self-reported calm. We attribute this to the users' ability to effectively map sound to respiration, thereby reducing cognitive load and mental exertion. Interestingly, we found that visual guidance led to more respiratory change  but less subjective calm. Thus, motivating users to exert physical or mental efforts may counter the calming effects of slow breathing. Designers of calming technologies must acknowledge the discrepancy between mechanical slow breathing and experiential calm in designing future systems. -->
 
-<ul>
-  <li>Winner of Thailand National Software Contest 2010</li>
-</ul>
 
 
     <!-- BEGIN OF LINKS -->
@@ -166,23 +163,25 @@
 
 
 
+  <a href="http://idl.cs.washington.edu/files/2014-DeclarativeInteraction-UIST.pdf" class="paper"><i class="icon-file"></i> Paper</a>
+
 
 <!-- VIDEO-->
- <!--post.youtube-->
-  
-    <a href="#youtube-facespot" role="button" data-toggle="modal"><i class="icon-facetime-video" class="video"></i> Video</a>
 
-    <div class="modal hide fade" id="youtube-facespot">
+
+  
+    <a href="#vimeo-reactive-vega" role="button" data-toggle="modal"><i class="icon-facetime-video" class="video"></i> Video</a>
+
+    <div class="modal hide fade" id="vimeo-reactive-vega">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h3>Video: Facespot</h3>
+        <h3>Video: Declarative Interaction Design for Data Visualization</h3>
       </div>
       <div class="modal-body center">
-        <iframe width="420" height="315" src="" frameborder="0" allowfullscreen></iframe>
+        <iframe src="http://player.vimeo.com/video/100936827" width="450" height="315" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
       </div>
     </div>
   
-
 
 
 <!-- SLIDE -->
@@ -190,19 +189,6 @@
 
 
 
-
-  
-  <a href="#scribd-facespot" target="_blank" role="button" data-toggle="modal" class="slide"><i class="icon-slide"></i> Slides</a>
-    <div class="modal hide fade" id="scribd-facespot">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h3>Slide: Facespot</h3>
-      </div>
-      <div class="modal-body center">
-        <iframe class="scribd_iframe_embed" src="http://www.scribd.com/embeds/68709577/content?start_page=1&view_mode=scroll&access_key=key-1rjx6s05d068gmf9mrh3" data-auto-height="false" data-aspect-ratio="1.29936305732484" scrolling="no" id="doc_76493" width="100%" height="400" frameborder="0"></iframe>
-      </div>
-    </div>
-  
 
 
 
@@ -212,6 +198,8 @@
 
 
 <!--link, prototype, website-->
+
+  <a href="http://idl.cs.washington.edu/papers/reactive-vega" class="link" target="_blank"><i class="icon-share"></i> Link</a>
 
 
 
@@ -225,40 +213,6 @@
 <hr>
 <div class="row-fluid">
   <div class="span8">
-    
-    <ul class="tag_box post-tag-list">
-      <li> Tags: </li>
-      
-      
-
-
-  
-    
-      
-      
-      	<li><a href="/tags.html#C#-ref">C# <span class="num">2</span></a></li>
-      
-    
-      
-      
-      	<li><a href="/tags.html#Mono Framework-ref">Mono Framework <span class="num">1</span></a></li>
-      
-    
-      
-      
-      	<li><a href="/tags.html#System-ref">System <span class="num">2</span></a></li>
-      
-    
-      
-      
-      	<li><a href="/tags.html#UI-ref">UI <span class="num">1</span></a></li>
-      
-    
-  
-
-
-
-    </ul>
     
   </div>
   <div class="span4">
