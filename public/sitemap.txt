@@ -10,15 +10,12 @@ http://kanitw.yellowpigz.com/sitemap.txt
 http://kanitw.yellowpigz.com/tags.html
 
 http://kanitw.yellowpigz.com/2014/10/01/reactive-vega/
-http://kanitw.yellowpigz.com/2014/10/01/declarative-interaction/
 http://kanitw.yellowpigz.com/2013/10/01/idl-branding/
 http://kanitw.yellowpigz.com/2013/06/30/peerapi/
 http://kanitw.yellowpigz.com/2013/05/11/test/
 http://kanitw.yellowpigz.com/2012/12/06/peereviz/
 http://kanitw.yellowpigz.com/2012/09/06/venture-lab/
 http://kanitw.yellowpigz.com/2012/06/06/breathwear/
-http://kanitw.yellowpigz.com/2012/06/06/breathwear/
-http://kanitw.yellowpigz.com/2012/06/02/setup-mac/
 http://kanitw.yellowpigz.com/2012/03/15/kineticmath/
 http://kanitw.yellowpigz.com/2012/03/15/habitbuddy/
 http://kanitw.yellowpigz.com/2012/03/06/kitchit/

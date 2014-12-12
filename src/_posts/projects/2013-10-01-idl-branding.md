@@ -3,8 +3,7 @@ layout: project
 title: "IDL Logo"
 tagline: ""
 description: "Logo Design for Interactive Data Lab"
-home_section: "design"
-category: "design"
+category: design
 tags: [Graphics Design]
 
 collaborators: [["Jeffrey Heer", "http://jheer.org"]]

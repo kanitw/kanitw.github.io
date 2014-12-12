@@ -3,8 +3,7 @@ layout: project
 title: "Venture Lab"
 tagline: ""
 description: "The world's first project-based Massive Online Education Platform."
-home_section: "class"
-category: "selected-research"
+home_section: software
 tags: [UX Design, Research, Education, MOOC, HCI, HTML/CSS, Javascript, Twitter Bootstrap, Ruby on Rails]
 
 thumb: "/assets/venturelab/thumb.png"

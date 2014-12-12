@@ -1,10 +1,10 @@
 ---
-layout: project
-title: "Breathwear"
+layout: publication
+title: "You Can’t Force Calm: Designing and Evaluating Respiratory Regulating Interfaces for Calming Technology"
+authors: [["Kanit Wongsuphasawat","/"], ["Alex Gamburg"], ["Neema Moraveji", "http://moraveji.org/"]]
 
 description: "User Interface for Improving Users' Calm by Respiratory Regulation."
-category: "selected-research"
-home_section: "selected-research"
+category: publication
 tags: [ios,calming technology, HCI]
 
 thumb: "/assets/breathwear/thumb1.png"
@@ -14,7 +14,6 @@ slide: "/assets/breathwear/slide.pdf"
 poster: "/assets/breathwear/poster_final.pdf"
 
 vimeo-id: 57799276
-collaborators: [["Neema Moraveji", "http://moraveji.org/"],["Alex Gamburg"]]
 ---
 {% include JB/setup %}
 

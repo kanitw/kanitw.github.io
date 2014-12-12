@@ -3,8 +3,7 @@
 layout: project
 title: "CUPhoto Memorial DVD"
 description: "Chulalongkorn-Thammasat Annual Soccer Game Memorial DVD."
-category: "graphic-design"
-home_section: "design"
+category: "design"
 tags: [Interactive Media, Graphic Design]
 
 figure: "/assets/cuphotodvd/cuphotodvd.png"

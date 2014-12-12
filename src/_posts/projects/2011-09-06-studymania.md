@@ -2,8 +2,8 @@
 layout: project
 title: "StudyMania"
 description: "Make homework fun by challenging your friend."
-category: "class-project"
-home_section: "class"
+category: software
+
 thumb: "/images/studymania/studymania-small.jpg"
 thumb_align: top
 figure: "/images/studymania/studymania.jpg"

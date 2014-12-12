@@ -1,9 +1,8 @@
 ---
 layout: project
 title: "Kinetic Math"
-description: "Teaching maths to children via kinesthetic, visual and engaging game."
-category: "class-project"
-home_section: "class"
+description: "Teaching maths to kids via kinesthetic."
+category: software
 
 thumb: "/assets/kineticmath/poster.jpg"
 thumb_align: top

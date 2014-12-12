@@ -2,8 +2,7 @@
 layout: project
 title: "Habit Buddy"
 description: "Goal-setting Behavioral Change Mobile Application Prototype."
-category: "class-project"
-home_section: "class"
+category: software
 
 tags: [mobile, "class-project"]
 thumb: "/assets/habitbuddy/thumb.png"

@@ -3,8 +3,7 @@
 layout: project
 title: "Memories in a School Bag"
 description: "Assumption College 120th Class Memorial Book."
-category: "graphic-design"
-home_section: "design"
+category: "design"
 tags: [Book Design, Graphic Design, Package Design]
 
 thumb: /assets/acyearbook/thumb.png
