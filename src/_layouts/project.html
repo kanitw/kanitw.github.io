@@ -4,6 +4,10 @@ layout: default
 {% include JB/setup %}
 
 <div class="page-header">
+  <div class="category-header">
+    {{page.category | Titlecase}}
+    Project
+  </div>
   <h1>
     {{ page.title }}
     <small>{{page.tagline}}</small>
@@ -51,4 +55,4 @@ layout: default
 </div>
 
 
-<hr>{% include JB/comments %}
+<!-- <hr>{% include JB/comments %} -->
