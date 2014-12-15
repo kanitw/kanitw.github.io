@@ -6,43 +6,44 @@ layout: default
 {% include themes/twitter/index.html %}
 
 <h3>Publications</h3>
-{% for post in site.posts %}
+<div class="pubs">
+  {% for post in site.posts %}
 
-{% if post.category and "publication" == post.category %}
-<div class="row-fluid pubs">
-  <div class="span4 pub-item">
-    <a href="{{ BASE_PATH }}{{ post.url }}">
-      <div class="pub-thumbs {{post.thumb_align}}">
-        <div class="img" style="background-image:url({% if post.thumb != null %}{{post.thumb}}{% else %}http://placehold.it/350x200 {% endif %})">
+    {% if post.category and "publication" == post.category %}
+    <div class="row-fluid pub-item">
+      <div class="span4 ">
+        <a href="{{ BASE_PATH }}{{ post.url }}">
+          <div class="pub-thumbs {{post.thumb_align}}">
+            <div class="img" style="background-image:url({% if post.thumb != null %}{{post.thumb}}{% else %}http://placehold.it/350x200 {% endif %})">
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="span8">
+        <h4>
+          <a href="{{ BASE_PATH }}{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h4>
+        <div class="authors">
+          {% for author in post.authors %}
+            <span class="author"><a href="{{ author[1] }}">{{author[0]}}</a></span>
+          {% endfor %}
+        </div>
+        <div class="venue">
+          {{ post.venue }}
+        </div>
+        <div class="links">
+          {% assign simple_links = 1 %}
+          {% include themes/kanitw/links.html %}
         </div>
       </div>
-    </a>
-  </div>
-  <div class="span8">
-    <h4>
-      <a href="{{ BASE_PATH }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h4>
-    <div class="authors">
-      {% for author in post.authors %}
-        <span class="author"><a href="{{ author[1] }}">{{author[0]}}</a></span>
-      {% endfor %}
-    </div>
-    <div class="venue">
-      {{ post.venue }}
-    </div>
-    <div class="links">
-      {% assign simple_links = 1 %}
-      {% include themes/kanitw/links.html %}
-    </div>
-  </div>
 
+    </div>
+    {% endif %}
+
+  {% endfor %}
 </div>
-{% endif %}
-
-{% endfor %}
-
 {% for category in site.project_categories %}
   <h3>
   {% case category %}
@@ -72,8 +73,8 @@ layout: default
           </h4>
           <div class="description">{{post.description}}</div>
           <div class="links">
-            {% assign simple_links = 1 %}
-            {% include themes/kanitw/links.html %}
+            <!-- assign simple_links = 1 -->
+            <!-- include themes/kanitw/links.html -->
           </div>
         </div>
 

@@ -19,27 +19,41 @@ layout: default
   </div>
 
   <div class="row">
-    <div class="span2"></div>
-    <div class="span8">
-      <img src="{{page.figure}}" class='figure'>
-      <br/><br/>
-    </div>
-    <div class="span2"></div>
-  </div>
+    <div class="span9">
 
+      <div class="figure-group">
+        <img src="{{page.figure}}" class='figure'>
+        <div class="caption">
+          {{page.caption}}
+        </div>
+      </div>
+    </div>
+    <div class="span3">
+    </div>
+  </div>
   <div class="row">
-    <div class="span2"></div>
-    <div class="span8">
+    <div class="span9">
       {{ content }}
-      <!-- BEGIN OF LINKS -->
-      {% assign post = page %}
-      {% include themes/kanitw/links.html %}
-      <!-- END OF LINKS -->
+      {% if page.vimeo-id %}
+      <div class="links">
+        <h3>Supplement</h3>
+        <!-- BEGIN OF LINKS -->
+        {% assign post = page %}
+        {% include themes/kanitw/links.html %}
+        <!-- END OF LINKS -->
+      </div>
+      <div class="video-container">
+
+        <h3>Video</h3>
+        <iframe src="http://player.vimeo.com/video/{{page.vimeo-id}}" width="450" height="315" frameborder="0" webkitAllowFullScreenmozallowfullscreen allowFullScreen></iframe>
+      </div>
+
+      {% endif %}
     </div>
-    <div class="span2"></div>
+    <div class="span1"></div>
   </div>
 
-  <hr>
+  <!-- <hr>
   <div class="row-fluid">
     <div class="span8">
       {% unless page.tags == empty %}
@@ -59,7 +73,7 @@ layout: default
         </ul>
       </div>
     </div>
-  </div>
+  </div> -->
 </div>
 
 

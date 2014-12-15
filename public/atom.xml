@@ -4,7 +4,7 @@
  <title>kanitw.yellowpigz.com</title>
  <link href="http://kanitw.yellowpigz.com/atom.xml" rel="self"/>
  <link href="http://kanitw.yellowpigz.com"/>
- <updated>2014-12-12T11:57:56-08:00</updated>
+ <updated>2014-12-12T14:02:18-08:00</updated>
  <id>http://kanitw.yellowpigz.com</id>
  <author>
    <name>Kanit Wongsuphasawat</name>
@@ -131,10 +131,31 @@ ddd
    <updated>2012-06-06T00:00:00-07:00</updated>
    <id>http://kanitw.yellowpigz.com/2012/06/06/breathwear</id>
    <content type="html">
-&lt;p&gt;One problem that has always intrigued me is how might we use technology to induce positive behavioral change?
-As respiratory regulation can reduce stress and increase parasympathetic tone, my colleague and I designed an application using a visual guide and an auditory guide based on the Stanford Calming Technology Lab’s Breathwear system.  We did a user study to compare the effect of using these two different modalities for breathing regulation.  We discovered that the audio guide led to higher self-reported calm ratings but the visual guidance led to more respiratory change.  We concluded that motivating users to exert physical or mental efforts may counter the calming effects of slow breathing.  The result has been presented at UIST2012.&lt;/p&gt;
+&lt;h3 id=&quot;abstract&quot;&gt;Abstract&lt;/h3&gt;
+
+&lt;p&gt;Interactive systems are increasingly being used to explicitly
+support change in the user’s psychophysiological state and
+behavior. One trend in this vein is systems that support calm
+breathing habits. We designed and evaluated techniques to
+support respiratory regulation to reduce stress and increase
+parasympathetic tone. Our study revealed that auditory guidance
+was more effective than visual at creating self-reported
+calm. We attribute this to the users’ ability to effectively
+map sound to respiration, thereby reducing cognitive load
+and mental exertion. Interestingly, we found that visual guidance
+led to more respiratory change but less subjective calm.
+Thus, motivating users to exert physical or mental efforts may
+counter the calming effects of slow breathing. Designers of
+calming technologies must acknowledge the discrepancy between
+mechanical slow breathing and experiential calm in designing
+future systems.&lt;/p&gt;
+
+&lt;!-- One problem that has always intrigued me is how might we use technology to induce positive behavioral change?
+As respiratory regulation can reduce stress and increase parasympathetic tone, my colleague and I designed an application using a visual guide and an auditory guide based on the Stanford Calming Technology Lab’s Breathwear system.  We did a user study to compare the effect of using these two different modalities for breathing regulation.  We discovered that the audio guide led to higher self-reported calm ratings but the visual guidance led to more respiratory change.  We concluded that motivating users to exert physical or mental efforts may counter the calming effects of slow breathing.  The result has been presented at UIST2012. --&gt;
 
 &lt;p&gt;See our &lt;a href=&quot;/assets/breathwear/poster_final.pdf&quot;&gt;poster&lt;/a&gt; and &lt;a href=&quot;http://hci.stanford.edu/publications/2012/CantForceCalmUIST2012.pdf&quot;&gt;extended abstract&lt;/a&gt;!&lt;/p&gt;
+
+&lt;!-- TODO add poster here --&gt;
 
 &lt;!-- ### Abstract
 
@@ -287,7 +308,7 @@ and &lt;a href=&quot;http://www.slideshare.net/kanitw/studymaniapresentationpdf&
 
 &lt;p&gt;The Maroon gear represents Faculty of Engineering, Chulalongkorn University, the home of Engineering Innovator Club.&lt;/p&gt;
 
-&lt;p&gt;The robot represents the club’s main activity, which designing various types of robots including Soccer robots and Home automation robots.&lt;/p&gt;
+&lt;p&gt;The robot represents the club’s main activity–designing various types of robots including Soccer robots and Home automation robots.&lt;/p&gt;
 </content>
  </entry>
  

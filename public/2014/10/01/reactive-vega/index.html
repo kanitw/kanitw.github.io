@@ -5,8 +5,6 @@
   <meta charset="utf-8">
   <title>Declarative Interaction Design for Data Visualization</title>
   
-  <meta name="description" content="Declarative Model for Interactive Visualization">
-  
   <meta name="author" content="Kanit Wongsuphasawat">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -147,17 +145,20 @@
   </div>
 
   <div class="row">
-    <div class="span2"></div>
-    <div class="span8">
-      <img src="/assets/reactive-vega/figure.png" class='figure'>
-      <br/><br/>
-    </div>
-    <div class="span2"></div>
-  </div>
+    <div class="span9">
 
+      <div class="figure-group">
+        <img src="/assets/reactive-vega/figure.png" class='figure'>
+        <div class="caption">
+          Schematic for declarative overview + detail interaction. Mouse events in an overview (top) feed selection predicates based on drag start and end coordinates. Scale inversion is used to map the pixel range to date values, lifting the pixel-level selection to a query over the source data. This query is used to drive a filter transform for the focus view (bottom).
+        </div>
+      </div>
+    </div>
+    <div class="span3">
+    </div>
+  </div>
   <div class="row">
-    <div class="span2"></div>
-    <div class="span8">
+    <div class="span9">
       
 <h3 id="abstracts">Abstracts</h3>
 
@@ -168,24 +169,35 @@
 Interactive systems are increasingly being used to explicitly support change in the user's psychophysiological state and behavior. One important trend in this vein is systems that support calm breathing habits. We designed and evaluated techniques to support respiratory regulation to reduce stress and increase parasympathetic tone. Our study revealed that auditory guidance was more effective than visual at creating self-reported calm. We attribute this to the users' ability to effectively map sound to respiration, thereby reducing cognitive load and mental exertion. Interestingly, we found that visual guidance led to more respiratory change  but less subjective calm. Thus, motivating users to exert physical or mental efforts may counter the calming effects of slow breathing. Designers of calming technologies must acknowledge the discrepancy between mechanical slow breathing and experiential calm in designing future systems. -->
 
 
-      <!-- BEGIN OF LINKS -->
       
-      
+      <div class="links">
+        <h3>Supplement</h3>
+        <!-- BEGIN OF LINKS -->
+        
+        
 
 <!-- PAPER -->
 
 
 
 
-
-  <a href="http://idl.cs.washington.edu/files/2014-DeclarativeInteraction-UIST.pdf" class="paper"><i class="icon-file"></i> Paper</a>
+  <span>
+    <a href="http://idl.cs.washington.edu/files/2014-DeclarativeInteraction-UIST.pdf" class="paper">
+      <i class="icon-file"></i>
+      Paper
+    </a>
+  </span>
 
 
 <!-- VIDEO-->
 
 
+  <span>
   
-    <a href="#vimeo-reactive-vega" role="button" data-toggle="modal"><i class="icon-facetime-video" class="video"></i> Video</a>
+    <a href="#vimeo-reactive-vega" role="button" data-toggle="modal">
+      <i class="icon-facetime-video" class="video"></i>
+      Video
+    </a>
 
     <div class="modal hide fade" id="vimeo-reactive-vega">
       <div class="modal-header">
@@ -197,6 +209,7 @@ Interactive systems are increasingly being used to explicitly support change in 
       </div>
     </div>
   
+  </span>
 
 
 <!-- SLIDE -->
@@ -214,18 +227,24 @@ Interactive systems are increasingly being used to explicitly support change in 
 
 <!--link, prototype, website-->
 
-  <a href="http://idl.cs.washington.edu/papers/reactive-vega" class="link" target="_blank"><i class="icon-share"></i> Link</a>
-
 
 
 &nbsp;
 
-      <!-- END OF LINKS -->
+        <!-- END OF LINKS -->
+      </div>
+      <div class="video-container">
+
+        <h3>Video</h3>
+        <iframe src="http://player.vimeo.com/video/100936827" width="450" height="315" frameborder="0" webkitAllowFullScreenmozallowfullscreen allowFullScreen></iframe>
+      </div>
+
+      
     </div>
-    <div class="span2"></div>
+    <div class="span1"></div>
   </div>
 
-  <hr>
+  <!-- <hr>
   <div class="row-fluid">
     <div class="span8">
       
@@ -239,7 +258,7 @@ Interactive systems are increasingly being used to explicitly support change in 
         </ul>
       </div>
     </div>
-  </div>
+  </div> -->
 </div>
 
 

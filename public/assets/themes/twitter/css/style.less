@@ -24,7 +24,13 @@ a.ham {
 
 #right-info-box{
   margin-top: 240px;
-  padding-left: 50px;
+  padding-left: 70px;
+  span.infolabel {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+    margin-right: 10px;
+  }
 }
 
 .big{
@@ -113,6 +119,7 @@ a.ham {
     }
 
     h4{
+      margin-top: 3px;
       margin-bottom: 3px;
     }
   }
@@ -123,6 +130,14 @@ a.ham {
   h1 {
     font-size: 30px;
     margin-bottom: 0;
+  }
+
+  .figure-group{
+    margin-bottom: 40px;
+  }
+  .caption{
+    margin-top: 5px;
+    font-size: 14px;
   }
 }
 
@@ -141,19 +156,25 @@ a.ham {
 }
 
 .links{
-  margin-top: 5px;
-  & > a{
-    .bordered-link;
+  & > span >  a{
     color: #666;
 
     // margin-right: 3px;
-    padding:2px 5px;
+    padding:2px 0px;
     [class^="icon-"], [class*=" icon-"]
     {
       opacity: 0.8;
+      display:none;
       // margin-right: 2px;
     }
 
+  }
+
+  & > span:after {
+    content: " | ";
+  }
+  & > span:last-child:after{
+    content: "";
   }
 }
 
@@ -324,6 +345,7 @@ h4.award{
     margin-top: 4px;
   }
 }
+
 
 .tag_box a.active {
 	background:#57A957;

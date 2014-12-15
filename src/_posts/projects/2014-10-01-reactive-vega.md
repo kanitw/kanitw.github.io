@@ -4,16 +4,16 @@ category: publication
 title: "Declarative Interaction Design for Data Visualization"
 authors: [ ["Arvind Satyanarayan", "http://arvindsatya.com/"], ["Kanit Wongsuphasawat", "/"], ["Jeffrey Heer", "http://jheer.org"]]
 venue: "ACM User Interface Software & Technology (UIST), 2014"
-
-description: "Declarative Model for Interactive Visualization"
+caption: "Schematic for declarative overview + detail interaction. Mouse events in an overview (top) feed selection predicates based on drag start and end coordinates. Scale inversion is used to map the pixel range to date values, lifting the pixel-level selection to a query over the source data. This query is used to drive a filter transform for the focus view (bottom)."
 
 tags: []
 
-paper: "http://idl.cs.washington.edu/files/2014-DeclarativeInteraction-UIST.pdf"
 thumb: "/assets/reactive-vega/figure.png"
 thumb_align: top
 figure: "/assets/reactive-vega/figure.png"
-link: "http://idl.cs.washington.edu/papers/reactive-vega"
+
+projectpage: "http://idl.cs.washington.edu/papers/reactive-vega"
+paper: "http://idl.cs.washington.edu/files/2014-DeclarativeInteraction-UIST.pdf"
 vimeo-id: 100936827
 ---
 {% include JB/setup %}

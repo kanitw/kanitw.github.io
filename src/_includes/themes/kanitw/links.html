@@ -8,14 +8,19 @@
   {% endif %}
 {% endif %}
 
-
 {%if post.paper %}
-  <a href="{{ post.paper }}" class="paper"><i class="icon-file"></i> Paper</a>
+  <span>
+    <a href="{{ post.paper }}" class="paper">
+      <i class="icon-file"></i>
+      Paper
+    </a>
+  </span>
 {%endif%}
 
 <!-- VIDEO-->
 {%if post.youtube-id %} <!--post.youtube-->
   {% if simple_links %}
+  <span>
     <a href="http://www.youtube.com/watch?v={{post.youtube-id}}" target="_blank" role="button" data-toggle="modal"><i class="icon-facetime-video" class="video"></i> Video</a>
   {% else %}
     <a href="#youtube-{{post_id}}" role="button" data-toggle="modal"><i class="icon-facetime-video" class="video"></i> Video</a>
@@ -29,13 +34,18 @@
         <iframe width="420" height="315" src="{{ post.youtube }}" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
+  </span>
   {%endif%}
 {%endif%}
 {%if post.vimeo-id %}
+  <span>
   {% if simple_links %}
     <a href="http://vimeo.com/{{post.vimeo-id}}"  target="_blank"  role="button" data-toggle="modal"><i class="icon-facetime-video" class="video"></i> Video</a>
   {% else %}
-    <a href="#vimeo-{{post_id}}" role="button" data-toggle="modal"><i class="icon-facetime-video" class="video"></i> Video</a>
+    <a href="#vimeo-{{post_id}}" role="button" data-toggle="modal">
+      <i class="icon-facetime-video" class="video"></i>
+      Video
+    </a>
 
     <div class="modal hide fade" id="vimeo-{{post_id}}">
       <div class="modal-header">
@@ -47,12 +57,14 @@
       </div>
     </div>
   {%endif%}
+  </span>
 {%endif%}
 
 <!-- SLIDE -->
 <!-- if post.slideshare-id -->
 
 {%if post.slideshare%}
+  <span>
   {% if simple_links %}
     <a href="{{post.slideshare}}"  target="_blank"  role="button" data-toggle="modal" class="slide"><i class="icon-slide"></i> Slides</a>
   {% else %}
@@ -70,9 +82,11 @@
 <!--
  <div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/kanitw/studymaniapresentationpdf" title="StudyManiaPresentation.pdf" target="_blank">StudyManiaPresentation.pdf</a> </strong> from <strong><a href="http://www.slideshare.net/kanitw" target="_blank">Kanit Ham Wongsuphasawat</a></strong> </div> -->
   {%endif%}
+  </span>
 {%endif%}
 
 {%if post.scribd-id %}
+  <span>
   {% if simple_links %}
     <a href="http://www.scribd.com/doc/{{post.scribd-id}}" target="_blank" role="button" data-toggle="modal" class="slide"><i class="icon-slide"></i> Slides</a>
   {% else %}
@@ -87,26 +101,36 @@
       </div>
     </div>
   {%endif%}
+  </span>
 {%endif%}
 
 {%if post.slide %}
-  <a href="{{ post.slide }}" class="slide"  target="_blank"><i class="icon-slide"></i> Slides</a>
+  <span><a href="{{ post.slide }}" class="slide"  target="_blank"><i class="icon-slide"></i> Slides</a></span>
 {%endif%}
 
 <!-- POSTER -->
 
 {%if post.poster %}
-  <a href="{{ post.poster }}" class="poster"  target="_blank"><i class="icon-map"></i> Poster</a>
+  <span><a href="{{ post.poster }}" class="poster"  target="_blank"><i class="icon-map"></i> Poster</a></span>
 {%endif%}
 
 <!--link, prototype, website-->
 {%if post.link %}
-  <a href="{{ post.link }}" class="link" target="_blank"><i class="icon-share"></i> Link</a>
+  <span>
+    <a href="{{ post.link }}" class="link" target="_blank">
+      <i class="icon-share"></i>
+      {%if post.linkname %}
+        {{post.linkname}}
+      {% else %}
+        Link
+      {% endif %}
+    </a>
+  </span>
 {%endif%}
 {%if post.prototype %}
-  <a href="{{ post.prototype }}" class="prototype" target="_blank"><i class="icon-share"></i> Prototype</a>
+  <span><a href="{{ post.prototype }}" class="prototype" target="_blank"><i class="icon-share"></i> Prototype</a></span>
 {%endif%}
 {%if post.website %}
-  <a href="{{ post.website }}" class="website"><i class="icon-share"></i> Web</a>
+  <span><a href="{{ post.website }}" class="website"><i class="icon-share"></i> Web</a></span>
 {%endif%}
 &nbsp;

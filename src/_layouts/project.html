@@ -24,14 +24,16 @@ layout: default
 
     {{ content }}
 
-    <!-- BEGIN OF LINKS -->
-    {% assign post = page %}
-    {% include themes/kanitw/links.html %}
-    <!-- END OF LINKS -->
+    <div class="links">
+      <!-- BEGIN OF LINKS -->
+      {% assign post = page %}
+      {% include themes/kanitw/links.html %}
+      <!-- END OF LINKS -->
+    </div>
 
   </div>
 </div>
-
+<!--
 <hr>
 <div class="row-fluid">
   <div class="span8">
@@ -52,7 +54,7 @@ layout: default
       </ul>
     </div>
   </div>
-</div>
+</div> -->
 
 
 <!-- <hr>{% include JB/comments %} -->

@@ -13,7 +13,13 @@ a.ham {
 }
 #right-info-box {
   margin-top: 240px;
-  padding-left: 50px;
+  padding-left: 70px;
+}
+#right-info-box span.infolabel {
+  display: inline-block;
+  width: 60px;
+  text-align: right;
+  margin-right: 10px;
 }
 .big {
   font-size: 16px;
@@ -112,11 +118,19 @@ a.ham {
   background-position: top center;
 }
 .pubs .pub-item h4 {
+  margin-top: 3px;
   margin-bottom: 3px;
 }
 .page-pub h1 {
   font-size: 30px;
   margin-bottom: 0;
+}
+.page-pub .figure-group {
+  margin-bottom: 40px;
+}
+.page-pub .caption {
+  margin-top: 5px;
+  font-size: 14px;
 }
 .post-item {
   display: -moz-inline-stack;
@@ -144,27 +158,20 @@ a.ham {
 .post-item .home-thumbs.top .img {
   background-position: top center;
 }
-.links {
-  margin-top: 5px;
-}
-.links > a {
+.links > span > a {
   color: #666;
-  padding: 2px 5px;
+  padding: 2px 0px;
 }
-.links > a:hover {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  background-color: #f1f1f1;
-  text-decoration: none;
-  color: #08c;
-}
-.links > a.dark:hover {
-  background-color: #ddd;
-}
-.links > a [class^="icon-"],
-.links > a [class*=" icon-"] {
+.links > span > a [class^="icon-"],
+.links > span > a [class*=" icon-"] {
   opacity: 0.8;
+  display: none;
+}
+.links > span:after {
+  content: " | ";
+}
+.links > span:last-child:after {
+  content: "";
 }
 .posts,
 .posts h5 {
