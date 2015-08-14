@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Kinetic Math"
-description: "Teaching maths to kids via kinesthetic."
+description: "Teaching maths to kids via a fun and entertaining kinesthetic game."
 category: software
 
 thumb: "/assets/kineticmath/poster.jpg"
