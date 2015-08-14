@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>kanitw.yellowpigz.com</title>
+ <link href="http://kanitw.yellowpigz.com/atom.xml" rel="self"/>
+ <link href="http://kanitw.yellowpigz.com"/>
+ <updated>2015-08-13T21:51:49-04:00</updated>
+ <id>http://kanitw.yellowpigz.com</id>
+ <author>
+   <name>Kanit Wongsuphasawat</name>
+   <email>kanitw@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Voyager: Exploratory Analysis via Faceted Browsing of Visualization Recommendations</title>
+   <link href="http://kanitw.yellowpigz.com/2015/10/01/voyager/"/>
+   <updated>2015-10-01T00:00:00-04:00</updated>
+   <id>http://kanitw.yellowpigz.com/2015/10/01/voyager</id>
+   <content type="html">
+&lt;h3 id=&quot;abstracts&quot;&gt;Abstracts&lt;/h3&gt;
+
+&lt;p&gt;General visualization tools typically require manual specification of views: analysts must select data variables and then choose which transformations and visual encodings to apply. These decisions often involve both domain and visualization design expertise, and may impose a tedious specification process that impedes exploration. In this paper, we seek to complement manual chart construction with interactive navigation of a gallery of automatically-generated visualizations. We contribute Voyager, a mixed-initiative system that supports faceted browsing of recommended charts chosen according to statistical and perceptual measures. We describe Voyager’s architecture, motivating design principles, and methods for generating and interacting with visualization recommendations. In a study comparing Voyager to a manual visualization specification tool, we find that Voyager facilitates exploration of previously unseen data and leads to increased data variable coverage. We then distill design implications for visualization tools, in particular the need to balance rapid exploration and targeted question-answering.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Declarative Interaction Design for Data Visualization</title>
+   <link href="http://kanitw.yellowpigz.com/2014/10/01/reactive-vega/"/>
+   <updated>2014-10-01T00:00:00-04:00</updated>
+   <id>http://kanitw.yellowpigz.com/2014/10/01/reactive-vega</id>
+   <content type="html">
+&lt;h3 id=&quot;abstracts&quot;&gt;Abstracts&lt;/h3&gt;
+
+&lt;p&gt;Declarative visualization grammars can accelerate development, facilitate retargeting across platforms, and allow language-level optimizations. However, existing declarative visualization languages are primarily concerned with visual encoding, and rely on imperative event handlers for interactive behaviors. In response, we introduce a model of declarative interaction design for data visualizations. Adopting methods from reactive programming, we model low-level events as composable data streams from which we form higher-level semantic signals. Signals feed predicates and scale inversions, which allow us to generalize interactive selections at the level of item geometry (pixels) into interactive queries over the data domain. Production rules then use these queries to manipulate the visualization’s appearance. To facilitate reuse and sharing, these constructs can be encapsulated as named interactors: standalone, purely declarative specifications of interaction techniques. We assess our model’s feasibility and expressivity by instantiating it with extensions to the Vega visualization grammar. Through a diverse range of examples, we demonstrate coverage over an established taxonomy of visualization interaction techniques.&lt;/p&gt;
+
+&lt;!-- ### Abstract
+
+Interactive systems are increasingly being used to explicitly support change in the user&#39;s psychophysiological state and behavior. One important trend in this vein is systems that support calm breathing habits. We designed and evaluated techniques to support respiratory regulation to reduce stress and increase parasympathetic tone. Our study revealed that auditory guidance was more effective than visual at creating self-reported calm. We attribute this to the users&#39; ability to effectively map sound to respiration, thereby reducing cognitive load and mental exertion. Interestingly, we found that visual guidance led to more respiratory change  but less subjective calm. Thus, motivating users to exert physical or mental efforts may counter the calming effects of slow breathing. Designers of calming technologies must acknowledge the discrepancy between mechanical slow breathing and experiential calm in designing future systems. --&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>IDL Logo</title>
+   <link href="http://kanitw.yellowpigz.com/2013/10/01/idl-branding/"/>
+   <updated>2013-10-01T00:00:00-04:00</updated>
+   <id>http://kanitw.yellowpigz.com/2013/10/01/idl-branding</id>
+   <content type="html">
+&lt;p&gt;As Stanford Visualization Group moved to University Washington and became Interactive Data Lab.&lt;/p&gt;
+
+&lt;p&gt;We need new logo and branding.  I designed the logo and poster theme.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>PeerAPI</title>
+   <link href="http://kanitw.yellowpigz.com/2013/06/30/peerapi/"/>
+   <updated>2013-06-30T00:00:00-04:00</updated>
+   <id>http://kanitw.yellowpigz.com/2013/06/30/peerapi</id>
+   <content type="html">
+&lt;p&gt;Creative fields like design are burgeoning. So are project-based learning approaches. However, providing feedback and assessment of design and other creative work is extremely time consuming – this bottleneck is the major capacity constraint for scaling assessment.&lt;/p&gt;
+
+&lt;p&gt;Large-scale peer assessment in online classrooms creates unique educational opportunities. For the first time, students can see work from classmates on different continents, with different perspectives and strengths. The PeerAPI project is an experiment to tap into these opportunities. It offers programmatic methods for improving peer assessment, and requires minimal instructor involvement.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Test</title>
+   <link href="http://kanitw.yellowpigz.com/2013/05/11/test/"/>
+   <updated>2013-05-11T00:00:00-04:00</updated>
+   <id>http://kanitw.yellowpigz.com/2013/05/11/test</id>
+   <content type="html">&lt;!-- ---
+
+layout: project
+title: &quot;Test&quot;
+description: &quot;&quot;
+category:
+tags: []
+home_section:
+
+figure:
+thumb:
+
+paper:
+youtube-id:
+vimeo-id:
+scribd-id:
+
+required both for slideshare
+slideshare-id:
+slideshare:
+
+slide:
+poster:
+link:
+prototype:
+website:
+
+collaborators: []
+advisors: []
+---
+
+
+
+ddd
+ --&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Peereviz</title>
+   <link href="http://kanitw.yellowpigz.com/2012/12/06/peereviz/"/>
+   <updated>2012-12-06T00:00:00-05:00</updated>
+   <id>http://kanitw.yellowpigz.com/2012/12/06/peereviz</id>
+   <content type="html">
+&lt;p&gt;A large ratio of students per teacher in the massive online courses introduces difficulties for the assessment of students’ work especially for open ended assignments.  Peer review is one possible solution for scaling assessment of open-ended assignments in massive online courses.  However, the amount of data from the peer review system makes it difficult for teaching staff to explore and understand the review data.&lt;/p&gt;
+
+&lt;p&gt;Peereviz utilized existing text visualization techniques as well as multiple coordinated views to explore the massive scale of data in the peer review system of massive online courses.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Venture Lab</title>
+   <link href="http://kanitw.yellowpigz.com/2012/09/06/venture-lab/"/>
+   <updated>2012-09-06T00:00:00-04:00</updated>
+   <id>http://kanitw.yellowpigz.com/2012/09/06/venture-lab</id>
+   <content type="html">
+&lt;p&gt;Online education is changing the world’s education.  Besides lectures and quizzes, project-based learning is also influential.  Venture Lab was built to bring project-based and collaborative learning to the online education world.  &lt;/p&gt;
+
+&lt;p&gt;I led the early User Interface Design of Venture-lab in 2012. We introduced algorithmic team matching and peer reviews system in online education.  The peer review system has enabled the assessment of massive scale online classroom.&lt;/p&gt;
+
+&lt;p&gt;Venture lab has been covered in &lt;a href=&quot;&quot;&gt;Forbes&lt;/a&gt; and &lt;a href=&quot;http://news.stanford.edu/news/2012/september/venture-lab-platform-091712.html&quot;&gt;Stanf&lt;/a&gt;&lt;a href=&quot;http://news.stanford.edu/news/2013/january/seelig-online-creativity-012213.html&quot;&gt;ord News&lt;/a&gt;. Our first class in Entrepreneurship had over 50,000 students.  One final project eventually received funding from a venture capital. &lt;/p&gt;
+
+&lt;p&gt;Join venture-lab classes &lt;a href=&quot;http://venture-lab.org&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>You Can’t Force Calm: Designing and Evaluating Respiratory Regulating Interfaces for Calming Technology</title>
+   <link href="http://kanitw.yellowpigz.com/2012/06/06/breathwear/"/>
+   <updated>2012-06-06T00:00:00-04:00</updated>
+   <id>http://kanitw.yellowpigz.com/2012/06/06/breathwear</id>
+   <content type="html">
+&lt;h3 id=&quot;abstract&quot;&gt;Abstract&lt;/h3&gt;
+
+&lt;p&gt;Interactive systems are increasingly being used to explicitly
+support change in the user’s psychophysiological state and
+behavior. One trend in this vein is systems that support calm
+breathing habits. We designed and evaluated techniques to
+support respiratory regulation to reduce stress and increase
+parasympathetic tone. Our study revealed that auditory guidance
+was more effective than visual at creating self-reported
+calm. We attribute this to the users’ ability to effectively
+map sound to respiration, thereby reducing cognitive load
+and mental exertion. Interestingly, we found that visual guidance
+led to more respiratory change but less subjective calm.
+Thus, motivating users to exert physical or mental efforts may
+counter the calming effects of slow breathing. Designers of
+calming technologies must acknowledge the discrepancy between
+mechanical slow breathing and experiential calm in designing
+future systems.&lt;/p&gt;
+
+&lt;!-- One problem that has always intrigued me is how might we use technology to induce positive behavioral change?
+As respiratory regulation can reduce stress and increase parasympathetic tone, my colleague and I designed an application using a visual guide and an auditory guide based on the Stanford Calming Technology Lab’s Breathwear system.  We did a user study to compare the effect of using these two different modalities for breathing regulation.  We discovered that the audio guide led to higher self-reported calm ratings but the visual guidance led to more respiratory change.  We concluded that motivating users to exert physical or mental efforts may counter the calming effects of slow breathing.  The result has been presented at UIST2012. --&gt;
+
+&lt;p&gt;See our &lt;a href=&quot;/assets/breathwear/poster_final.pdf&quot;&gt;poster&lt;/a&gt; and &lt;a href=&quot;http://hci.stanford.edu/publications/2012/CantForceCalmUIST2012.pdf&quot;&gt;extended abstract&lt;/a&gt;!&lt;/p&gt;
+
+&lt;!-- TODO add poster here --&gt;
+
+&lt;!-- ### Abstract
+
+Interactive systems are increasingly being used to explicitly support change in the user&#39;s psychophysiological state and behavior. One important trend in this vein is systems that support calm breathing habits. We designed and evaluated techniques to support respiratory regulation to reduce stress and increase parasympathetic tone. Our study revealed that auditory guidance was more effective than visual at creating self-reported calm. We attribute this to the users&#39; ability to effectively map sound to respiration, thereby reducing cognitive load and mental exertion. Interestingly, we found that visual guidance led to more respiratory change  but less subjective calm. Thus, motivating users to exert physical or mental efforts may counter the calming effects of slow breathing. Designers of calming technologies must acknowledge the discrepancy between mechanical slow breathing and experiential calm in designing future systems. --&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Kinetic Math</title>
+   <link href="http://kanitw.yellowpigz.com/2012/03/15/kineticmath/"/>
+   <updated>2012-03-15T00:00:00-04:00</updated>
+   <id>http://kanitw.yellowpigz.com/2012/03/15/kineticmath</id>
+   <content type="html">
+&lt;p&gt;Addition and subtraction play a crucial role in mastering math concepts such as Algebra.  Learning math through tons of text can be boring, abstract and ineffective.&lt;/p&gt;
+
+&lt;p&gt;Kinetic math offer a fun and interactive way for kids to learn Math by playing a game with Microsoft Kinect. &lt;/p&gt;
+
+&lt;p&gt;(A project from Human Computer Interaction &amp;amp; Design Studio at Stanford.)&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Habit Buddy</title>
+   <link href="http://kanitw.yellowpigz.com/2012/03/15/habitbuddy/"/>
+   <updated>2012-03-15T00:00:00-04:00</updated>
+   <id>http://kanitw.yellowpigz.com/2012/03/15/habitbuddy</id>
+   <content type="html">
+&lt;h5 id=&quot;point-of-view&quot;&gt;Point of View&lt;/h5&gt;
+
+&lt;p&gt;People
+NEEDS a fun way to help them start and maintain good habits
+BECAUSE changing behavior is not an easy task.&lt;/p&gt;
+
+&lt;p&gt;Play with the prototype mock-up &lt;a href=&quot;/assets/habitbuddy/habitbuddy.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Kitch-It: Brand Campaign</title>
+   <link href="http://kanitw.yellowpigz.com/2012/03/06/kitchit/"/>
+   <updated>2012-03-06T00:00:00-05:00</updated>
+   <id>http://kanitw.yellowpigz.com/2012/03/06/kitchit</id>
+   <content type="html">
+&lt;p&gt;Kitchit is a web-service that allows users to hire a world-class chef to cook for themselves at their home.&lt;/p&gt;
+
+&lt;p&gt;Our social brand class project tried to raise Kitchit’s brand awareness with our “Juggling campaign”.&lt;/p&gt;
+
+&lt;p&gt;Our metaphor was “Entertaining can be a juggling act”–  comparing arranging a party to a juggling act, which professional can easily do it for you.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>StudyMania</title>
+   <link href="http://kanitw.yellowpigz.com/2011/09/06/studymania/"/>
+   <updated>2011-09-06T00:00:00-04:00</updated>
+   <id>http://kanitw.yellowpigz.com/2011/09/06/studymania</id>
+   <content type="html">
+&lt;p&gt;Students need motivation to study.  Our goal was to provide a simple way for students to create fun challenges by betting against their friends.
+As part of CS147 (Intro to Human Computer Interaction &amp;amp; Design) course, our team conducted the whole design process: from needfinding, alternative generation, prototyping, heuristic evaluation, rapid prototyping and user testing.
+As a result, Studymania provides a simple way to create fun way to engage students in learning. This competitive settings drive users to study hard and get stuff done in order to beat their friends.&lt;/p&gt;
+
+&lt;p&gt;Feel free to see &lt;a href=&quot;/images/studymania/studymania-small.jpg&quot;&gt;Poster&lt;/a&gt;
+and &lt;a href=&quot;http://www.slideshare.net/kanitw/studymaniapresentationpdf&quot;&gt;Slide&lt;/a&gt;!&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Facespot</title>
+   <link href="http://kanitw.yellowpigz.com/2010/09/06/facespot/"/>
+   <updated>2010-09-06T00:00:00-04:00</updated>
+   <id>http://kanitw.yellowpigz.com/2010/09/06/facespot</id>
+   <content type="html">
+&lt;!--- start with the lack... --&gt;
+
+&lt;p&gt;Mobile cameras have increased the number of personal photos.  Our goal was to enable Linux users to have Face Recognition feature just as Apple users enjoyed a similar feature in iPhoto.  Facespot, a face recognition plugin for F-Spot, was built to achieve this goal.&lt;/p&gt;
+
+&lt;!-- See [Video](http://www.youtube.com/watch?feature=player_embedded&amp;v=5Xa1z0saIM4) and [Slide](http://www.scribd.com/doc/68709577/Final-Presentation) --&gt;
+
+&lt;h4 class=&quot;award&quot;&gt;&lt;i class=&quot;icon-star&quot;&gt;&amp;nbsp;&lt;/i&gt; Awards&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Winner of Thailand National Software Contest 2010&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Plasma-Z : Soccer-Robot</title>
+   <link href="http://kanitw.yellowpigz.com/2009/09/06/plasma-z-robocup/"/>
+   <updated>2009-09-06T00:00:00-04:00</updated>
+   <id>http://kanitw.yellowpigz.com/2009/09/06/plasma-z-robocup</id>
+   <content type="html">&lt;!--youtube: http://www.youtube.com/embed/FfuM3UGA9Ug--&gt;
+
+&lt;p&gt;Soccer is the most popular sport for humans. It is also the most popular sport for robots as well–at least at the International Robocup!&lt;/p&gt;
+
+&lt;p&gt;As part of the Plasma-Z team, I led the development of our robotic software system. This system integrated inputs from computer vision and motion control feedback system to generate real-time strategies and command fast-paced small size soccer robots.  Besides developing game playing strategies, I also introduced user interfaces that allow easy calibration and testing of our system.&lt;/p&gt;
+
+&lt;!-- In addition, I have also initiated using software configuration management system in the project to manage complexities in our system. --&gt;
+
+&lt;p&gt;Watch our video on &lt;a href=&quot;http://www.youtube.com/watch?v=FfuM3UGA9Ug&quot;&gt;Youtube&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;award&quot;&gt;&lt;i class=&quot;icon-star&quot;&gt;&amp;nbsp;&lt;/i&gt; Awards&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;3rd Place International Robocup Small-sized League soccer robot&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Vidview–Mobile Video View</title>
+   <link href="http://kanitw.yellowpigz.com/2008/06/06/vidview/"/>
+   <updated>2008-06-06T00:00:00-04:00</updated>
+   <id>http://kanitw.yellowpigz.com/2008/06/06/vidview</id>
+   <content type="html">&lt;!--youtube: http://www.youtube.com/embed/bbDOpRBIN6c--&gt;
+
+&lt;p&gt;Prior to Apple iPhone and its popular Youtube application’s release in 2007,  People were enjoying Youtube from their PCs.   However, the most popular phones then did not have sufficient processing power to decode complex video formats.&lt;/p&gt;
+
+&lt;p&gt;Vidview enabled JavaME phone users to watch videos from Youtube and other Video service providers by having intermediary server to prime the video format before sending to the phones. With Vidview, video could be watched from anywhere and anytime.  This project has won a number of awards including the winner of SAMART Innovation Award in 2007.&lt;/p&gt;
+
+&lt;h4 class=&quot;award&quot;&gt;&lt;i class=&quot;icon-star&quot;&gt;&amp;nbsp;&lt;/i&gt; Awards&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1st place of SAMART Innovation Award 2007&lt;/li&gt;
+  &lt;li&gt;Runner-Up of Thailand ICT Award 2008 (College Mobile Apps Category)&lt;/li&gt;
+  &lt;li&gt;3rd Place Accenture Academic Exhibition 2008&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CUPhoto Memorial DVD</title>
+   <link href="http://kanitw.yellowpigz.com/2008/06/06/cuphotocd/"/>
+   <updated>2008-06-06T00:00:00-04:00</updated>
+   <id>http://kanitw.yellowpigz.com/2008/06/06/cuphotocd</id>
+   <content type="html">
+&lt;p&gt;Every year, the Chulalongkorn University Photography Club documents the annual soccer game between Chulalongkorn and Thammasat, the two oldest universities in Thailand.  I contributed the graphic design to the memorial DVD in 2008. &lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>EIC Logo Design</title>
+   <link href="http://kanitw.yellowpigz.com/2008/03/06/eiclogo/"/>
+   <updated>2008-03-06T00:00:00-05:00</updated>
+   <id>http://kanitw.yellowpigz.com/2008/03/06/eiclogo</id>
+   <content type="html">
+&lt;p&gt;Logo Concept for Engineering Innovator Club.&lt;/p&gt;
+
+&lt;p&gt;The Maroon gear represents Faculty of Engineering, Chulalongkorn University, the home of Engineering Innovator Club.&lt;/p&gt;
+
+&lt;p&gt;The robot represents the club’s main activity–designing various types of robots including Soccer robots and Home automation robots.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Perj: Translation Jelly</title>
+   <link href="http://kanitw.yellowpigz.com/2008/02/26/perj/"/>
+   <updated>2008-02-26T00:00:00-05:00</updated>
+   <id>http://kanitw.yellowpigz.com/2008/02/26/perj</id>
+   <content type="html">
+&lt;p&gt;For the Packaging Design course final project, students need to design a packaging for any particular product.  We decided to design a playful packaging for the Translation Jelly from Doraemon.  Our design also envisioned if the Translation Jelly has different flavors for different languages.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Together We Smile</title>
+   <link href="http://kanitw.yellowpigz.com/2007/06/01/smileshirt/"/>
+   <updated>2007-06-01T00:00:00-04:00</updated>
+   <id>http://kanitw.yellowpigz.com/2007/06/01/smileshirt</id>
+   <content type="html">
+&lt;p&gt;I designed this T-Shirt for the Smiley Home, a recreational group in the freshmen orientation week. 
+My design goal was to encourages freshmen to open up their minds and make new friends from the event.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Memories in a School Bag</title>
+   <link href="http://kanitw.yellowpigz.com/2006/03/01/acyearbook/"/>
+   <updated>2006-03-01T00:00:00-05:00</updated>
+   <id>http://kanitw.yellowpigz.com/2006/03/01/acyearbook</id>
+   <content type="html">
+&lt;p&gt;For 12 years from grade one to twelve, Assumption College had studied together.  One of the common memories they have is to carry this uniform school bag everyday.   As a lead graphic designer, I decided to impose this bag images on the protective case of the yearbook to represent our 12-year memories.  We also designed the graphic of the yearbook using minimalist design principle.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
