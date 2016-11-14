@@ -18,8 +18,4 @@ Kanit had professional experience at various data-driven technology companies in
 Kanit was a recipient of Fulbright Scholarship and MS in [Management Science & Engineering](http://msande.stanford.edu) from Stanford University.
 He also holds a B.Eng with First Honor and Gold Medal in [Computer Engineering](http://www.cp.eng.chula.ac.th) from [Chulalongkorn University](http://www.chula.ac.th) in Thailand.
 
-
 Besides work, Kanit loves running, soccer, movies, books, photography, and writing.  He [blogs](http://medium.com/@kanitw) both in English and Thai.
-
-
-
