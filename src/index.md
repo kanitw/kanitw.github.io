@@ -19,3 +19,4 @@ Kanit was a recipient of Fulbright Scholarship and MS in [Management Science & E
 He also holds a B.Eng with First Honor and Gold Medal in [Computer Engineering](http://www.cp.eng.chula.ac.th) from [Chulalongkorn University](http://www.chula.ac.th) in Thailand.
 
 Besides work, Kanit loves running, soccer, movies, books, photography, and writing.  He [blogs](http://medium.com/@kanitw) both in English and Thai.
+
