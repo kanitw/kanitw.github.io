@@ -38,11 +38,18 @@ strong {
     height: 125px;
     border: 1px #f1f1f1 solid;
     background-size: cover;
-    background-position: top center;
+    background-position: top left;
+    transition: all 2s;
+    &:hover {
+      background-position: bottom right;
+    }
     &.contain {
       background-size: contain;
       background-position: center center;
       background-repeat: no-repeat;
+      &:hover {
+        background-position: center;
+      }
     }
     margin-bottom: 4px;
   }

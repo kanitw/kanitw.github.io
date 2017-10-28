@@ -23,6 +23,7 @@ compassql:
   url: http://github.com/vega/compassql
   caption: Query language and engine that unifies visualization specifications and recommendations.
   thumb: assets/compassql/compassql.png
+  thumb_style: contain
   links:
   - type: paper
     url: http://idl.cs.washington.edu/files/2016-CompassQL-HILDA.pdf
