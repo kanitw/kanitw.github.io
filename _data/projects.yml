@@ -1,0 +1,145 @@
+# project name:
+#   url: # url to projecdt page
+#   caption: # string
+#   thumb: # url to images
+#   thumb_class: # css class name
+#   thumb_style: # css style
+#
+#   year:
+#   authors:
+#   awards:
+#   venue:
+#   venue_url
+
+
+#   # Links
+#   links:
+#   - type: # string
+#     url: # url
+#     name: # string
+
+compassql:
+  name: CompassQL
+  url: http://github.com/vega/compassql
+  caption: Query language and engine that unifies visualization specifications and recommendations.
+  thumb: assets/compassql/compassql.png
+  links:
+  - type: paper
+    url: http://idl.cs.washington.edu/files/2016-CompassQL-HILDA.pdf
+  - type: code
+    url: http://github.com/vega/compassql
+
+graphscape:
+  name: GraphScape
+  url: http://idl.cs.washington.edu/papers/graphscape
+  caption: A directed graph model for automated reasoning about visualization similarity and sequencing
+  thumb: assets/graphscape/graphscape.png
+  links:
+  - type: paper
+    url: http://idl.cs.washington.edu/files/2017-GraphScape-CHI.pdf
+  - type: video
+    url: https://www.youtube.com/watch?v=miMZe0bIBAY
+  - type: talk
+    url: https://www.youtube.com/watch?v=hAM23V6Q-Fk&list=PLqhXYFYmZ-VfOzPE9aT--sztGkJgeIIrM&index=2
+  - type: code
+    url: http://github.com/uwdata/graphscape
+
+tfgraph:
+  name: TensorFlow Graph Visualizer
+  thumb: assets/tfgraph/teaser.png
+  thumb_class: contain
+  caption: A tool that ships with TensorFlow to help developers inspect dataflow graphs of deep learning models.
+  url: https://www.tensorflow.org/get_started/graph_viz
+
+  year: 2018
+  authors:
+    - Kanit Wongsuphasawat
+    - Daniel Smilkov
+    - James Wexler
+    - Jimbo Wilson
+    - Dandelion Mané
+    - Doug Fritz
+    - Dilip Krishnan
+    - Fernanda B. Viégas
+    - Martin Wattenberg
+  awards:
+    - Best Paper Award
+
+  venue: VAST 2017
+  venue_url: http://ieeevis.org/
+  # venue_location:
+
+  links:
+  - type: paper
+    url: http://idl.cs.washington.edu/files/2018-TensorFlowGraph-VAST.pdf
+  - type: video
+    url: https://vimeo.com/232930758
+  - type: talk
+    url: https://vimeo.com/237663041
+  - type: code
+    url: https://github.com/tensorflow/tensorboard
+  # doi:
+  # short_doi
+
+vega:
+  name: Vega
+  url: http://vega.github.io/vega
+  caption: Declarative visualization grammar that introduces novel primitives for interactive visualization design.
+  thumb: assets/vega/vg.png
+  links:
+  - type: paper
+    url: http://idl.cs.washington.edu/papers/reactive-vega
+  - type: code
+    url: http://github.com/vega/vega
+
+vega-lite:
+  name: Vega-Lite
+  url: http://vega.github.io/vega-lite
+  caption: A high-level visualization grammar that enables _rapid_ specification of interactive, multi-view graphics. # in JSON.
+  thumb: assets/vega-lite/teaser.png
+  links:
+  - type: paper
+    url: http://idl.cs.washington.edu/papers/vega-lite
+  - type: talk
+    name: OpenVisConf 2017 Talk
+    url: https://www.youtube.com/watch?v=9uaHRWj04D4
+  - type: code
+    url: http://github.com/vega/vega-lite
+
+voyager:
+  name: Voyager
+  url: http://github.com/vega/voyager
+  caption: Accelerating exploratory data analysis by augmenting visual analysis tools with visualization recommendations.
+  thumb: assets/voyager/voyager2-small.png
+  thumb_class: cover
+  links:
+  collaborators:
+    - Dominik Moritz
+    - Felix Ouk
+    - Zening Qu
+    - Riley Chang
+    - Anushka Anand
+    - Jock Mackinlay
+    - Bill Howe
+    - Jeffrey Heer
+  links:
+  - type: paper
+    name: Voyager 2 Paper
+    url: http://idl.cs.washington.edu/files/2017-Voyager2-CHI.pdf
+  - type: video
+    name: Voyager 2 Video
+    url: https://vimeo.com/199084718
+  - type: talk
+    name: Voyager 2 Talk
+    url: https://www.youtube.com/watch?v=nrnN0l3rjdk
+  - type: paper
+    name: Voyager Paper
+    url: http://idl.cs.washington.edu/files/2015-Voyager-InfoVis.pdf
+  - type: video
+    name: Voyager Video
+    url: https://vimeo.com/135417594
+  - type: talk
+    name: Voyager Talk
+    url: https://vimeo.com/236170947
+  - type: code
+    url: http://github.com/vega/voyager

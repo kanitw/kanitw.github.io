@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <section>
+          <h1>{{ site.title | escape }}</h1>
+          {{ content }}
+        </section>
+
+        <section>
+          <h2>Research</h2>
+          My research explores <strong>the design of interactive visualization systems for data science</strong>.
+          <div class="featured">
+            {% for project in site.data.features %}
+              {% include featured-project.html project=project %}
+            {% endfor %}
+          </div>
+        </section>
+
+        <!-- <section>
+          <h2>Older Projects</h2>
+
+        </section>
+
+        <section>
+            <h2>News &amp; Travel</h2>
+
+        </section> -->
+
+
+        <!-- <section>
+          <h2>Publications</h2>
+          {% for pub in site.data.publications %}
+          {% include publication.html pub=pub %}
+          {% endfor %}
+        </section> -->
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{% assign data = site.data.projects[include.project] %}
+
+<div class="item">
+  <a href="{{ data.url }}">
+    <div
+      class="thumb {{data.thumb_class}}"
+      style="background-image:url({% if data.thumb != null %}{{data.thumb}}{% else %}http://placehold.it/350x200 {% endif %}); {{data.thumb_style}}"
+    ></div>
+  </a>
+  <div class="title">
+    <a href="{{ data.url }}">{{ data.name }}</a>
+  </div>
+  <div class="description">{{data.caption | markdownify }}</div>
+  {% include links.html project=include.project links=data.links %}
+</div>

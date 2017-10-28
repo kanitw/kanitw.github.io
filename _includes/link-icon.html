@@ -1,0 +1,12 @@
+{%- case include.type -%}
+{%- when "code" -%}
+  fa-github
+{%- when "paper" -%}
+  fa-file-pdf-o
+{%- when "video" -%}
+  fa-film
+{%- when "talk" -%}
+  fa-video-camera
+{%- else -%}
+  fa-link
+{%- endcase -%}

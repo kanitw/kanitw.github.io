@@ -1,0 +1,14 @@
+<div class="links">
+  {% for link in include.links %}
+    <span
+      class="link"
+      title="{% include link-title.html link=link %}" onmouseover="document.querySelector('#link-label-{{include.project | escape}}').innerHTML = '{% include link-title.html link=link %}';"
+      onmouseout="document.querySelector('#link-label-{{include.project escape}}').innerHTML = '';"
+    >
+      <a href="{{ link.url }}"><i
+        class="fa {% include link-icon.html type=link.type %}"
+      ></i><span class="label">{% include link-title.html link=link %}</span></a>
+    </span>
+  {% endfor %}
+  <span class="link-label" id="link-label-{{include.project}}"></span>
+</div>
