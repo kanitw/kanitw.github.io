@@ -63,6 +63,8 @@ strong {
 
 .links {
   .link-label {
+    display: inline-block;
+    min-width: 50%;
     font-size: 0.9em;
   }
 
