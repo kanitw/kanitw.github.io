@@ -5,8 +5,10 @@
   fa-file-pdf-o
 {%- when "video" -%}
   fa-film
-{%- when "talk" -%}
-  fa-video-camera
+  {%- when "talk" -%}
+    fa-video-camera
+{%- when "demo" -%}
+  fa-play
 {%- else -%}
   fa-link
 {%- endcase -%}

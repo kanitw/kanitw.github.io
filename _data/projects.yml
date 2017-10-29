@@ -96,6 +96,8 @@ vega:
     url: http://idl.cs.washington.edu/papers/reactive-vega
   - type: code
     url: http://github.com/vega/vega
+  - type: demo
+    url: https://vega.github.io/editor/#/examples/vega/interactive-legend
 
 vega-lite:
   name: Vega-Lite
@@ -110,6 +112,8 @@ vega-lite:
     url: https://www.youtube.com/watch?v=9uaHRWj04D4
   - type: code
     url: http://github.com/vega/vega-lite
+  - type: demo
+    url: https://vega.github.io/editor/#/examples/vega-lite/overview_detail
 
   awards:
     - name: InfoVis&quot;16 Best Paper
@@ -153,6 +157,8 @@ voyager:
     url: https://vimeo.com/236170947
   - type: code
     url: http://github.com/vega/voyager
+  - type: demo
+    url: http://vega.github.io/voyager
   awards:
     - name: Top 4 TVCG papers invited to SIGGRAPH&quot;16
     - name: Awarded Knight Prototype Grant
