@@ -44,6 +44,9 @@ graphscape:
     url: https://www.youtube.com/watch?v=hAM23V6Q-Fk&list=PLqhXYFYmZ-VfOzPE9aT--sztGkJgeIIrM&index=2
   - type: code
     url: http://github.com/uwdata/graphscape
+  awards:
+  - name: CHI&quot;17 Honorable Mention
+
 
 tfgraph:
   name: TensorFlow Graph Visualizer
@@ -51,7 +54,6 @@ tfgraph:
   thumb_class: contain
   caption: A tool that ships with TensorFlow to help developers inspect dataflow graphs of deep learning models.
   url: https://www.tensorflow.org/get_started/graph_viz
-
   year: 2018
   authors:
     - Kanit Wongsuphasawat
@@ -64,7 +66,9 @@ tfgraph:
     - Fernanda B. Viégas
     - Martin Wattenberg
   awards:
-    - Best Paper Award
+    - name: VAST&quot;17 Best Paper
+      type: bestpaper
+      url: http://ieeevis.org/year/2017/info/awards/best-paper-awards
 
   venue: VAST 2017
   venue_url: http://ieeevis.org/
@@ -107,6 +111,11 @@ vega-lite:
   - type: code
     url: http://github.com/vega/vega-lite
 
+  awards:
+    - name: InfoVis&quot;16 Best Paper
+      type: bestpaper
+      url: http://visweek.vgtc.org/year/2016/info/awards/best-paper-awards
+
 voyager:
   name: Voyager
   url: http://github.com/vega/voyager
@@ -144,3 +153,6 @@ voyager:
     url: https://vimeo.com/236170947
   - type: code
     url: http://github.com/vega/voyager
+  awards:
+    - name: Top 4 TVCG papers invited to SIGGRAPH&quot;16
+    - name: Awarded Knight Prototype Grant

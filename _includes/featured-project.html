@@ -7,8 +7,9 @@
       style="background-image:url({% if data.thumb != null %}{{data.thumb}}{% else %}http://placehold.it/350x200 {% endif %}); {{data.thumb_style}}"
     ></div>
   </a>
-  <div class="title">
-    <a href="{{ data.url }}">{{ data.name }}</a>
+  <div>
+    <a class="title" href="{{ data.url }}">{{ data.name }}</a>
+    {% include awards.html project=include.project links=data.awards %}
   </div>
   <div class="description">{{data.caption | markdownify }}</div>
   {% include links.html project=include.project links=data.links %}
