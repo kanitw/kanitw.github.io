@@ -11,6 +11,8 @@
     <a class="title" href="{{ data.url }}">{{ data.name }}</a>
     {% include awards.html project=include.project links=data.awards %}
   </div>
-  <div class="description">{{data.caption | markdownify }}</div>
+  <div class="description">
+    {{data.caption | markdownify | remove: '<p>' | remove: '</p>' }}
+  </div>
   {% include links.html project=include.project links=data.links %}
 </div>
