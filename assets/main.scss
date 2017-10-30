@@ -96,6 +96,11 @@ strong {
   grid-template-rows: auto;
   grid-column-gap: 20px;
   margin-bottom: 20px;
+  .subtitle {
+    font-family: "Kanit";
+    font-size: 0.5em;
+    color: #666;
+  }
 }
 
 .awards {
