@@ -4,6 +4,8 @@
 
 @import "minima";
 
+$grey: #666;
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Kanit";
   font-weight: 500;
@@ -69,6 +71,45 @@ strong {
   }
 }
 
+section#experience-section {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+
+  $logo-size: 50px;
+
+  .experience {
+    display: grid;
+    grid-template-columns: $logo-size 1fr;
+    grid-column-gap: 10px;
+    margin-bottom: 12px;
+
+    .logo {
+      justify-self: start;
+      align-self: center;
+      width: $logo-size - 10;
+      height: $logo-size - 10;
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .organization {
+      font-weight: 500;
+    }
+    .title {
+      font-style: italic;
+    }
+    .date {
+      font-size: 0.9em;
+      float: right;
+    }
+    .caption {
+      font-size: 0.9em;
+      color: $grey;
+    }
+  }
+}
+
 .links {
   .link-label {
     display: inline-block;
@@ -94,6 +135,7 @@ strong {
     width: auto;
   }
 }
+
 .home-header {
   display: grid;
   grid-template-columns: 1fr 5fr;
@@ -103,7 +145,7 @@ strong {
   .subtitle {
     font-family: "Kanit";
     font-size: 0.5em;
-    color: #666;
+    color: $grey;
   }
 }
 
@@ -142,4 +184,12 @@ strong {
 
 .right {
   float:right;
+}
+
+.news {
+  .date {
+    font-size: 0.8em;
+    color: $grey;
+  }
+  margin-bottom: 8px;
 }

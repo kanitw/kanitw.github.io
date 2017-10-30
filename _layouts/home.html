@@ -58,6 +58,24 @@
           </div>
         </section>
 
+        <div class="grid">
+          <section id="experience-section">
+            <h2>Professional Experience</h2>
+            {% include experience.html %}
+          </section>
+          <section>
+            <h2>News</h2>
+            {% for news in site.data.news %}
+            <div class="news">
+              {{news.text | markdownify | remove: '<p>' | remove: '</p>' }}
+              <span class="date">
+                {{news.date}}
+              </span>
+            </div>
+            {% endfor %}
+          </section>
+        </div>
+
         <!-- <section>
           <h2>Older Projects</h2>
 

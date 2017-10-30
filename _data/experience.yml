@@ -1,0 +1,74 @@
+- organization: UW Interactive Data Lab
+  title: Graduate Student Researcher
+  date: Since 2013
+  location: Seattle, WA
+  caption: "Lead the _Voyager_ project and co-lead the _Vega-Lite_ project. <br/>
+  Manage and mentored 15 undergraduate students and 2 junior PhD students."
+  logo: idl.png
+
+- organization: Google Research
+  title: Software Engineering Intern (Big Picture Group)
+  date: 2015
+  location: Cambridge, MA
+  mentors:
+    - Martin Wattenberg
+    - Fernanda Viégas
+  caption: Developed _TensorFlow Graph Visualizer_ (with Dr. Martin Wattenberg, Dr. Fernanda Viégas, and Google Brain)
+  logo: google.png
+
+- organization: Trifacta Inc.
+  title: Software Engineering Intern
+  date: 2014
+  location: San Francisco, CA
+  caption: Developed intelligent user interfaces for data cleaning and transformations
+  logo: trifacta.png
+  # skills:
+
+- organization: Tableau Software Inc.
+  title: Research Intern
+  date: 2013
+  location: Seattle, WA
+  caption: Prototyped and designed visualization recommender system (with Dr. Jock Mackinlay & Dr. Anushka Anand)
+  logo: tableau.png
+  # skills:
+
+- organization: Stanford University
+  title: Graduate Student Researcher
+  date: 2012-2013
+  location: Stanford, AA
+  caption: Led initial UI design for Venture-lab, a massive online class platform (spun off as NovoEd) & Research on peer assessment systems for massive online classes.
+  logo: stanford.png
+
+- organization: Google Research
+  title: Software Engineering Intern (HCI Group)
+  date: 2012
+  location: Mountain View, CA
+  mentors:
+    - Elin Pedersen
+  caption: Developed a mobile social software prototype (with Dr. Elin Pedersen)
+  logo: google.png
+  # skills:
+
+- organization: Thomson Reuters Software
+  title: Software Engineer
+  date: 2010-2011
+  location: Bangkok, Thailand
+  caption: Led UI design of monitoring system for Thomson Reuters Market Data System
+  logo: thomsonreuters.png
+  # skills:
+
+- organization: Singha Corporation
+  title: Management Trainee Intern
+  date: 2010
+  location: Bangkok, Thailand
+  caption: Organized regional marketing campaign to increase sales &  Cross-functional management training
+  logo: singha.png
+  # skills:
+
+- organization: Thomson Reuters Software
+  title: Software Engineering Intern
+  date: 2009
+  location: Bangkok, Thailand
+  caption: Developed test cases management system for data access control product
+  logo: thomsonreuters.png
+  # skills:
