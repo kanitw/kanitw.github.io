@@ -34,7 +34,7 @@ strong {
   grid-row-gap: 28px;
 }
 
-.featured, .experience, .news {
+.featured, .experience, .news, .projects {
   font-size: 0.9em;
 }
 
@@ -146,6 +146,29 @@ section#experience-section {
     font-family: "Kanit";
     font-size: 0.5em;
     color: $grey;
+  }
+}
+
+.projects {
+  $project-icon-size: 60px;
+  .item {
+    display: grid;
+    grid-template-columns: $project-icon-size auto;
+    grid-column-gap: 10px;
+  }
+  .img {
+    justify-self: start;
+    align-self: center;
+    width: $project-icon-size;
+    height: $project-icon-size;
+    background-size: cover;
+  }
+
+  .title {
+    font-weight: bold;
+  }
+  .caption {
+    font-size: 0.9em;
   }
 }
 
