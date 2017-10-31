@@ -1,5 +1,9 @@
+- text: We released [Vega-Lite 2.0](http://vega.github.io/vega-lite) with composition and interaction supports. Read our [announcement blog](https://medium.com/@uwdata/introducing-vega-lite-2-0-de6661c12d58)!
+  date: 31 Oct 2017
+
+
 - text: "[TensorFlow Graph Visualizer](http://idl.cs.washington.edu/papers/tfgraph) won [Best Paper at VAST 2017](http://visweek.vgtc.org/year/2016/info/awards/best-paper-awards)."
-  date: 1 Nov 2017
+  date: 1 Oct 2017
 
 - text: 'We presented ["Vega-Lite: A Grammar of Interactive Graphics"](https://www.youtube.com/watch?v=9uaHRWj04D4) at [OpenVis Conf 2017](https://openvisconf.com/).'
   date: 25 May 2017
