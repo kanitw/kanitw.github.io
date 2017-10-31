@@ -1,5 +1,5 @@
 {
-  "exclude": [
-    "_site"
-  ]
+  "files.exclude": {
+    "_site": true
+  }
 }
