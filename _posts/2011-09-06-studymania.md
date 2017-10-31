@@ -1,5 +1,5 @@
 ---
-# layout:  project
+layout: project
 title: "StudyMania"
 description: "Make homework fun by challenging your friend."
 category: software

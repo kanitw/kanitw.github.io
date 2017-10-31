@@ -1,5 +1,5 @@
 ---
-# layout:  project
+layout: project
 title: "IDL Logo"
 tagline: ""
 description: "Logo Design for Interactive Data Lab"

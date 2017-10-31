@@ -1,6 +1,6 @@
 ---
 
-# layout:  project
+layout: project
 title: "CUPhoto Memorial DVD"
 description: "Chulalongkorn-Thammasat Annual Soccer Game Memorial DVD."
 category: "design"

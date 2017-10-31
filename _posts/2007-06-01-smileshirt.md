@@ -1,6 +1,6 @@
 ---
 
-# layout:  project
+layout: project
 title: "Together We Smile"
 description: "T-Shirt Design for Smiley Home, a recreational group."
 category: "design"

@@ -1,5 +1,5 @@
 ---
-# layout:  project
+layout: project
 title: "Habit Buddy"
 description: "Goal-setting Behavioral Change Mobile Application Prototype."
 category: software

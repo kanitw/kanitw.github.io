@@ -2,15 +2,13 @@
 {% for post in site.posts %}
 {% if post.category and include.category == post.category %}
 <div class="item">
-  <!-- <a href="{{ BASE_PATH }}{{ post.url }}"> -->
-  <div class="img" style="background-image:url({% if post.thumb != null %}{{post.thumb}}{% else %}http://placehold.it/350x200 {% endif %})">
-  </div>
-  <!-- </a> -->
+  <a class="img" href="{{ BASE_PATH }}{{ post.url }}" style="background-image:url({% if post.thumb != null %}{{post.thumb}}{% else %}http://placehold.it/350x200 {% endif %})">
+  </a>
   <div>
     <div class="title">
-      <!-- <a href="{{ BASE_PATH }}{{ post.url }}"> -->
+      <a href="{{ BASE_PATH }}{{ post.url }}">
         {{ post.title }}
-      <!-- </a> -->
+      </a>
     </div>
     <div class="caption">
       {{post.description | markdownify | remove: '<p>' | remove: '</p>' }}

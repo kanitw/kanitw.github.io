@@ -1,5 +1,5 @@
 ---
-# layout:  project
+layout: project
 title: "Plasma-Z : Soccer Robot"
 description: "Multi-agent soceer robot system that won 3rd place at the International Robocup."
 category: "software"

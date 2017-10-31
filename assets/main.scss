@@ -157,6 +157,7 @@ section#experience-section {
     grid-column-gap: 10px;
   }
   .img {
+    display: block;
     justify-self: start;
     align-self: center;
     width: $project-icon-size;
@@ -215,4 +216,13 @@ section#experience-section {
     color: $grey;
   }
   margin-bottom: 8px;
+}
+
+.post-figure {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+}
+
+.post-content {
+  font-size: 0.9em;
 }

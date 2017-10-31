@@ -1,5 +1,5 @@
 ---
-# layout:  project
+layout: project
 title: "Memories in a School Bag"
 description: "Assumption College 120th Class Memorial Book."
 category: "design"
