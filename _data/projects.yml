@@ -105,6 +105,8 @@ vega-lite:
   caption: A high-level visualization grammar that enables _rapid_ specification of interactive, multi-view graphics. # in JSON.
   thumb: assets/vega-lite/teaser.png
   links:
+  - type: article
+    url: https://medium.com/@uwdata/introducing-vega-lite-2-0-de6661c12d58
   - type: paper
     url: http://idl.cs.washington.edu/papers/vega-lite
   - type: talk
