@@ -109,6 +109,8 @@ vega-lite:
     url: https://medium.com/@uwdata/introducing-vega-lite-2-0-de6661c12d58
   - type: paper
     url: http://idl.cs.washington.edu/papers/vega-lite
+  - type: video
+    url: https://vimeo.com/177767802
   - type: talk
     name: OpenVisConf 2017 Talk
     url: https://www.youtube.com/watch?v=9uaHRWj04D4
