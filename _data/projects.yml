@@ -78,7 +78,7 @@ tfgraph:
   - type: paper
     url: http://idl.cs.washington.edu/files/2018-TensorFlowGraph-VAST.pdf
   - type: slides
-    url: /asset/tfgraph/tfgraph-slides.pdf
+    url: /assets/tfgraph/tfgraph-slides.pdf
   - type: video
     url: https://vimeo.com/232930758
   - type: talk
