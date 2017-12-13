@@ -5,10 +5,12 @@
 @import "minima";
 
 $grey: #666;
+$logo-size: 50px;
+$medium: 500;
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Kanit";
-  font-weight: 500;
+  font-weight: $medium;
 }
 
 h2 {
@@ -17,12 +19,12 @@ h2 {
 
 .publication {
   .title {
-    font-weight: 500;
+    font-weight: $medium;
   }
 }
 
 strong {
-  font-weight: 500;
+  font-weight: $medium;
 }
 
 .grid {
@@ -34,7 +36,7 @@ strong {
   grid-row-gap: 20px;
 }
 
-.featured, .experience, .news, .projects {
+.featured, .news, .projects, .education, .small {
   font-size: 0.9em;
 }
 
@@ -71,18 +73,38 @@ strong {
   }
 }
 
-section#experience-section {
+section#education-section {
+  .degree {
+    font-weight: $medium;
+    margin-right: -10px;
+  }
+
+  .degree, .description, .year {
+    font-size: 0.9em;
+  }
+}
+
+section.tabbed-section {
   grid-column-start: 1;
   grid-column-end: span 2;
 
-  $logo-size: 50px;
-
-  .experience {
+  .item {
     display: grid;
     grid-template-columns: $logo-size 1fr;
     grid-column-gap: 10px;
     margin-bottom: 12px;
 
+  }
+}
+
+section#publication-section {
+  .title {
+    font-weight: $medium;
+  }
+}
+
+section#experience-section {
+  .item {
     .logo {
       justify-self: start;
       align-self: center;
@@ -94,7 +116,7 @@ section#experience-section {
     }
 
     .organization {
-      font-weight: 500;
+      font-weight: $medium;
     }
     .title {
       font-style: italic;
