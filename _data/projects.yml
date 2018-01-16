@@ -33,7 +33,7 @@ compassql:
 graphscape:
   name: GraphScape
   url: http://idl.cs.washington.edu/papers/graphscape
-  caption: A directed graph model for automated reasoning about visualization similarity and sequencing
+  caption: A directed graph model for automated reasoning about chart similarity and sequencing
   thumb: assets/graphscape/graphscape.png
   links:
   - type: paper
