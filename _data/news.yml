@@ -1,3 +1,6 @@
+- text: I finished PhD at UW and joined Apple as a research scientist
+  date: 1 Oct 2018
+
 - text: Our colleague Jake van der Plas released [`pdvega`](https://jakevdp.github.io/pdvega/), a library for using Vega-Lite plots via panda plotting API.
   date: 2 Feb 2018
 
