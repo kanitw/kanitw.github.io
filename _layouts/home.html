@@ -1,65 +1,56 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
   {% include head.html %}
   <body>
+    <header class="page-header">
+      <nav class="container">
+        <a class="site-title" href="{{ absolute_url }}/">{{ site.title }}</a>
+
+        <a href="{{ '/projects/' | relative_url }}" {% if current[1] == 'projects' %}class="active"{% endif %}>Projects</a>
+        <a href="{{ '/publications/' | relative_url }}" {% if current[1] == 'publications' %}class="active"{% endif %}>Publications</a>
+        <a href="{{ '/talks/' | relative_url }}" {% if current[1] == 'talks' %}class="active"{% endif %}>Talks</a>
+        <a href="{{ '/assets/profile/AmandaSwearnginCV.pdf' | relative_url }}">CV</a>
+        <span class="external">
+          <a href="https://github.com/mandamarie0587"><i class="fa fa-github"></i> GitHub</a>
+        </span>
+      </nav>
+    </header>
     <main class="page-content" aria-label="Content">
-      <div class="wrapper">
+      <section class="container home">
         <div class="home-header">
-          <div class="pic-section">
-            <div class="pic"></div>
-          </div>
           <section>
             <h1>
-              Hi, I'm Kanit "Ham" Wongsuphasawat.
-              <div class="subtitle">
-                สวัสดีครับ ผมชื่อ กนิษฐ์ วงศ์ศุภสวัสดิ์ (แฮม)
-              </div>
+              Hi, I'm Amanda Swearngin.
             </h1>
-            <div class="intro">
-            {{ content }}
-            </div>
-            <div class="contact-info">
-              <span>
-                <a href="mailto:kanitw@gmail.com">
-                  <i class="fa fa-envelope-o"></i>kanitw&#64;gmail&#46;com
-                </a>
-              </span>
-              <span>
-                <a href="http://twitter.com/kanitw">
-                  <i class="fa fa-twitter"></i>kanitw
-                </a>
-              </span>
-              <span>
-                <a href="http://github.com/kanitw">
-                  <i class="fa fa-github"></i>kanitw
-                </a>
-              </span>
-              <!-- Right -->
-              <span class="right">
-                <a href="assets/profile/cv_kanitw.pdf">
-                  <i class="fa fa-file-pdf-o"></i>CV
-                </a>
-              </span>
-              <span class="right">
-                <a href="assets/profile/resume_kanitw.pdf">
-                  <i class="fa fa-file-pdf-o"></i>Resume
-                </a>
-              </span>
-              <!-- <span class="right">
-                <a href="assets/profile/research-statement.pdf">
-                  <i class="fa fa-file-pdf-o"></i>Research Statement
-                </a>
-              </span> -->
+            <div class="columns">
+              <div class="intro">
+              {{ content }}
+              </div>
+              <div class="me" markdown="1">
+                <picture>
+    <!--               <source srcset='/assests/dominik_berlin.webp' type='image/webp' />
+     -->          <img
+                    src='/assets/profile/amaswea.png'
+                    alt='Amanda Swearngin'/>
+                </picture>
+                <ul class="no-list">
+                  <li>
+                    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                  </li>
+                  <li>
+                    <a href="http://www.washington.edu/maps/?q=cse">Paul G. Allen Center </a>Room 
+                    <a href="https://norfolk.cs.washington.edu/directory/index.php?prev_floor=4&show_room=CSE486">486</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </section>
         </div>
 
         <section>
-          <h2>Featured Projects</h2>
-          <!-- My research explores <strong>the design of interactive visualization systems for data science</strong>. -->
-          <div class="grid featured">
-            {% for project in site.data.features %}
+          <h2 id="featured-projects">Featured Projects</h2>
+          <div class="featured-projects">
+            {% for project in site.data.projects %}
               {% include featured-project.html project=project %}
             {% endfor %}
           </div>
@@ -67,10 +58,16 @@
 
         <div class="grid">
           <section id="experience-section" class="tabbed-section small">
-            <h2>Professional Experience</h2>
+            <h2>Research Experience</h2>
             {% include experience.html %}
           </section>
-          <section>
+
+          <section id="experience-section" class="tabbed-section ft-tabbed-section small">
+            <h2>Industry Experience</h2>
+            {% include ft_experience.html %}
+          </section>
+        </div>
+<!--           <section>
             <h2>News</h2>
             {% for news in site.data.news %}
             <div class="news">
@@ -80,31 +77,27 @@
               </span>
             </div>
             {% endfor %}
-          </section>
-        </div>
+          </section> -->
 
-        <section>
-          <h2>Educational Materials</h2>
-          {% include other-projects.html category="education" %}
-        </section>
-
-        <section>
-          <h2>Other Software Projects</h2>
-          {% include other-projects.html category="software" %}
-        </section>
-
-        <section>
-          <h2>Other Design Projects</h2>
-          {% include other-projects.html category="design" %}
-        </section>
-
-        <!-- <section>
-          <h2>Publications</h2>
-          {% for pub in site.data.publications %}
-          {% include publication.html pub=pub %}
-          {% endfor %}
+<!--         <section>
+          <h2>Other Research Projects</h2>
+          {% include other-projects.html %}
+        </section> -->
+<!--         <section>
+          <h2 id="featured-publications">Publications</h2>
+          <div class="featured-publications">
+            {% for pub in site.data.publications %}
+              <a href="{{ pub.pdf }}" class="publication">
+                <strong>{{ pub.title }}</strong><br />
+                <span class="authors">{% for author in pub.authors %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>.
+                <i>{{ pub.venue }}, {{ pub.venue_location }}</i>.
+                {% for award in pub.awards %}<br/><span class="award"><i class="fas fa-{% if award == "Best Paper Award" %}trophy{% else %}award{% endif %}" aria-hidden="true"></i> {{ award }}</span>{% endfor %}
+              </a>
+            {% endfor %}
+          </div>
         </section> -->
       </div>
     </main>
+    {% include footer.html %}
   </body>
 </html>

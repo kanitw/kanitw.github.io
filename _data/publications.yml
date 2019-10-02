@@ -1,139 +1,232 @@
-- title: "Visualing Dataflow Graphs of Deep Learning Models in TensorFlow"
-  year: 2018
+- title: "Modeling Mobile Interface Tappability Using Crowdsourcing and Deep Learning"
+  year: 2019
   authors:
-    - Kanit Wongsuphasawat
-    - Daniel Smilkov
-    - James Wexler
-    - Jimbo Wilson
-    - Dandelion Mané
-    - Doug Fritz
-    - Dilip Krishnan
-    - Fernanda B. Viégas
-    - Martin Wattenberg
-  awards:
-    - Best Paper Award
-
-  venue: VAST 2017
-  venue_url: http://ieeevis.org/
-  # venue_location:
+    - <b>Amanda Swearngin</b>
+    - Yang Li
+  venue: CHI 2019
+  venue_url: https://chi2019.acm.org/
+  venue_location: Glasgow, UK
 
   # link:
-  pdf: http://www.siam.org/meetings/ns17/ns17_abstracts.pdf
+  pdf: /assets/tapshoe/AmandaSwearngin_YangLi_TapShoe_CHI2019.pdf
   # slides:
   # video:
 
   # doi:
   # short_doi
 
-- title: "Voyager 2: Augmenting Visual Analysis with Partial View Specifications"
+- title: "Scout: Mixed-Initiative Exploration of Design Variations through High-Level Design Constraint"
+  year: 2018
+  authors:
+    - Amanda Swearngin
+    - Amy J. Ko
+    - James Fogarty
+  venue: UIST 2018 Demos
+  venue_url: http://uist.acm.org/uist2018/
+  venue_location: Berlin, Germany 
+
+  # link:
+  pdf: assets/scout/Swearngin_UIST18_Demo_Scout.pdf
+
+- title: "Rewire: Interface Design Assistance from Examples."
+  year: 2018
+  authors:
+    - Amanda Swearngin
+    - Wilmot Li
+    - Mira Dontcheva 
+    - Joel Brandt
+    - Morgan Dixon 
+    - Amy J. Ko
+  venue: CHI 2018
+  venue_url: https://chi2018.acm.org/
+  venue_location: Montreal, Canada
+
+  # link:
+  pdf: assets/rewire/AmandaSwearngin_Rewire_CHI2018.pdf
+  # slides:
+  # video:
+
+  # doi:
+  # short_doi
+
+- title: "Genie: Input Retargeting on the Web through Command Reverse Engineering."
   year: 2017
   authors:
-    - Kanit Wongsuphasawat
-    - Zening Qu
-    - Dominik Moritz
-    - Riley Chang
-    - Felix Ouk
-    - Anushka Anand
-    - Jock Mackinlay
-    - Bill Howe
-    - Jeffrey Heer
-
+    - Amanda Swearngin
+    - Amy J. Ko
+    - James Fogarty 
   venue: CHI 2017
-  # venue_location: Denver, CO, USA
   venue_url: https://chi2017.acm.org/
+  venue_location: Denver, CO
 
-  pdf: https://idl.cs.washington.edu/files/2017-Voyager2-CHI.pdf
-  video: https://vimeo.com/199084718
-
-  doi: 10.1145/3025453.3025768
-  short_doi: 10/b7jv
-  link: https://idl.cs.washington.edu/papers/voyager2
-  # tweet: Voyager 2 blends manual and automated chart specification.
+  # link:
+  pdf: assets/genie/AmandaSwearngin_CHI2017_camera_ready.pdf
 
 
-- title: "GraphScape"
-  year: 2017
+- title: "Human Performance Regression Testing."
+  year: 2013
   authors:
-    - Younghoon Kim
-    - Kanit Wongsuphasawat
-    - Jessica Hullman
-    - Jeffrey Heer
+    - Amanda Swearngin
+    - Myra B. Cohen 
+    - Bonnie E. John 
+    - Rachel K. E. Bellamy
+  venue: ICSE 2013 
+  venue_url: http://2013.icse-conferences.org/
+  venue_location: San Francisco, CA 
 
-  venue: CHI 2017
-  venue_location: Denver, CO, USA
-  venue_url: https://chi2017.acm.org/
+  # link:
+  pdf: assets/cogtool/AmandaSwearngin_ICSE2013.pdf
 
-  pdf: https://idl.cs.washington.edu/files/2017-GraphScape-CHI.pdf
-  # video: https://vimeo.com/199084718
-
-  # doi: 10.1145/3025453.3025768
-  # short_doi: 10/b7jv
-  link: https://idl.cs.washington.edu/papers/graphscape
-  # tweet: Voyager 2 blends manual and automated chart specification.
-
-- title: "Vega-Lite: A Grammar of Interactive Graphics"
-  year: 2017
+- title: "Easing the Generation of Predictive Human Performance Models from Legacy Systems.."
+  year: 2012
   authors:
-    - Arvind Satyanarayan
-    - Dominik Moritz
-    - Kanit Wongsuphasawat
-    - Jeffrey Heer
-  venue: Infovis 2016
-  venue_url: http://ieeevis.org/
-  # venue_location: Baltimore, MD, USA
-  link: http://idl.cs.washington.edu/papers/vega-lite
-  pdf: http://idl.cs.washington.edu/files/2017-VegaLite-InfoVis.pdf
-  video: https://vimeo.com/177767802
-  link: https://vega.github.io/vega-lite/
-  doi: 10.1109/TVCG.2016.2599030
-  short_doi: 10/f92f32
-  slides: /talks/VegaLite-InfoVis-2016.pdf
-  awards:
-    - Best Paper Award
+    - Amanda Swearngin
+    - Myra B. Cohen 
+    - Bonnie E. John 
+    - Rachel K. E. Bellamy
+  venue: CHI 2012
+  venue_url: https://dl.acm.org/citation.cfm?id=2207676
+  venue_location: Austin, TX 
 
-- title: "Towards A General-Purpose Query Language for Visualization Recommendation"
-  year: 2016
-  authors:
-    - Kanit Wongsuphasawat
-    - Dominik Moritz
-    - Anushka Anand
-    - Jock Mackinlay
-    - Bill Howe
-    - Jeffrey Heer
-  venue: HILDA at SIGMOD 2016
-  venue_location: San Francisco, CA, USA
-  venue_url: http://www.hilda.io/2016
-  pdf: /papers/2016-Compassql-HILDA.pdf
+  # link:
+  pdf: assets/cogtool/AmandaSwearngin_CHI2012.pdf
 
-- title: "Voyager: Exploratory Analysis via Faceted Browsing of Visualization Recommendations"
-  year: 2015
+- title: "Versioning for Mashups --- An Exploratory Study"
+  year: 2011
   authors:
-    - Kanit Wongsuphasawat
-    - Dominik Moritz
-    - Anushka Anand
-    - Jock Mackinlay
-    - Bill Howe
-    - Jeffrey Heer
-  venue: Infovis 2015
-  venue_url: http://ieeevis.org/
-  venue_location: Chicago, IL, USA
-  link: https://idl.cs.washington.edu/papers/voyager
-  link: https://vega.github.io/
-  pdf: https://idl.cs.washington.edu/files/2015-Voyager-InfoVis.pdf
-  video: https://vimeo.com/135417594
-  awards:
-    - Top TCVG Papers Invited to SIGGRAPH 2016
+    - Sandeep Kaur Kuttal
+    - Anita Sarma 
+    - Amanda Swearngin 
+    - Gregg Rothermel 
+  venue: IS-EUD 2011
+  venue_url: https://iseud.net/2011/
+  venue_location: Torre Canne, Italy 
 
-- title: "Declaration Interaction Design for Data Visualization"
-  year: 2014
+  # link:
+  pdf: assets/mashups/Kuttal_ISEUD2011.pdf
+
+- title: "A Reformulation Strategy for Multi-Dimensional CSPs: The Case Study of the SET Game."
+  year: 2011
   authors:
-    - Arvind Satyanarayan
-    - Kanit Wongsuphasawat
-    - Jeffrey Heer
-  venue: UIST 2014
-  venue_url: http://uist.acm.org/uist2014
-  # venue_location:
-  link: https://idl.cs.washington.edu/papers/reactive-vega
-  link: https://vega.github.io/
-  # pdf: https://idl.cs.washington.edu/files/2015-Voyager-InfoVis.pdf
-  # video: https://vimeo.com/135417594
+    - Amanda Swearngin
+    - Berthe Y. Choueiry
+    - Eugene C. Freuder 
+  venue: SARA 2011
+  # venue_url: http://2013.icse-conferences.org/
+  venue_location: Catalonia, Spain 
+
+  # link:
+  pdf: assets/set/AmandaSwearngin_SARA2011.pdf
+
+# - title: "Voyager 2: Augmenting Visual Analysis with Partial View Specifications"
+#   year: 2017
+#   authors:
+#     - Kanit Wongsuphasawat
+#     - Zening Qu
+#     - Dominik Moritz
+#     - Riley Chang
+#     - Felix Ouk
+#     - Anushka Anand
+#     - Jock Mackinlay
+#     - Bill Howe
+#     - Jeffrey Heer
+
+#   venue: CHI 2017
+#   # venue_location: Denver, CO, USA
+#   venue_url: https://chi2017.acm.org/
+
+#   pdf: https://idl.cs.washington.edu/files/2017-Voyager2-CHI.pdf
+#   video: https://vimeo.com/199084718
+
+#   doi: 10.1145/3025453.3025768
+#   short_doi: 10/b7jv
+#   link: https://idl.cs.washington.edu/papers/voyager2
+#   # tweet: Voyager 2 blends manual and automated chart specification.
+
+
+# - title: "GraphScape"
+#   year: 2017
+#   authors:
+#     - Younghoon Kim
+#     - Kanit Wongsuphasawat
+#     - Jessica Hullman
+#     - Jeffrey Heer
+
+#   venue: CHI 2017
+#   venue_location: Denver, CO, USA
+#   venue_url: https://chi2017.acm.org/
+
+#   pdf: https://idl.cs.washington.edu/files/2017-GraphScape-CHI.pdf
+#   # video: https://vimeo.com/199084718
+
+#   # doi: 10.1145/3025453.3025768
+#   # short_doi: 10/b7jv
+#   link: https://idl.cs.washington.edu/papers/graphscape
+#   # tweet: Voyager 2 blends manual and automated chart specification.
+
+# - title: "Vega-Lite: A Grammar of Interactive Graphics"
+#   year: 2017
+#   authors:
+#     - Arvind Satyanarayan
+#     - Dominik Moritz
+#     - Kanit Wongsuphasawat
+#     - Jeffrey Heer
+#   venue: Infovis 2016
+#   venue_url: http://ieeevis.org/
+#   # venue_location: Baltimore, MD, USA
+#   link: http://idl.cs.washington.edu/papers/vega-lite
+#   pdf: http://idl.cs.washington.edu/files/2017-VegaLite-InfoVis.pdf
+#   video: https://vimeo.com/177767802
+#   link: https://vega.github.io/vega-lite/
+#   doi: 10.1109/TVCG.2016.2599030
+#   short_doi: 10/f92f32
+#   slides: /talks/VegaLite-InfoVis-2016.pdf
+#   awards:
+#     - Best Paper Award
+
+# - title: "Towards A General-Purpose Query Language for Visualization Recommendation"
+#   year: 2016
+#   authors:
+#     - Kanit Wongsuphasawat
+#     - Dominik Moritz
+#     - Anushka Anand
+#     - Jock Mackinlay
+#     - Bill Howe
+#     - Jeffrey Heer
+#   venue: HILDA at SIGMOD 2016
+#   venue_location: San Francisco, CA, USA
+#   venue_url: http://www.hilda.io/2016
+#   pdf: /papers/2016-Compassql-HILDA.pdf
+
+# - title: "Voyager: Exploratory Analysis via Faceted Browsing of Visualization Recommendations"
+#   year: 2015
+#   authors:
+#     - Kanit Wongsuphasawat
+#     - Dominik Moritz
+#     - Anushka Anand
+#     - Jock Mackinlay
+#     - Bill Howe
+#     - Jeffrey Heer
+#   venue: Infovis 2015
+#   venue_url: http://ieeevis.org/
+#   venue_location: Chicago, IL, USA
+#   link: https://idl.cs.washington.edu/papers/voyager
+#   link: https://vega.github.io/
+#   pdf: https://idl.cs.washington.edu/files/2015-Voyager-InfoVis.pdf
+#   video: https://vimeo.com/135417594
+#   awards:
+#     - Top TCVG Papers Invited to SIGGRAPH 2016
+
+# - title: "Declaration Interaction Design for Data Visualization"
+#   year: 2014
+#   authors:
+#     - Arvind Satyanarayan
+#     - Kanit Wongsuphasawat
+#     - Jeffrey Heer
+#   venue: UIST 2014
+#   venue_url: http://uist.acm.org/uist2014
+#   # venue_location:
+#   link: https://idl.cs.washington.edu/papers/reactive-vega
+#   link: https://vega.github.io/
+#   # pdf: https://idl.cs.washington.edu/files/2015-Voyager-InfoVis.pdf
+#   # video: https://vimeo.com/135417594

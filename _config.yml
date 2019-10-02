@@ -13,20 +13,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Kanit "Ham" Wongsuphasawat
-email: kanitw@gmail.com
+title: Amanda Swearngin
+email: amaswea@cs.washington.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Data + Visualization + Interaction at @uwdata.
-  Co-creator of Vega-Lite, Data Voyager, and TensorFlow Graph Visualizer.
+  Data driven design, program analysis, constraint solving for user interface design software. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter:
-  username: kanitw
-github_username:  kanitw
+# twitter:
+#   username: kanitw
+github_username:  mandamarie0587
 
 # Build settings
 markdown: kramdown
-theme: minima
+
+sass:
+  style: compressed
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

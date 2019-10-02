@@ -3,16 +3,28 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
-title: Hi! I'm Kanit "Ham" Wongsuphasawat.
+title: Amanda Swearngin
 ---
+I am a final year Ph.D. candidate in Computer Science at the University of Washington, 
+	advised by <a href="https://faculty.washington.edu/ajko/">Amy Ko</a> and 
+	<a href="https://homes.cs.washington.edu/~jfogarty/">James Fogarty</a>. I am currently a 
+	Research Intern at Microsoft Research, working with 
+	<a href="https://www.microsoft.com/en-us/research/people/shamsi/">Shamsi Iqbal</a>. 
+	I have previously completed research internships with Adobe Research and Google. I also spent 3 years working as a software engineer and SDET at Microsoft, 
+	where I worked on a web interface framework for Dynamics AX. I am currently seeking Research Engineering
+	positions in industry. 
 
-I am a researcher at Apple, working on data visualization and interactive systems for artificial intelligence.
+I am interested in data-driven design and in building interactive tools that enhance 
+the capabilities of interface designers through applications of program synthesis, constraint solving, 
+and machine learning. 
+
+<!-- I am a researcher at Apple, working on data visualization and interactive systems for artificial intelligence.
 (We are hiring!) 
 Prior to Apple, I was a PhD student in Computer Science and a Human-Computer Interaction researcher at the [University Washington](http://www.uw.edu) (UW), working with [Prof. Jeffrey Heer](http://jheer.org) and the [UW Interactive Data Lab](http://idl.cs.washington.edu]).
 
-<!--My interests lie in the intersection of user interfaces systems, data visualization, and data science. My PhD research focuses on enhancing visualization tools with automated design and recommendation for applications including exploratory data analysis and understanding deep learning models.-->
+My interests lie in the intersection of user interfaces systems, data visualization, and data science. My PhD research focuses on enhancing visualization tools with automated design and recommendation for applications including exploratory data analysis and understanding deep learning models.
 Systems I developed have won awards at premier academic venues, and are [used by the Jupyter/Python data science communities](https://altair-viz.github.io/) and leading tech companies including [Apple](https://github.com/apple/turicreate/search?utf8=%E2%9C%93&q=vega-lite&type=), [Goo](https://www.tensorflow.org/get_started/graph_viz)[gle](https://colab.research.google.com/notebook#fileId=/v2/external/notebooks/charts.ipynb&scrollTo=beTgCbVa_wFA), [Microsoft](https://github.com/Microsoft/vegalite-for-powerbi), [Netflix](https://twitter.com/oceankidbilly/status/931633519813582848), Twitter, and Uber.
-Here is [an overview talk covering my PhD research](https://youtu.be/62k_JMOgFcc).
+Here is [an overview talk covering my PhD research](https://youtu.be/62k_JMOgFcc). -->
 
 <!--I look forward to studying and designing more tools that facilitate people, both experts and novices, to work with and benefit more from data via visualization and artificial intelligence.-->
 

@@ -1,46 +1,12 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <!-- <h2 class="footer-heading">{{ site.title | escape }}</h2> -->
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description | escape }}</p>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter.username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter.username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
+<footer>
+  <div class="container">
+    <div class="footer-col">
+      {{site.title}}<br/>
+      <abbr title="Last build on {{site.time | date: '%Y-%m-%d'}}">{{ site.time | date: '%B %Y'}}</abbr>
     </div>
-
+    <div class="footer-col">
+      <a href="mailto:amaswea@cs.washington.edu">{{site.email}}</a>
+    </div>
+    <div class="footer-col site-desc">{{ site.description }}</div>
   </div>
-
 </footer>

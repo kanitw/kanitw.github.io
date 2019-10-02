@@ -1,170 +1,169 @@
-# project name:
-#   url: # url to projecdt page
-#   caption: # string
-#   thumb: # url to images
-#   thumb_class: # css class name
-#   thumb_style: # css style
-#
-#   year:
-#   authors:
-#   awards:
-#   venue:
-#   venue_url
-
-
-#   # Links
-#   links:
-#   - type: # string
-#     url: # url
-#     name: # string
-
-compassql:
-  name: CompassQL
-  url: http://github.com/vega/compassql
-  caption: Query language and engine that unifies visualization specifications and recommendations.
-  thumb: assets/compassql/compassql.png
-  thumb_style: contain
+- scout:
+  name: Scout
+  featured: true
+  url: assets/scout/Swearngin_UIST18_Demo_Scout.pdf
+  caption: Mixed-initiative exploration of interface layout alternatives through high-level design constraints.
+  thumb: assets/scout/scout-2.png
+  thumb_class: cover
+  collaborators:
+    - Amy J. Ko
+    - James Fogarty 
+    - Chenglong Wang
+    - Alannah Oleson
   links:
   - type: paper
-    url: http://idl.cs.washington.edu/files/2016-CompassQL-HILDA.pdf
-  - type: code
-    url: http://github.com/vega/compassql
-
-graphscape:
-  name: GraphScape
-  url: http://idl.cs.washington.edu/papers/graphscape
-  caption: A directed graph model for automated reasoning about chart similarity and sequencing
-  thumb: assets/graphscape/graphscape.png
-  links:
-  - type: paper
-    url: http://idl.cs.washington.edu/files/2017-GraphScape-CHI.pdf
+    name: UIST Demo
+    url: assets/scout/Swearngin_UIST18_Demo_Scout.pdf
   - type: video
-    url: https://www.youtube.com/watch?v=miMZe0bIBAY
-  - type: talk
-    url: https://www.youtube.com/watch?v=hAM23V6Q-Fk&list=PLqhXYFYmZ-VfOzPE9aT--sztGkJgeIIrM&index=2
-  - type: code
-    url: http://github.com/uwdata/graphscape
-  awards:
-  - name: CHI&quot;17 Honorable Mention
+    name: UIST Video 
+    url: https://youtu.be/VSEksTn1uQo
+  - type: talk 
+    name: PNW PLSE Talk 
+    url: https://youtu.be/nWoLsMr_av8
 
-
-tfgraph:
-  name: TensorFlow Graph Visualizer
-  thumb: assets/tfgraph/teaser.png
-  thumb_class: contain
-  caption: A tool that ships with TensorFlow to help developers inspect dataflow graphs of deep learning models.
-  url: https://www.tensorflow.org/get_started/graph_viz
-  year: 2018
-  authors:
-    - Kanit Wongsuphasawat
-    - Daniel Smilkov
-    - James Wexler
-    - Jimbo Wilson
-    - Dandelion Mané
-    - Doug Fritz
-    - Dilip Krishnan
-    - Fernanda B. Viégas
-    - Martin Wattenberg
-  awards:
-    - name: VAST&quot;17 Best Paper
-      type: bestpaper
-      url: http://ieeevis.org/year/2017/info/awards/best-paper-awards
-
-  venue: VAST 2017
-  venue_url: http://ieeevis.org/
-  # venue_location:
-
-  links:
-  - type: paper
-    url: http://idl.cs.washington.edu/files/2018-TensorFlowGraph-VAST.pdf
-  - type: slides
-    url: /assets/tfgraph/tfgraph-slides.pdf
-  - type: video
-    url: https://vimeo.com/232930758
-  - type: talk
-    url: https://vimeo.com/237663041
-  - type: code
-    url: https://github.com/tensorflow/tensorboard
-  # doi:
-  # short_doi
-
-vega:
-  name: Vega
-  url: http://vega.github.io/vega
-  caption: Declarative visualization grammar that introduces novel primitives for interactive visualization design.
-  thumb: assets/vega/vg.png
-  links:
-  - type: paper
-    url: http://idl.cs.washington.edu/papers/reactive-vega
-  - type: code
-    url: http://github.com/vega/vega
-  - type: demo
-    url: https://vega.github.io/editor/#/examples/vega/interactive-legend
-
-vega-lite:
-  name: Vega-Lite
-  url: http://vega.github.io/vega-lite
-  caption: A high-level visualization grammar that enables _rapid_ specification of interactive, multi-view graphics. # in JSON.
-  thumb: assets/vega-lite/teaser.png
+- tap-shoe:
+  name: TapShoe
+  featured: true
+  url: assets/tapshoe/AmandaSwearngin_YangLi_TapShoe_CHI2019.pdf 
+  caption: A model and interface for designers to automatically evaluate mobile interface tappability using crowdsourcing and deep learning. # in JSON.
+  thumb: assets/tapshoe/tap_shoe.png
   links:
   - type: article
-    url: https://medium.com/@uwdata/introducing-vega-lite-2-0-de6661c12d58
+    name: Google AI Blog
+    url: https://ai.googleblog.com/2019/04/using-deep-learning-to-improve.html
+  - type: article 
+    name: VentureBeat Article
+    url: https://venturebeat.com/2019/04/02/googles-ai-powered-app-usability-testing-promises-human-level-accuracy/
   - type: paper
-    url: http://idl.cs.washington.edu/papers/vega-lite
+    name: CHI Paper
+    url: assets/tapshoe/AmandaSwearngin_YangLi_TapShoe_CHI2019.pdf
   - type: video
-    url: https://vimeo.com/177767802
+    name: CHI Video
+    url: https://youtu.be/4tEL2wh_Dh0
   - type: talk
-    name: OpenVisConf 2017 Talk
-    url: https://www.youtube.com/watch?v=9uaHRWj04D4
+    name: CHI Talk
+    url: https://www.youtube.com/watch?v=Tq3X609yo44
+  # - type: code
+  #   url: http://github.com/vega/vega-lite
+  # - type: demo
+  #   url: https://vega.github.io/editor/#/examples/vega-lite/overview_detail
+
+- rewire:
+  name: Rewire
+  featured: true
+  url: assets/rewire/AmandaSwearngin_Rewire_CHI2018.pdf
+  caption: An interactive system helping designers leverage example screenshots by automatically inferring a vector representation with editable 
+    shape and style properties, and 3 design assistance modes. # in JSON.
+  thumb: assets/rewire/rewire.png
+  links:
+  - type: paper
+    name: CHI Paper
+    url: assets/rewire/AmandaSwearngin_Rewire_CHI2018.pdf
+  - type: video
+    name: CHI Video
+    url: https://youtu.be/hxl_UPwlSgg
+  - type: video
+    name: CHI Preview 
+    url: https://www.youtube.com/watch?v=o2XbClhH9tc
+  - type: podcast
+    name: Design Discussions Podcast
+    url: https://anchor.fm/design-discuss/episodes/Automatic-interface-design-from-screenshots--Voice-interfaces-in-homes-and-Location-based-Cryptocurrency-Workshops-e4dpt9/a-ahi111
+
+- genie:
+  name: Genie
+  featured: true
+  url: assets/genie/AmandaSwearngin_CHI2017_camera_ready.pdf 
+  caption: An abstract model and algorithms for reverse engineering interactive commands from web applications and retargeting their inputs to new 
+    modalities (e.g., voice, keyboard). # in JSON.
+  thumb: assets/genie/genie.png
+  links:
+  - type: article
+    name: Blog
+    url: https://medium.com/bits-and-behavior/genie-input-retargeting-on-the-web-through-command-reverse-engineering-f9c7a294b23f
+  - type: paper
+    name: CHI Paper
+    url: assets/genie/AmandaSwearngin_CHI2017_camera_ready.pdf 
+  - type: video
+    name: CHI Video
+    url: https://youtu.be/OCxXooY3aes
   - type: code
-    url: http://github.com/vega/vega-lite
-  - type: demo
-    url: https://vega.github.io/editor/#/examples/vega-lite/overview_detail
+    name: Code
+    url: https://github.com/mandamarie0587/genie
+  # - type: demo
+  #   url: https://vega.github.io/editor/#/examples/vega-lite/overview_detail
 
-  awards:
-    - name: InfoVis&quot;16 Best Paper
-      type: bestpaper
-      url: http://visweek.vgtc.org/year/2016/info/awards/best-paper-awards
+- cogtool-helper:
+  name: Cogtool-Helper
+  url: assets/cogtool/AmandaSwearngin_CHI2012.pdf 
+  caption: A system to automatically infer and generate storyboards and predictive models to help UI 
+    designers estimate human task performance times in interfaces. # in JSON.
+  thumb: assets/cogtool/cogtoolhelper.png
+  featured: true
+  links:
+  - type: article
+    name: Article
+    url: https://cogtool.wordpress.com/human-performance-regression-testing/
+  - type: paper
+    name: CHI 2012 Paper
+    url: assets/cogtool/AmandaSwearngin_CHI2012.pdf 
+  - type: paper
+    name: ICSE 2013 Paper
+    url: assets/cogtool/AmandaSwearngin_ICSE2013.pdf 
 
-voyager:
-  name: Voyager
-  url: http://github.com/vega/voyager
-  caption: Accelerating exploratory data analysis by augmenting visual analysis tools with visualization recommendations.
-  thumb: assets/voyager/voyager2-small.png
+- evoweb: 
+  name: Mashup Versioning
+  caption: Versioning for Mashups - An Exploratory Study
+  url: assets/mashups/Kuttal_ISEUD2011.pdf
+  thumb: assets/mashups/mashups.png
   thumb_class: cover
-  links:
-  collaborators:
-    - Dominik Moritz
-    - Felix Ouk
-    - Zening Qu
-    - Riley Chang
-    - Anushka Anand
-    - Jock Mackinlay
-    - Bill Howe
-    - Jeffrey Heer
-  links:
-  - type: paper
-    name: Voyager 2 Paper
-    url: http://idl.cs.washington.edu/files/2017-Voyager2-CHI.pdf
-  - type: video
-    name: Voyager 2 Video
-    url: https://vimeo.com/199084718
-  - type: talk
-    name: Voyager 2 Talk
-    url: https://www.youtube.com/watch?v=nrnN0l3rjdk
-  - type: paper
-    name: Voyager Paper
-    url: http://idl.cs.washington.edu/files/2015-Voyager-InfoVis.pdf
-  - type: video
-    name: Voyager Video
-    url: https://vimeo.com/135417594
-  - type: talk
-    name: Voyager Talk
-    url: https://vimeo.com/236170947
-  - type: code
-    url: http://github.com/vega/voyager
-  - type: demo
-    url: http://vega.github.io/voyager
-  awards:
-    - name: Top 4 TVCG papers invited to SIGGRAPH&quot;16
-    - name: Awarded Knight Prototype Grant
+  collaborators: 
+    - Sandeep Kaur Kuttal 
+    - Anita Sarma
+    - Gregg Rothermel 
+  links: 
+    - type: paper 
+      name: IS-EUD Paper
+
+- mashups: 
+  name: Mashup Versioning
+  caption: Versioning for Mashups - An Exploratory Study
+  url: assets/mashups/Kuttal_ISEUD2011.pdf
+  thumb: assets/mashups/mashups.png
+  thumb_class: cover
+  collaborators: 
+    - Sandeep Kaur Kuttal 
+    - Anita Sarma
+    - Gregg Rothermel 
+  links: 
+    - type: paper 
+      name: IS-EUD Paper
+
+- set: 
+  name: SET Solver
+  caption: A Reformulation Strategy for Multi-Dimensional CSPs -  The Case Study of the SET Game.
+  thumb: assets/set/set-constraints.png 
+  url: assets/set/AmandaSwearngin_SARA2011.pdf
+  collaborators: 
+    - Berthe Choueiry 
+    - Eugene C. Freuder 
+  links: 
+    - type: paper 
+      name: SARA Paper 
+      url: assets/set/AmandaSwearngin_SARA2011.pdf
+
+
+- pythia: 
+  name: Pythia
+  caption: A web application to explore course grading and evaluation histories for courses at the University of Washington (Javascript, HTML, Python/Django, D3.js)
+  thumb: assets/pythia/pythia.png 
+  url: https://github.com/mandamarie0587/pythia
+  links: 
+    - type: code 
+      name: Code
+      url: https://github.com/mandamarie0587/pythia
+
+
+# pythia one from HCI class 
+# SEt 
+# Cassisus one from 570 
+

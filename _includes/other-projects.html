@@ -1,6 +1,5 @@
 <div class="projects grid">
 {% for post in site.posts %}
-{% if post.category and include.category == post.category %}
 <div class="item">
   <a class="img" href="{{ BASE_PATH }}{{ post.url }}" style="background-image:url({% if post.thumb != null %}{{post.thumb}}{% else %}http://placehold.it/350x200 {% endif %})">
   </a>
@@ -15,6 +14,5 @@
     </div>
   </div>
 </div>
-{% endif %}
 {% endfor %}
 </div>
