@@ -1,3 +1,46 @@
+- title: "Tempura: Query Analysis with Structural Templates"
+  year: 2020
+  authors:
+    - Tongshuang Wu
+    - Kanit Wongsuphasawat
+    - Donghao Ren
+    - Kayur Patel
+    - Chris Dubois
+
+  venue: CHI 2020
+  venue_url: http://chi2020.acm.org
+  # venue_location:
+
+  # link:
+  pdf: assets/papers/2020-chi-tempura.pdf
+  # slides:
+  # video:
+
+  # doi:
+  # short_doi
+
+
+- title: "Understanding and Visualizing Data Iteration in Machine Learning"
+  year: 2020
+  authors:
+    - Fred Hohman
+    - Kanit Wongsuphasawat
+    - Mary Beth Kery
+    - Kayur Patel
+
+  venue: CHI 2020
+  venue_url: http://chi2020.acm.org
+  # venue_location:
+
+  # link:
+  pdf: assets/papers/20-chameleon-chi.pdf
+  # slides:
+  # video:
+
+  # doi:
+  # short_doi
+
+
 - title: "Visualing Dataflow Graphs of Deep Learning Models in TensorFlow"
   year: 2018
   authors:
@@ -18,7 +61,7 @@
   # venue_location:
 
   # link:
-  pdf: http://www.siam.org/meetings/ns17/ns17_abstracts.pdf
+  pdf: http://idl.cs.washington.edu/files/2018-TensorFlowGraph-VAST.pdf
   # slides:
   # video:
 
