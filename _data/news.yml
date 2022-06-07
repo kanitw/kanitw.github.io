@@ -1,3 +1,9 @@
+- text: [Swift Charts](https://developer.apple.com/documentation/Charts) is now released at WWDC 2022
+  date: Jun 6, 2022
+
+- text: Our work on [an algebra for confusion matrices](https://machinelearning.apple.com/research/generalizing-confusion-matrix) won a Best Paper award at CHI 2022. 
+  date: April 30, 2022
+
 - text: Our papers on [chart labeling](https://www.domoritz.de/papers/2020-mage-UIST.pdf) is published at VIS 2020.
   date: Oct 25, 2020
 
