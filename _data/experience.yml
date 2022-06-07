@@ -1,8 +1,15 @@
 - organization: Apple Inc.
-  title: Research Scientist
-  date: Since 2018
+  title: Senior Software Engineer, Tech Lead
+  date: Since 2021
   location: Seattle, WA
-  caption: "Lead a team to research and develop new interactive systems for data visualization and machine learning."
+  caption: "Building the next generation of visual analysis tools."
+  logo: databricks.png
+
+- organization: Apple Inc.
+  title: Research Scientist & Manager
+  date: 2018-2021
+  location: Seattle, WA
+  caption: "Lead a team to research and develop new visualization toolkits and interactive systems for machine learning."
   logo: apple.png
 
 - organization: Interactive Data Lab, University of Washington
