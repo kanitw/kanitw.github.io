@@ -47,6 +47,11 @@ graphscape:
   awards:
   - name: CHI&quot;17 Honorable Mention
 
+swift-charts:
+  name: Swift Charts
+  url: https://developer.apple.com/documentation/Charts
+  caption: Construct and customize charts on every Apple platform (iOS, macOS, watchOS, and tvOS).
+  thumb: assets/swift-charts/swift-charts.png
 
 tfgraph:
   name: TensorFlow Graph Visualizer
