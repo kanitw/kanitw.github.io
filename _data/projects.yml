@@ -52,6 +52,7 @@ swift-charts:
   url: https://developer.apple.com/documentation/Charts
   caption: Construct and customize charts on every Apple platform (iOS, macOS, watchOS, and tvOS).
   thumb: assets/swift-charts/swift-charts.png
+  links:
   - type: video
     url: https://developer.apple.com/videos/play/wwdc2022/10136/
 
