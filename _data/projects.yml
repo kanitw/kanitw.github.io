@@ -57,7 +57,7 @@ swift-charts:
     url: https://developer.apple.com/videos/play/wwdc2022/10136/
 
 tfgraph:
-  name: TensorFlow Graph Visualizer
+  name: TensorFlow Graph Dashboard
   thumb: assets/tfgraph/teaser.png
   thumb_class: contain
   caption: A tool that ships with TensorFlow to help developers inspect dataflow graphs of deep learning models.
@@ -137,7 +137,7 @@ vega-lite:
 voyager:
   name: Voyager
   url: http://github.com/vega/voyager
-  caption: Accelerating exploratory data analysis by augmenting visual analysis tools with visualization recommendations.
+  caption: Accelerating exploratory data analysis with visualization recommendations.
   thumb: assets/voyager/voyager2-small.png
   thumb_class: cover
   links:
