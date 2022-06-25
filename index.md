@@ -7,7 +7,7 @@ title: Hi! I'm Kanit "Ham" Wongsuphasawat.
 ---
 
 I am a tech lead of the Visualization team at Databricks.
-Prior to Databricks, I was a research scientist and manager at Apple, where I worked on visualization toolkits and interactive systems for artificial intelligence.
+Prior to Databricks, I was a research scientist and the manager of the Apple's Machine Intelligence Visualization Team, where I worked on visualization toolkits and interactive systems for machine learning.
 I did my PhD in Computer Science at the [University Washington](http://www.uw.edu) (UW), working with [Prof. Jeffrey Heer](http://jheer.org) and the [UW Interactive Data Lab](http://idl.cs.washington.edu]).
 
 <!--My interests lie in the intersection of user interfaces systems, data visualization, and data science. My PhD research focuses on enhancing visualization tools with automated design and recommendation for applications including exploratory data analysis and understanding deep learning models.-->
